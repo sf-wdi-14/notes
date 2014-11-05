@@ -10,7 +10,7 @@
     <th>Friday</th>
   </tr>
   <tr>
-    <td>Dawn</td>
+    <td style="background-color: red;">Dawn</td>
     <td>Welcome + culture; Command line + git</td>
     <td>JS primitives</td>
     <td>JS functions</td>
