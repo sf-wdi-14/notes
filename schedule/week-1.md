@@ -10,19 +10,19 @@
     <th>Friday</th>
   </tr>
   <tr>
-    <td style="background-color: red;">Dawn</td>
-    <td>Welcome + culture; Command line + git</td>
-    <td>JS primitives</td>
-    <td>JS functions</td>
-    <td>HTML + CSS</td>
-    <td>Calculator Review, week review</td>
+    <td>Dawn</td>
+    <td>Welcome + culture; Command line + git (Dennis)</td>
+    <td>JS primitives (Colt)</td>
+    <td>JS functions (Cho)</td>
+    <td>HTML + CSS (Dennis)</td>
+    <td>Calculator Review, week review (Colt)</td>
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Tools-lite, HTML about me page</td>
-    <td>JS control flow</td>
-    <td>Groking functions</td>
-    <td>DOM events</td>
+    <td>Tools-lite, HTML about me page (Cho)</td>
+    <td>JS control flow (Dennis)</td>
+    <td>Groking functions (Colt)</td>
+    <td>DOM events (Cho)</td>
     <td>Tic tac toe</td>
   </tr>
   <tr>
