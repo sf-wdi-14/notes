@@ -2,20 +2,41 @@
 
 Each day usually looks like this:
 
-**9:00** Day starts
-
-**9:17** Warm up
-
-**9:47** Lecture 1
-
-**11:30** Homework review
-
-**12:30** Lunch
-
-**1:30** Reading / Warmup
-
-**2:00** Lecture 2
-
-**3:30** Group Standup
-
-**4:00** LAB
+<table>
+  <tr>
+    <td>9:00</td>
+    <td>Day starts</td>
+  </tr>
+  <tr>
+    <td>9:17</td>
+    <td>Warm up</td>
+  </tr>
+  <tr>
+    <td>9:47</td>
+    <td>Lecture 1</td>
+  </tr>
+  <tr>
+    <td>11:30</td>
+    <td>Homework review</td>
+  </tr>
+  <tr>
+    <td>12:30</td>
+    <td>Lunch</td>
+  </tr>
+  <tr>
+    <td>1:30</td>
+    <td>Reading / Warmup</td>
+  </tr>
+  <tr>
+    <td>2:00</td>
+    <td>Lecture 2</td>
+  </tr>
+  <tr>
+    <td>3:30</td>
+    <td>Group Standup</td>
+  </tr>
+  <tr>
+    <td>4:00</td>
+    <td>LAB</td>
+  </tr>
+</table>
