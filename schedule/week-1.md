@@ -2,12 +2,12 @@
 
 <table>
   <tr>
-    <td></td>
-    <td>Monday</td>
-    <td>Tuesday</td>
-    <td>Wednesday</td>
-    <td>Thursday</td>
-    <td>Friday</td>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
   </tr>
   <tr>
     <td>Dawn</td>
