@@ -30,7 +30,7 @@
     <td>Command line mystery</td>
     <td>Control flow</td>
     <td>Functions + control flow</td>
-    <td>Calculator lav</td>
+    <td>Calculator lab</td>
     <td>Tic tac toe</td>
   </tr>
 </table>
