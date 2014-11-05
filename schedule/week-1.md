@@ -23,7 +23,7 @@
     <td>JS control flow</td>
     <td>Groking functions</td>
     <td>DOM events</td>
-    <td>Tic-tac-toe</td>
+    <td>Tic tac toe</td>
   </tr>
   <tr>
     <td>Lab</td>
