@@ -33,7 +33,7 @@ Each day usually looks like this:
   </tr>
   <tr>
     <td>3:30</td>
-    <td>Group Standup</td>
+    <td>Group standup</td>
   </tr>
   <tr>
     <td>4:00</td>
