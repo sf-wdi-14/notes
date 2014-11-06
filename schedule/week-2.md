@@ -15,16 +15,16 @@ For the first few assignments, tests will be provided by the instructors - later
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Test driven development</td>
-    <td>Constructors and objects</td>
+    <td>Test driven development (Dennis)</td>
+    <td>Constructors and objects (Cho)</td>
     <td>Classical prototypical inheritance</td>
     <td>DOM</td>
     <td>Review</td>
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Iterators</td>
-    <td>Prototypes</td>
+    <td>Iterators (Dennis)</td>
+    <td>Prototypes (Cho)</td>
     <td>Fudge</td>
     <td>Review</td>
     <td>Lab</td>
