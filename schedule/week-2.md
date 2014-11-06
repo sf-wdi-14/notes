@@ -9,32 +9,20 @@ For the first few assignments, tests will be provided by the instructors - later
     <th></th>
     <th>Monday</th>
     <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Test driven development (Dennis)</td>
-    <td>Constructors and objects (Cho)</td>
-    <td>Classical prototypical inheritance</td>
-    <td>DOM</td>
-    <td>Review</td>
+    <td>Test driven development (Dennis), Objects (Cho)</td>
+    <td>Prototypes</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td>Iterators (Dennis)</td>
-    <td>Prototypes (Cho)</td>
-    <td>Fudge</td>
-    <td>Review</td>
-    <td>Lab</td>
+    <td>Inheritance (Cho)</td>
   </tr>
   <tr>
     <td>Lab</td>
-    <td>Iterators</td>
-    <td>Blog</td>
-    <td>Test driven inheritance</td>
-    <td>Happy Tails</td>
-    <td>Lab</td>
+    <td>Underscore</td>
+    <td>Inheritance</td>
   </tr>
 </table>
