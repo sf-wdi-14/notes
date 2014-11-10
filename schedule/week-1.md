@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Tools-lite, HTML about me page (Cho)</td>
+    <td>Sublime, z-shell, HTML about me page (Cho)</td>
     <td>JS control flow (Dennis)</td>
     <td>Groking functions (Colt)</td>
     <td>DOM events (Cho)</td>
