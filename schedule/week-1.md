@@ -19,9 +19,9 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Sublime, z-shell, HTML about me page (Cho)</td>
+    <td>Sublime, z-shell, HTML about me page (Colt)</td>
     <td>JS control flow (Dennis)</td>
-    <td>Groking functions (Colt)</td>
+    <td>Groking functions (Cho)</td>
     <td>DOM events (Cho)</td>
     <td>Tic tac toe</td>
   </tr>
