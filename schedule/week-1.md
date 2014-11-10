@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Welcome + culture (Ali), ice breaker (all); Command line, z-shell + git and GitHub (Dennis)</td>
+    <td>Welcome + culture (Ali), ice breaker (all); Command line, git and GitHub (Dennis)</td>
     <td>JS primitives (Colt)</td>
     <td>JS functions (Cho)</td>
     <td>HTML + CSS (Dennis)</td>
