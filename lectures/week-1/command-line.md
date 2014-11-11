@@ -5,7 +5,7 @@ Lecture on Command Line and Terminal
 Students will be able to...
 
 - Use the terminal to navigate different directories
-- Use the terminal to create and remove file
+- Use the terminal to create and remove files and directories
 
 # Link
 Everything we do in our Finder is actually just a visualization of what you can do in your command line. Think of the Finder as tool for the non tech-savvy users. Interacting with a command line however, gives you more power and makes you faster.
