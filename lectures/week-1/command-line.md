@@ -8,13 +8,11 @@ Students will be able to...
 - Use the terminal to create and remove file
 
 # Link
-
 Everything we do in our Finder is actually just a visualization of what you can do in your command line. Think of the Finder as tool for the non tech-savvy users. Interacting with a command line however, gives you more power and makes you faster.
 
 The app 'Terminal' is the Mac's command line, also called 'CL' or 'CLI' (command line interface). You can open it by typing 'Terminal' into spotlight.
 
 # Educate and Engage & Active Learning
-
 ## Directory Structure
 
 Every Unix operating system, such as on Mac computers, has a directory file structure (as opposed to drives on Windows). There are directories that can contain files.
@@ -30,8 +28,9 @@ Every Unix operating system, such as on Mac computers, has a directory file stru
 - rmdir - Remove a directory
 
 # Reflect
-
 As you just saw, the Terminal is a powerful tool that, for now, allows you to manipulate files and directories.
+
+To host the code we write together, create a directory called 'code' in your home directory.
 
 # Now and Then
 You will need the basic knowledge you just acquired later on with other software and development tools. Coming up: Git and GitHub.
