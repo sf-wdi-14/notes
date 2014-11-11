@@ -5,7 +5,7 @@ Lecture on Command Line and Terminal
 Students will be able to...
 
 - Use the terminal to navigate different directories
-- Use the terminal to create and remove file
+- Use the terminal to create and remove files and directories
 
 # Link
 
