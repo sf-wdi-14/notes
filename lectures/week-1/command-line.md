@@ -32,5 +32,7 @@ As you just saw, the Terminal is a powerful tool that, for now, allows you to ma
 
 To host the code we write together, create a directory called 'code' in your home directory.
 
+**Fist to five**
+
 # Now and Then
 You will need the basic knowledge you just acquired later on with other software and development tools. Coming up: Git and GitHub.

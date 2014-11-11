@@ -56,6 +56,8 @@ Initialized empty Git repository in /Users/dch/code/sf-wdi-14/.git/
 
 This will create a hidden directory called `.git` in your current directory and enable you to use Git in that directory.
 
+**Fist to five**
+
 ## Tracking File Changes
 To see the files you have edited, run
 
@@ -76,7 +78,11 @@ Changes not staged for commit:
 	modified:   git-example.html
 ```
 
-This actually already gives you a lot of information. What you need to focus on for now is the line that says 'modified'. This is a great way to keep track of what files you touched. To excactly what you wrote in each file that is listed as modified, run
+This actually already gives you a lot of information. What you need to focus on for now is the line that says 'modified'. This is a great way to keep track of what files you touched.
+
+**Fist to five**
+
+To excactly what you wrote in each file that is listed as modified, run
 
 ```shell
 $ git diff
@@ -95,6 +101,8 @@ $ git add git-example.html
 
 You won't get any feedback after this. To check if it worked, run `$ git status` again, and you should see that `git-example.html` will now show up in the "Changes to be committed".
 
+**Fist to five**
+
 ## Committing File Changes
 After you put products in your shopping cart, you want to buy them, right? The equivalent of that is comitting. You commit to your purchase; in other words, you commit to the changes you made. These changes are 'done' and ready for the world to see.
 
@@ -112,6 +120,7 @@ The message should
 - be a sentence
 - start with a verb
 - not have a period at the end
+- be formal (correct spelling, grammar, and punctuation, formal language, etc)
 
 To view a history of all commits in your repository, run
 
@@ -119,8 +128,27 @@ To view a history of all commits in your repository, run
 $ git log
 ```
 
+**Fist to five**
+
 ## Pushing a Commit
+So far, so good. Everything you have done so far is local - how do you get to collaborate? The most common tool for collaboration is GitHub.
+
+### Assignment
+
+Don't worry, you won't know what everything means in the following section. Try to be resourceful! Look up keywords on Google and try figure things out yourself. If you struggle for too long, let one of the instructors know and they will help you.
+
+Go ahead and sign up on [github.com](https://www.github.com) if you haven't done so yet. Then, in your groups of two, one of you (person a) should create a new repository and invite your partner (person b) to collaborate on it (you can do that in the repository settings).
+
+Person a should then push their code to the GitHub repository they just created. Person b should clone that repository into a new local directory.
+
+Now you can both make changes to the local repository without interfering with each other's work. Both of you should make some arbitrary changes, stage, commit, and then push. You will see how GitHub magically merges everything for you. If you want the latest code from the repository on GitHub, run
+
+```shell
+$ git pull
+```
 
 # Reflect
+One of the students please summarize what they learned. Raise questions/concerns. Discuss usage of Git and GitHub openly.
 
 # Now and Then
+As we have seen, Git and GitHub are powerful tools for collaboration. They will be your friends throughout your professional life as developer and we will use them throughout this course. As a matter of fact, most assignments will from now on be built in [this repository](https://github.com/sf-wdi-14/notes).
