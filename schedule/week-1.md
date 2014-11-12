@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td>Command line mystery</td>
+    <td>Blogging</td>
     <td>Control flow</td>
     <td>Functions + control flow</td>
     <td>Calculator lab</td>
