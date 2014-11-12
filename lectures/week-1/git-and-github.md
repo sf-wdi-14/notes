@@ -147,6 +147,17 @@ Now you can both make changes to the local repository without interfering with e
 $ git pull
 ```
 
+**Last Step**
+1. In your `code` directory, run
+
+```shell
+mkdir sf-wdi-14
+cd sf-wdi-14
+```
+
+2. Go to https://github.com/sf-wdi-14/notes and fork the repository.
+3. Clone your fork
+
 # Reflect
 One of the students please summarize what they learned. Raise questions/concerns. Discuss usage of Git and GitHub openly.
 
