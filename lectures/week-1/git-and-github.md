@@ -29,6 +29,8 @@ This is the first line.
 </html>
 ```
 
+Don't worry if you don't understand the contents of this file yet! You will later.
+
 Now replace the three hashes with whatever you would like. A simple sentence is good enough. Once done, send the file to your partner in an email. Have him manually merge the changes with his sentence and send it back to you. Both of you should update your file with the new version of the code.
 
 See how hard this was? There has to be an easier way: Git.
