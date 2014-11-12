@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Sublime, z-shell, HTML about me page (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/sublime.md">Sublime</a>, z-shell, HTML about me page (Dennis)</td>
     <td>JS control flow (Colt)</td>
     <td>Groking functions (Cho)</td>
     <td>DOM events (Cho)</td>
