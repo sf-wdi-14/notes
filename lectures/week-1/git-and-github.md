@@ -8,6 +8,7 @@ Students will be able to...
 - Use Git to stage and commit files
 - Use GitHub to collaborate online
 - Use Git to push and pull changes from and to GitHub
+- Collaborate on this course's repository
 
 # Link
 Collaboration can be hard on a technological level. Merging changes different team members make as well as analyzing how the code of your software developed over time poses a critical problem that has to be solved.
