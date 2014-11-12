@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Welcome + culture (Ali), ice breaker (all); Command line, git and GitHub (Dennis)</td>
+    <td>Welcome + culture (Ali), ice breaker (all); [Command line](https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/command-line.md), [Git and GitHub](https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/git-and-github.md) (Dennis)</td>
     <td>JS primitives (Colt)</td>
     <td>JS functions (Cho)</td>
     <td>HTML + CSS (Dennis)</td>
