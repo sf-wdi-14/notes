@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/sublime.md">Sublime</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/z-shell.md">z-shell</a>, Intro to HTML (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/sublime.md">Sublime</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/z-shell.md">z-shell</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/introduction-to-html.md">Intro to HTML</a> (Dennis)</td>
     <td>JS control flow (Colt)</td>
     <td>Groking functions (Cho)</td>
     <td>DOM events (Cho)</td>
