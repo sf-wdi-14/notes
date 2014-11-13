@@ -14,7 +14,7 @@
     <td>Welcome + <a href="https://github.com/sf-wdi-14/notes/blob/master/culture.md">culture</a> (Ali), ice breaker (all); <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/command-line.md">Command line</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/git-and-github.md">Git and GitHub</a> (Dennis)</td>
     <td>JS primitives (Colt)</td>
     <td>JS functions (Cho)</td>
-    <td>CSS (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/css.md">CSS</a> (Dennis)</td>
     <td>Calculator Review, week review (Colt)</td>
   </tr>
   <tr>
