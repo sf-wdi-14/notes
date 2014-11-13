@@ -13,7 +13,7 @@ HTML stands for Hyper-Text Markup Language. It is was most websites use to displ
 # Educate and Engage & Active Learning
 Our goal for this lecture is to create a basic about me page. It will look something like this:
 
-PUT IMAGE HERE!
+<img src="http://i.imgur.com/RVeyzCm.png">
 
 Code along!
 
