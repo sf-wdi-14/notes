@@ -58,4 +58,4 @@ Tags that were covered:
 # Now and Then
 HTML will be your friend throughout your carrier as web developer. We will come back to the about me pages later to style them with CSS.
 
-Finishing up, please stage and commit your changes and push them to your fork of wdi-sf-14, then submit a pull request.
+Finishing up, please stage and commit your changes and push them to your fork of wdi-sf-14, then submit a pull request, so we can gather all your beautiful about me pages.
