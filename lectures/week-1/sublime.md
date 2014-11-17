@@ -29,24 +29,27 @@ Restart your terminal. You should be able to open any file or directory with Sub
 $ subl filename
 ```
 
+## Making It The Git Default
+Follow [these instructions](https://help.github.com/articles/associating-text-editors-with-git/#using-sublime-text-as-your-editor).
+
 ## Helpful Shortcuts
 Taken from the [unofficial documentation](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html):
 
 ### Editing
-⌘ + X			Delete line
-⌘ + ↩			Insert line after
-⌘ + L 			Select line - Repeat to select next lines
-⌘ + D 			Select word - Repeat select others occurrences
-⌘ + /			Comment/un-comment current line
+- ⌘ + X			Cut the whole line
+- ⌘ + ↩			Insert line after
+- ⌘ + L 			Select line - Repeat to select next lines
+- ⌘ + D 			Select word - Repeat select others occurrences
+- ⌘ + /			Comment/un-comment current line
 
 ### Navigation/Goto Anywhere
-⌘ + P 			Quick-open files by name
-⌘ + R 			Goto word in current file
-⌃ + G 			Goto line in current file
+- ⌘ + P 			Quick-open files by name
+- ⌘ + R 			Goto word in current file
+- ⌃ + G 			Goto line in current file
 
 ### General
-⌘ + ⇧ + P 		Command prompt
-⌘ + F 			Find
+- ⌘ + ⇧ + P 		Command prompt
+- ⌘ + F 			Find
 
 # Now and Then
 Sublime is very powerful, and you will want to do some more research on it to use it to the fullest. It will make you a lot faster throughout the course and the instructors will use some of the concepts, too.
