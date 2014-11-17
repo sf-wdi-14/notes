@@ -44,7 +44,7 @@ $ git
 
 If you get instructions on how to use Git, you are good to go. If you get an error, follow [these instructions](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac). Once done, try the above command again to see if it works.
 
-## Initialzing a Git repository
+## Initializing a Git repository
 In `code/git`, run
 
 ```shell
