@@ -36,7 +36,7 @@ Follow [these instructions](https://help.github.com/articles/associating-text-ed
 Taken from the [unofficial documentation](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html):
 
 ### Editing
-- ⌘ + X			Delete line
+- ⌘ + X			Cut the whole line
 - ⌘ + ↩			Insert line after
 - ⌘ + L 			Select line - Repeat to select next lines
 - ⌘ + D 			Select word - Repeat select others occurrences
