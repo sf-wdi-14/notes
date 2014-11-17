@@ -11,23 +11,23 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Welcome + culture (Ali), ice breaker (all); Command line, git and GitHub (Dennis)</td>
+    <td>Welcome + <a href="https://github.com/sf-wdi-14/notes/blob/master/culture.md">culture</a> (Ali), ice breaker (all); <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/command-line.md">Command line</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/git-and-github.md">Git and GitHub</a> (Dennis)</td>
     <td>JS primitives (Colt)</td>
     <td>JS functions (Cho)</td>
-    <td>HTML + CSS (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/css.md">CSS</a> (Dennis)</td>
     <td>Calculator Review, week review (Colt)</td>
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Sublime, z-shell, HTML about me page (Colt)</td>
-    <td>JS control flow (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/sublime.md">Sublime</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/z-shell.md">z-shell</a>, <a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/introduction-to-html.md">Intro to HTML</a> (Dennis)</td>
+    <td>JS control flow (Colt)</td>
     <td>Groking functions (Cho)</td>
     <td>DOM events (Cho)</td>
     <td>Tic tac toe</td>
   </tr>
   <tr>
     <td>Lab</td>
-    <td>Command line mystery</td>
+    <td>Blogging</td>
     <td>Control flow</td>
     <td>Functions + control flow</td>
     <td>Calculator lab</td>
