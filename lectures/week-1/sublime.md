@@ -57,4 +57,4 @@ Sublime is very powerful, and you will want to do some more research on it to us
 Here are some resources to get you started:
 
 - Watch this welcome video: http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2
-- Watch this playlist at yoyr leisure: https://www.youtube.com/watch?v=sIo7ldkyqb8&index=32&list=PLuwqxbvf3olpLsnFvo06gbrkcEB5o7K0g (keep the right order, apparently the playlist is not ordered)
+- Watch this playlist at your leisure: https://www.youtube.com/watch?v=sIo7ldkyqb8&index=32&list=PLuwqxbvf3olpLsnFvo06gbrkcEB5o7K0g (keep the right order, apparently the playlist is not ordered)
