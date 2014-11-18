@@ -6,3 +6,4 @@
 * [Ian Schoonover](https://medium.com/@ianschoonover)
 * [Cho S. Kim](http://www.choskim.me)
 * [Dennis C. Hackethal](http://www.google.com)
+* [Benjamin Crane](https://medium.com/@benjamincrane)
