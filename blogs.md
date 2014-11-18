@@ -1,4 +1,16 @@
-#Student Blogs
+
+
+
+
+
+
+
+
+
+
+
+
+* [Amanda Peterson](https://medium.com/@AmandaPetersn/)
 
 * [Colt Steele](http://google.com)
 
