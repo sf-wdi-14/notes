@@ -13,7 +13,7 @@ For the first few assignments, tests will be provided by the instructors - later
   <tr>
     <td>Dawn</td>
     <td>Test driven development (Dennis), Objects (Cho)</td>
-    <td>Prototypes</td>
+    <td>Prototypes(Colt)</td>
   </tr>
   <tr>
     <td>Dusk</td>
