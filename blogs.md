@@ -1,2 +1,14 @@
-#Student Blogs
+
+
+
+
+
+
+
+
+
+
+
+
+* [Amanda Peterson](https://medium.com/@AmandaPetersn/)
 
