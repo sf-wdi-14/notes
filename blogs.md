@@ -7,4 +7,4 @@
 * [Cho S. Kim](http://www.choskim.me)
 * [Dennis C. Hackethal](http://www.google.com)
 * [Benjamin Crane](https://medium.com/@benjamincrane)
-Try and change me!!
+* Try and change me!!
