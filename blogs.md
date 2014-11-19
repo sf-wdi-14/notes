@@ -1,3 +1,5 @@
+# Blogs
+
 * [Nicole Borgaard](https://medium.com/@whyGaard)
 * [Amanda Peterson](https://medium.com/@AmandaPetersn/)
 * [Colt Steele](http://google.com)
