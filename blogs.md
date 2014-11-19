@@ -1,7 +1,5 @@
-
-
+* [Nicole Borgaard](https://medium.com/@whyGaard)
 * [Amanda Peterson](https://medium.com/@AmandaPetersn/)
-
 * [Colt Steele](http://google.com)
 * [Joe McDonougn](http://athentica.com/general-assembly-web-development-immersive/)
 * [Art Tucker](https://medium.com/@SmrtArt/well-here-we-go-1a8b933ab18e)
