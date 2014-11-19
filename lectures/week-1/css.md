@@ -30,7 +30,7 @@ To apply styling to all anchor tags, you could write the following:
 
 ```css
 a {
-	// style rules here
+	/* style rules here */
 }
 ```
 
@@ -38,7 +38,7 @@ To apply styling to an `id`, use the `#`-notation:
 
 ```css
 #pretty-link {
-	// style rules here
+	/* style rules here */
 }
 ```
 
@@ -46,7 +46,7 @@ To apply styling to all elements of a class, use the `.`-notation:
 
 ```css
 .awesome-links {
-	// style rules here
+	/* style rules here */
 }
 ```
 
@@ -54,7 +54,7 @@ Style rules follow a simple `key: value;` pattern, such ass:
 
 ```css
 a {
-	// This will turn all links red
+	/* This will turn all links red */
 	color: red;
 }
 ```
