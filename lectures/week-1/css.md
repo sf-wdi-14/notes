@@ -65,7 +65,7 @@ CSS style rules are stored in a `.css` file and required in an HTML head like so
 <html>
 <head>
 	<title>Title</title>
-	<link rel="stylesheet" type="text/css" href="path/to/css-file">
+	<link rel="stylesheet" type="text/css" href="path/to/css-file.css">
 </head>
 <body>
 	<!-- Body here... -->
