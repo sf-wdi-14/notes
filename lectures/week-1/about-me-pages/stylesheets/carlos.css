@@ -1,0 +1,32 @@
+a {
+	color: green;
+}
+h1 {
+		font-size: 30px;
+		color: green;
+		text-align: center;
+}
+h2 {
+	font-size: 20px;
+	color: green;
+}
+p {
+	font-size: 15px;
+	color: #4D4C4F;
+}
+img {
+	border: 10px solid;
+}
+#me {
+	border-color: red;
+}
+#hayward {
+	border-color: blue;
+}
+li {
+	margin-bottom: 20px;
+}
+a:hover {
+	color: red;
+}
+

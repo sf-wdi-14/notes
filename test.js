@@ -1,0 +1,1 @@
+console.log("Node.JS is installed.")
