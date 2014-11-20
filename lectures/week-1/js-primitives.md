@@ -1,5 +1,5 @@
 # Javascript Primitives
-Lecture on Javascript Basics
+Lecture on Javascript Basics!
 
 ## Objectives
 Students will be able to...
