@@ -42,10 +42,10 @@
 ## 3 of 3: Hack It
 #### Find a website on the Internet and…
 - Create a repository called “[lastName-firstName]”
-- Take a snapshot of a page you want to modify on that website and place this snapshot in the repository you created. 
+- Take a screen-shot of a page you want to modify on that website and place this snapshot in the repository you created. 
 - Create a new file named "dom.js" and use it to write the code that will modify the DOM; moreover, include yourself in the modified content.
 - Include the URL of the page you are modifying as a comment on the first line of "dom.js". 
-- Take a snapshot of the modified page and include it in the repository
+- Take a screen-shot of the modified page and include it in the repository
 - Add your repository to a directory in dom exercises named<a href="https://github.com/sf-wdi-14/notes/tree/master/assignments/week-1/dom-exercises/hack-it">hack-it</a>
 - Commit and push your changes to your fork of sf-wdi-14
 - Submit a pull request
