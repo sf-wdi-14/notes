@@ -30,7 +30,7 @@ To apply styling to all anchor tags, you could write the following:
 
 ```css
 a {
-	// style rules here
+	/* style rules here */
 }
 ```
 
@@ -38,7 +38,7 @@ To apply styling to an `id`, use the `#`-notation:
 
 ```css
 #pretty-link {
-	// style rules here
+	/* style rules here */
 }
 ```
 
@@ -46,15 +46,15 @@ To apply styling to all elements of a class, use the `.`-notation:
 
 ```css
 .awesome-links {
-	// style rules here
+	/* style rules here */
 }
 ```
 
-Style rules follow a simple `key: value;` pattern, such ass:
+Style rules follow a simple `key: value;` pattern, such as:
 
 ```css
 a {
-	// This will turn all links red
+	/* This will turn all links red */
 	color: red;
 }
 ```
@@ -65,7 +65,7 @@ CSS style rules are stored in a `.css` file and required in an HTML head like so
 <html>
 <head>
 	<title>Title</title>
-	<link rel="stylesheet" type="text/css" href="path/to/css-file">
+	<link rel="stylesheet" type="text/css" href="path/to/css-file.css">
 </head>
 <body>
 	<!-- Body here... -->
