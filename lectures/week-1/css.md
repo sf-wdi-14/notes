@@ -50,7 +50,7 @@ To apply styling to all elements of a class, use the `.`-notation:
 }
 ```
 
-Style rules follow a simple `key: value;` pattern, such ass:
+Style rules follow a simple `key: value;` pattern, such as:
 
 ```css
 a {
