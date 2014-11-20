@@ -1,0 +1,52 @@
+
+#container {
+	background: grey;
+	height: 350px;
+	width: 300px;
+	padding-top: 20px;
+	border: 2px solid;
+    border-color: black;
+}
+
+#result_display {
+	background: white;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;	
+	width: 88%;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	font-size: 1.5em;
+
+}
+
+#operator_display {
+	text-align: left;
+	height: 12px;
+	font-size: .75em;
+	padding-left: 5px;
+}
+
+.row {
+	height: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	width: 90%;
+    border: 2px solid;
+    border-color: white;
+
+}
+
+.button {
+	width: 22%;
+	height: 65%;
+	margin: 4px 0px 4px 7px;
+	background: black;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	float: left;
+}
