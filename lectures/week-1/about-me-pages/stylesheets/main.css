@@ -1,0 +1,58 @@
+
+body {
+	margin: 100px;
+}
+
+a {
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+p {
+	color: gray;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+
+img {
+	border-style: solid;
+	width: 600px;
+	margin-bottom: 30px;
+	border-width: 5px;
+}
+
+
+li {
+	margin-bottom: 20px;
+}
+
+#picture {
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#city {
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.list {
+	margin-bottom: 0px;
+}
+
