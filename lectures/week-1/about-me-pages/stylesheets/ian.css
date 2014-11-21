@@ -1,0 +1,45 @@
+a {
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	font-size: 30px;
+	color: green;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	color: green;
+}
+
+p {
+	font-size: 15px;
+	color: #6d6d6d;
+}
+
+img {
+	border: 10px solid;
+}
+
+li {
+	margin: 10px;
+}
+
+#threeFavTech {
+	margin-left: 1200px;
+}
+
+#meImage {
+	border-color: red;
+	width: 120px;
+}
+
+#homeImage {
+	border-color: blue;
+	width: 400px;
+}
