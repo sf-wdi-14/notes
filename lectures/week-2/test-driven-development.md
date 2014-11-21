@@ -76,13 +76,6 @@ For JavaScript, we are going to use [Chai JS](http://chaijs.com/guide/).
 - factorial
 - calculate modulo without %-sign
 
-Homework:
-- penultimate word
-- sumOfDigits() // takes a string or a number
-- Largest prime factor
-- longest word
-- print out nth fibbonaci number
-
 # Reflect
 
 # Now and Then
