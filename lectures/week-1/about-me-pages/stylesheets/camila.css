@@ -1,0 +1,46 @@
+a {
+	color: green;
+}
+a:hover {
+	color: red;""
+}
+
+h1 {
+	font-size: 30px;
+	color: green;
+	text-align: center;
+}
+
+
+h2{
+	font-size: 20px;
+	color: green;
+}
+
+p{
+	color:#696969;
+	font-size: 15px;
+}
+
+img{
+	border: 10px solid;
+	width: 300px;
+}
+#image1{
+	border-color: blue;
+}
+
+#image2{
+	border-color: red;
+}
+
+
+li {
+	line-height: 150%%;
+}
+
+ol{
+	text-align: right;
+	margin-left: 85%;
+	
+}

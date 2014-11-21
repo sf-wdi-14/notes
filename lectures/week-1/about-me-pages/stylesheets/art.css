@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+}
+
+img {
+	border-radius: 20px;
+}
+
+#firstPic {
+	border: 5px solid red;
+}
+
+#secondPic {
+	border: 5px solid blue;
+	width: 700px;
+}
+
+a {
+	color: teal;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: green;
+	font-family: sans-serif;
+}
+h2 {
+	font-size: 20px;
+	color: green;
+}
+h6 {
+	padding: -5px;
+	margin: 5px;
+}
+
+p {
+	color: #444;
+	font-size: 15px;
+}
+
+ul {
+	margin: 0px -5px 0px -5px;
+}
+
+li {
+	margin: 0px 0px 20px 0px;
+}
+
+#knights {
+	text-align: right;
+	width: 550px;
+	margin-left: 20%;
+}

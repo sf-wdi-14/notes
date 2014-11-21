@@ -1,0 +1,51 @@
+
+
+body {
+	background-color: #FFEDBD
+
+
+}
+
+h1 {
+	font-size:50pt;
+	font-family: cursive;
+	font-weight: extra bold;
+	letter-spacing: 4pt;
+	color: #4C66B2;
+	text-align: center;
+}
+
+h2 {
+	font-size:30pt;
+	font-family: cursive;
+	font-weight: bold;
+	letter-spacing: 4pt;
+	color: #4C66B2;
+	text-align: center;
+}
+
+img {
+	border:10px solid white;
+}
+
+#a  {
+	border-color: red;
+}
+
+#b  {
+	border-color: red;
+}
+
+p {
+	color:#B2A172;
+	font-family: sans-serif;
+}
+
+
+a  {
+	color:#BDCDFF;
+}
+
+a:hover {
+	color:red;
+}

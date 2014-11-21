@@ -61,10 +61,27 @@ Feature code has to be maintained and refactored regularly. Since the feature co
 (6. Repeat)
 Repeat for every feature. Eventually, the programmer will have a solid, test-backed feature base. Automated tests allow him/her to test that all features run as expected in a matter of seconds, at least minutes (depending on the product's size).
 
+This whole process can be visualized like this:
+
+![TDD cycle](http://1minus1.com/userstorage/images/dev_graphs_testdrivendev.jpg)
+
 ## TDD For JavaScript
 For JavaScript, we are going to use [Chai JS](http://chaijs.com/guide/).
 
 # Active Learning
+
+- Reverse String
+- isPrime()
+- merge two arrays
+- factorial
+- calculate modulo without %-sign
+
+Homework:
+- penultimate word
+- sumOfDigits() // takes a string or a number
+- Largest prime factor
+- longest word
+- print out nth fibbonaci number
 
 # Reflect
 
