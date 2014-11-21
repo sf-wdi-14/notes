@@ -70,12 +70,17 @@ For JavaScript, we are going to use [Chai JS](http://chaijs.com/guide/).
 
 # Active Learning
 
-- Reverse String
+Check out [this repo](https://github.com/sf-wdi-14/test-driven-development).
+
+We will do two of the following exercises together, and the rest you will do independently.
+
+- reverseString()
 - isPrime()
-- merge two arrays
+- mergeArrays
 - factorial
-- calculate modulo without %-sign
+- modulo
 
 # Reflect
+
 
 # Now and Then
