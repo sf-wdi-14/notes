@@ -70,19 +70,17 @@ For JavaScript, we are going to use [Chai JS](http://chaijs.com/guide/).
 
 # Active Learning
 
-- Reverse String
-- isPrime()
-- merge two arrays
-- factorial
-- calculate modulo without %-sign
+Check out [this repo](https://github.com/sf-wdi-14/test-driven-development).
 
-Homework:
-- penultimate word
-- sumOfDigits() // takes a string or a number
-- Largest prime factor
-- longest word
-- print out nth fibbonaci number
+We will do two of the following exercises together, and the rest you will do independently.
+
+- reverseString()
+- isPrime()
+- mergeArrays
+- factorial
+- modulo
 
 # Reflect
+
 
 # Now and Then

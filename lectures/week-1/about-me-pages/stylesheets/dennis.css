@@ -1,0 +1,56 @@
+h1 {
+	font-size: 30px;
+	color: green;
+}
+
+h2 {
+	font-size: 20px;
+	color: green;
+}
+
+p {
+	font-size: 15px;
+	color: #696969;
+}
+
+img {
+	border: 10px solid;
+}
+
+#first {
+	border-color: red;
+	width: 200px;
+	height: 200px;
+}
+
+#second {
+	border-color: blue;
+	width: 300px;
+	height: 200px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+}
+
+ol {
+	text-align: right;
+	margin-left: 80%;
+}
+
+
+
+
+
+
+
+
+
