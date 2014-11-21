@@ -1,0 +1,1 @@
+document.querySelector("#top-nav0").textContent = "Happy Holidays!";
