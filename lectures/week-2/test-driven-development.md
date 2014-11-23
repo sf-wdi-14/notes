@@ -80,6 +80,12 @@ We will do two of the following exercises together, and the rest you will do ind
 - factorial
 - modulo
 
+To get set up, you need to
+
+1. `$ cd` into your `sf-wdi-14` directory
+2. Clone https://github.com/sf-wdi-14/test-driven-development
+3. Run `$ mocha`
+
 # Reflect
 Reflect on the advantages and disadvantages of test driven development. Raise any questions/concerns you may have.
 
