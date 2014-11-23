@@ -81,6 +81,7 @@ We will do two of the following exercises together, and the rest you will do ind
 - modulo
 
 # Reflect
-
+Reflect on the advantages and disadvantages of test driven development. Raise any questions/concerns you may have.
 
 # Now and Then
+We will test drive most of the lectures and assignments from now on. You will either clone assignment repos that have tests already prepared inside them, or sometimes you may even have to write your own tests.
