@@ -44,21 +44,27 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
 This can be narrowed down into the following steps (mostly taken from [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development)):
 
 1. Add an initially failing test
+
 In test-driven development, each new feature begins with writing a test. This is a differentiating feature of test-driven development versus writing unit tests *after* the code is written: it makes the developer focus on the requirements before writing the code, a subtle but important difference.
 
 2. Run all tests and see if the new one fails
+
 This validates that the test harness is working correctly, that the new test does not mistakenly pass without requiring any new code, and that the required feature does not already exist. This step also tests the test itself, in the negative: it rules out the possibility that the new test always passes, and therefore is worthless. The new test should also fail for the expected reason. This step increases the developer's confidence that he/she is testing the right thing, and passes only in intended cases.
 
 3. Write some code
+
 Write just enough feature code to make the test pass. At this stage, the code does not have to be elegant or clean at all, since it will be refactored later on this process.
 
 4. Run tests
+
 If all test cases now pass, the programmer can be confident that the new code meets the test requirements, and does not break or degrade any existing features. If they do not, the new code must be adjusted until they do.
 
 5. Refactor code
+
 Feature code has to be maintained and refactored regularly. Since the feature code is now backed by tests, the programmer can be confident to refactor without breaking features. After refactoring, the tests should be run to ensure full functionality. Refactoring code does not change a feature; it merely improves the syntax and writing of certain lines of code without changing it's result.
 
 (6. Repeat)
+
 Repeat for every feature. Eventually, the programmer will have a solid, test-backed feature base. Automated tests allow him/her to test that all features run as expected in a matter of seconds, at least minutes (depending on the product's size).
 
 This whole process can be visualized like this:
