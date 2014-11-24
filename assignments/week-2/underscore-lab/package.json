@@ -1,0 +1,23 @@
+{
+  "name": "underscore-lab",
+  "version": "1.0.0",
+  "description": "This lab requires students to write tests for several methods used in the Underscore library",
+  "main": "index.js",
+  "scripts": {
+    "tests": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sf-wdi-14/underscore-lab.git"
+  },
+  "author": "Cho S. Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-wdi-14/underscore-lab/issues"
+  },
+  "homepage": "https://github.com/sf-wdi-14/underscore-lab",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}
