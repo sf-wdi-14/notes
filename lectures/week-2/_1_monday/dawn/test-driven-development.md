@@ -53,7 +53,7 @@ This validates that the test harness is working correctly, that the new test doe
 
 **Write some code**
 
-Write just enough feature code to make the test pass. At this stage, the code does not have to be elegant or clean at all, since it will be refactored later on this process.
+Write just enough feature code to make the test pass. At this stage, the code does not have to be elegant or clean at all, since it will be refactored later on in this process.
 
 **Run tests**
 
