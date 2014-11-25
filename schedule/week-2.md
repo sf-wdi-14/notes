@@ -22,7 +22,7 @@ For the first few assignments, tests will be provided by the instructors - later
   </tr>
   <tr>
     <td>Lab</td>
-    <td> <a href="https://github.com/sf-wdi-14/notes/tree/master/assignments/week-2/underscore-lab">Underscore</a> (Cho)</td>
+    <td> <a href="https://github.com/sf-wdi-14/underscore-lab">Underscore</a> (Cho)</td>
     <td>Inheritance</td>
   </tr>
 </table>
