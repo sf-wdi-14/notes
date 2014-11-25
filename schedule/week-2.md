@@ -21,7 +21,7 @@ For the first few assignments, tests will be provided by the instructors - later
     <td>Review </td>
   </tr>
   <tr>
-    <td>Lab</td>
+    <td>Lab (Colt)</td>
     <td> <a href="https://github.com/sf-wdi-14/underscore-lab">Underscore</a> (Cho)</td>
     <td><a href="https://github.com/sf-wdi-14/inheritance-lab">Inheritance</a> (Cho)</td>
   </tr>
