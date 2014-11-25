@@ -27,13 +27,32 @@ A prototype is a property created on objects. Through the use of prototypes, Jav
 
 ## Use Prototypes without Constructors
 ```javascript
+// without a maker function
 var inheritedMethods = {
   first:  "I'm on the prototype",
   second: "I'm also on the prototype"	
 };
 
-var cat = Object.create(inheritedMethods);
+var cat  = Object.create(inheritedMethods);
+cat.name = "Garfield";
 ```
+
+```javascript
+// with a maker function
+var inheritedMethods = {
+  first:  "I'm on the prototype",
+  second: "I'm also on the prototype"	
+};
+
+var makeCat = function() {
+  var cat  = Object.create(inheritedMethods);
+  cat.name = "Garfield"; 
+  return cat;
+};
+
+var cat1 = makeCat();
+```
+
 
 ## Use Constructors 
 ```javascript
