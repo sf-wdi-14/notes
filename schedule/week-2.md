@@ -23,6 +23,6 @@ For the first few assignments, tests will be provided by the instructors - later
   <tr>
     <td>Lab</td>
     <td> <a href="https://github.com/sf-wdi-14/underscore-lab">Underscore</a> (Cho)</td>
-    <td>Inheritance</td>
+    <td><a href="https://github.com/sf-wdi-14/inheritance-lab">Inheritance</a> (Cho)</td>
   </tr>
 </table>
