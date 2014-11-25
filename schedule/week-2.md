@@ -13,12 +13,12 @@ For the first few assignments, tests will be provided by the instructors - later
   <tr>
     <td>Dawn</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-2/_1_monday/dawn/test-driven-development.md">Test driven development</a> (Dennis)</td>
-    <td>Prototypes (Colt)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/tree/master/lectures/week-2/_2_tuesday/dawn">Inheritance and Prototypes</a> (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-2/_1_monday/dusk/iterators.md">Iterators</a> (Dennis)</td>
-    <td>Inheritance (Cho)</td>
+    <td>Review </td>
   </tr>
   <tr>
     <td>Lab</td>
