@@ -11,22 +11,22 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>HTTP basics and how the internet works (Dennis)</td>
+    <td>Node and Express (Cho)</td>
+    <td>ORM intro (Colt)</td>
+    <td>TDD with Express (Dennis)</td>
     <td></td>
   </tr>
   <tr>
     <td>Dusk</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>SQL (Colt)</td>
+    <td>Node and Express (Cho)</td>
+    <td>Restful routing (Colt)</td>
+    <td>TDD with Express (Dennis)</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Lab</td>
     <td></td>
     <td></td>
     <td></td>
