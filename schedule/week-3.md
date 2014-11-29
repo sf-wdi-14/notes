@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>HTTP basics and how the internet works (Dennis)</td>
+    <td>[HTTP basics and how the internet works](https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dawn/http-basics.md) (Dennis)</td>
     <td>Node and Express (Cho)</td>
     <td>ORM intro (Colt)</td>
     <td>TDD with Express (Dennis)</td>
