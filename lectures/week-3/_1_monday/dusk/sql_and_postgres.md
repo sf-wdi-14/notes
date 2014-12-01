@@ -260,9 +260,9 @@ DELETE from students WHERE name = 'Mary';
 
 ##Exercise: FishTank
 * Make a new database called 'FishTank'.  
-* Inside of FishTank, make a table called 'Fish'.  Each fish needs to have a name, species, age, gender, and an alive value(true or false)  
+* Inside of FishTank, make a table called 'Fish'.  Each fish needs to have a name, species, age, sex, and an alive value(true or false)  
 * Add 4 fish to the database: a male Wrasse, a female Parrot Fish, a  female Whale Shark, and a male Garibaldi. Name them whatever you want.  Same goes for age.
-* Sequential Hermaphroditism strikes again! Change the Wrasse's gender from male to female. Read more about it [here](https://naturalreactions.wordpress.com/2014/03/19/the-mystery-of-the-fish-that-change-their-sex/)(after the exercise)
+* Sequential Hermaphroditism strikes again! Change the Wrasse's sex from male to female. Read more about it [here](https://naturalreactions.wordpress.com/2014/03/19/the-mystery-of-the-fish-that-change-their-sex/)(after the exercise)
 * Next, delete the 3rd fish.  Don't ask why.
 * Oh no, we forgot to feed the fish!  Change all of their alive attributes to false.  
  

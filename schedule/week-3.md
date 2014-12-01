@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/apartment_sql_lab">Apartment SQL Lab</a></td>
     <td></td>
     <td></td>
     <td></td>
