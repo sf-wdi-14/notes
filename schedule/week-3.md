@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>SQL (Colt)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dusk/sql_and_postgres.md">SQL and Postgres</a> (Colt)</td>
     <td>Node and Express (Cho)</td>
     <td>Restful routing (Colt)</td>
     <td>TDD with Express (Dennis)</td>
