@@ -22,7 +22,7 @@
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dusk/sql_and_postgres.md">SQL and Postgres</a> (Colt)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dusk/introduction-to-express.md">Introduction to Express</a> (Cho)</td>
     <td>Node with SQL</td>
-    <td>TDD with Express (Dennis)</td>
+    <td>TDD with Express or Express review (Dennis)</td>
     <td></td>
   </tr>
   <tr>
