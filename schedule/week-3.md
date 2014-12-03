@@ -12,7 +12,7 @@
   <tr>
     <td>Dawn</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dawn/http-basics.md">HTTP basics and how the internet works</a> (Dennis)</td>
-    <td>Node and Express (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dawn/introduction-to-nodejs.md">Introduction to Node</a> (Cho)</td>
     <td>ORM intro (Colt)</td>
     <td>Restful routing (Dennis)</td>
     <td></td>
@@ -20,7 +20,7 @@
   <tr>
     <td>Dusk</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dusk/sql_and_postgres.md">SQL and Postgres</a> (Colt)</td>
-    <td>Node and Express (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dusk/introduction-to-express.md">Introduction to Express</a> (Cho)</td>
     <td>Sequelize (Colt)</td>
     <td>TDD with Express (Dennis)</td>
     <td></td>
