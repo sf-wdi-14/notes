@@ -14,7 +14,7 @@
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_1_monday/dawn/http-basics.md">HTTP basics and how the internet works</a> (Dennis)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dawn/introduction-to-nodejs.md">Introduction to Node</a> (Cho)</td>
     <td>Express review and Node with SQL (Colt)</td>
-    <td>Restful routing (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/restful-routing">Restful routing</a> (Dennis)</td>
     <td></td>
   </tr>
   <tr>
