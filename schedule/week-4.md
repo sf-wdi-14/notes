@@ -13,7 +13,7 @@
     <td>Dawn</td>
     <td>jQuery</td>
     <td>Twitter Bootstrap</td>
-    <td>Node authentication using Passport (Cho and Dennis)</td>
+    <td>Node authentication using Everyauth (Cho and Dennis)</td>
     <td>Review</td>
     <td>Wireframing & Trello</td>
   </tr>
@@ -21,7 +21,7 @@
     <td>Dusk</td>
     <td>jQuery</td>
     <td>APIs</td>
-    <td>Node authorization (Cho and Dennis)</td>
+    <td>Node authorization using Everyauth (Cho and Dennis)</td>
     <td>Review</td>
     <td></td>
   </tr>
