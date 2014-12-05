@@ -14,15 +14,15 @@
     <td>jQuery</td>
     <td>Twitter Bootstrap</td>
     <td>Node authentication using Passport (Cho and Dennis)</td>
-    <td></td>
-    <td></td>
+    <td>Review</td>
+    <td>Wireframing & Trello</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td>jQuery</td>
-    <td>Twitter Boorstrap</td>
-    <td>Node authentication using Passport (Cho and Dennis)</td>
-    <td></td>
+    <td>APIs</td>
+    <td>Node authorization (Cho and Dennis)</td>
+    <td>Review</td>
     <td></td>
   </tr>
   <tr>
