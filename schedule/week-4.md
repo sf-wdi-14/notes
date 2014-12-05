@@ -14,15 +14,15 @@
     <td>jQuery</td>
     <td>Twitter Bootstrap</td>
     <td>Node authentication using Everyauth (Cho and Dennis)</td>
-    <td>Review</td>
+    <td>Review (Dennis)</td>
     <td>Wireframing & Trello</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td>jQuery</td>
-    <td>APIs</td>
+    <td>APIs (Cho)</td>
     <td>Node authorization using Everyauth (Cho and Dennis)</td>
-    <td>Review</td>
+    <td>Review (Dennis)</td>
     <td></td>
   </tr>
   <tr>
