@@ -15,7 +15,7 @@
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dawn/introduction-to-nodejs.md">Introduction to Node</a> (Cho)</td>
     <td>Express review and Node with SQL (Colt)</td>
     <td><a href="https://github.com/sf-wdi-14/restful-routing">Node review and restful routing</a> (Dennis)</td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_5_friday/weekend-lab.md">Weekend lab</a></td>
   </tr>
   <tr>
     <td>Dusk</td>
@@ -23,7 +23,7 @@
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_2_tuesday/dusk/introduction-to-express.md">Introduction to Express</a> (Cho)</td>
     <td>Node with SQL (Colt)</td>
     <td><a href="https://github.com/sf-wdi-14/restful-routing">Node review and restful routing</a> (Dennis)</td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-3/_5_friday/weekend-lab.md">Weekend lab</a></td>
   </tr>
   <tr>
     <td>Lab</td>
