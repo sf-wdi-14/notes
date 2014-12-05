@@ -3,7 +3,7 @@ Using your knowledge about Express and restful routing, write a blogging website
 
 It should be as simple as having a page that lists all blog posts as links to individual blog posts, a page to write (create) a post, a page for an individual blog post, a page to edit a blog post, etc. Use restful routing to structure your app!
 
-Posts should have a title and a body. Use git to commit your changes whenever you make significant progress!
+Posts should have a title and a body. Use git to commit your changes whenever you make significant progress (`$ git init` to get started, then `$ git add ...` and `$ git commit -m "..."`)!
 
 Some hints to get you started:
 
