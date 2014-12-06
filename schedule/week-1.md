@@ -23,7 +23,7 @@
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/_2_tuesday/dusk/js-control-flow.md">JS control flow</a> (Colt)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/_3_wednesday/dusk/introduction-to-scopes-and-context.md">Introduction to Scopes and Context</a> (Cho)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-1/_4_thursday/dusk/introduction-to-dom.md">Introduction to DOM</a> (Cho)</td>
-    <td>Tic tac toe</td>
+    <td><a href="https://github.com/sf-wdi-14/tictactoe">Tic tac toe</a></td>
   </tr>
   <tr>
     <td>Lab</td>
@@ -31,6 +31,6 @@
     <td>Control flow</td>
     <td>Functions + control flow</td>
     <td>Calculator lab</td>
-    <td>Tic tac toe</td>
+    <td><a href="https://github.com/sf-wdi-14/tictactoe">Tic tac toe</a></td>
   </tr>
 </table>
