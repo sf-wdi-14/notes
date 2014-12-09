@@ -12,7 +12,7 @@
   <tr>
     <td>Dawn</td>
     <td><a href="https://github.com/sf-wdi-14/notes/tree/master/lectures/week-4/_1_monday/dawn">jQuery</a> (Brian)</td>
-    <td>Twitter Bootstrap</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/tree/master/lectures/week-4/_2_tuesday/dawn">Twitter Bootstrap</a> (Brian)</td>
     <td>Node authentication using Passport (Cho and Dennis)</td>
     <td>Review (Dennis)</td>
     <td>Wireframing & Trello</td>
