@@ -25,7 +25,33 @@ APIs are everywhere. They provide, moreover, data that would be nearly impossibl
 
 ## Create our own API
 ```javascript
-// code will be placed here, soon.
+var express = require('express');
+var app1     = express();
+var app2     = express();
+var request = require('request');
+
+app1.get('/api/instructors', function(req, res) {
+  res.send(["Cho", "Dennis", "Brian"]);
+})
+
+app2.get('/', function(req, res) {
+  request('http://localhost:7000/api/instructors', function (error, response, body) {
+
+      var instructors = JSON.parse(body);
+      instructors.push("DELMER"); 
+      res.send(instructors); 
+  });
+})
+
+
+// API 
+app1.listen(7000, function() {
+  console.log("app1 is running");
+});
+
+app2.listen(8000, function() {
+  console.log("app2 is running");
+});
 ```
 
 ## Use an external API
