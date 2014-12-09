@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>jQuery</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-4/_1_monday/dawn/jquery.md">jQuery</a> (Brian)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-4/_2_tuesday/dust/introduction-to-apis.md">APIs</a> (Cho)</td>
     <td>Node authorization using Authorize (Cho and Dennis)</td>
     <td>Review (Dennis)</td>
