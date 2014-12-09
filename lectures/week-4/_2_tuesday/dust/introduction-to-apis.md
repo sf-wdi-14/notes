@@ -9,6 +9,7 @@ Students will be able to...
 - create their own API
 - integrate data from an (RESTful)
 API
+- name at least three minions :)
 
 # Link
 APIs are everywhere. They provide, moreover, data that would be nearly impossible for one web-based application to provide on its own. In this context, it every developer would benefit from understanding what is an API and how to use APIs. 
