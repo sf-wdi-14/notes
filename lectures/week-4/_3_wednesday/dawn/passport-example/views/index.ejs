@@ -4,4 +4,6 @@
 <% }%>
 <a href="./login">login</a>
 <a href="./logout">logout</a>
-<a href="./profile">profile</a>
+<% if (user) { %>
+	<a href="./profile">profile</a>
+<% } %>
