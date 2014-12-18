@@ -1,4 +1,4 @@
-## Getting set up on Heroku with Node + Postgres (DO NOT IF YOU HAVE SEQUELIZE)
+## Getting set up on Heroku with Node + Postgres (DO NOT USE IF YOU HAVE SEQUELIZE)
 
 ### Before you do anything
 1. Make sure you have an account with heroku: https://www.heroku.com/
