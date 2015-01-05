@@ -2,14 +2,14 @@
 
 ##Learning Objectives
 #####At the end of the lesson you should be able 
-* ####Build custom routes
-* ####Set up restful routes
-* ####Render a view using a controller
-* ####Recognize the purpose of the application.html layout
-* ####Pass data into a view
-* ####Setup and use a form_tag, button_to, and link_to in ERB
-* ####Create and reference a partial
-*	####Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
+* Build custom routes
+* Set up restful routes
+* Render a view using a controller
+* Recognize the purpose of the application.html layout
+* Pass data into a view
+* Setup and use a form_tag, button_to, and link_to in ERB
+* Create and reference a partial
+*	Bonus: Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
 
 ##Custom Routes
 
