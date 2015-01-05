@@ -9,7 +9,7 @@
 * ####Pass data into a view
 * ####Setup and use a form_tag, button_to, and link_to in ERB
 * ####Create and reference a partial
-*	####Use CSS & JS libraries, such as bootstap, in a Rails project
+*	####Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
 
 ##Custom Routes
 
@@ -40,10 +40,48 @@ render :index(data_somewhere_here)
 ##Action View
 Part of the `Action Pack`.
 Responcible for dynamically creating aka rendering the view.
+*Why do we use ERB?*
 We create dynamic views by using ERB. Ruby that will evaluate to HTML.
+Note: the difference between <%= %> and <% %>
 
 **Helper Commands**
-[form_tag]()
-[link_to]()
-[button_to]()
+
+* [form_tag](http://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms)
+* [link_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to)
+* [button_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-button_to)
+
+##Partials
+<%= render 'menu' %>
+
+##Using Libraries in Rails
+Several methods to accomplish this
+
+Linking to the file in your head
+
+|Pros|Cons|
+|:-:|---|
+|x|Dependent on server|
+|x|Cannot use offline|
+|x|Messy|
+
+Using a gem
+
+|Pros|Cons|
+|:-:|---|
+|x|Obscured from you|
+|x|Usually unnessecary for JS & CSS Libraries|
+	
+**Use the Asset Pipline!**
+
+|Pros|Cons|
+|:-:|---|
+|Quicker page load time|Knowledge of Asset Pipeline|
+|Workoffline|x|
+|More transparent code organization|x|
+
+*Note: JQuery is already included by default*
+
+Order does matter
+Note: Rails *is reading comments* of the .js & .css application files (spooky!!)
+
 
