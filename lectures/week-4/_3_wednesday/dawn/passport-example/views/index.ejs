@@ -1,0 +1,11 @@
+<h1>Landing</h1>
+<% if (user) { %>
+	<%= user.username %>
+	<a href="./logout">logout</a>
+<% } else { %>
+	<a href="./login">login</a>
+<% } %>
+
+<% if (user) { %>
+	<a href="./profile">profile</a>
+<% } %>
