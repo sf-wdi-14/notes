@@ -112,6 +112,21 @@ minion = Minion.new("George")
 minion.say_name
 ```
 
+### Exercise 1
+Create the following three classes: 
+
+- Minion
+- Person
+- Bear
+
+For each class, add enough methods to meet this requirement: 
+
+- has an initialize method
+
+- includes two instance variables
+
+- uses string interpolation in one method
+
 ### Getters and Setters
 
 Up to this moment, we've been utilizing instance methods and instance variables to set (`initialize`) and get (`say_name`) data. Let's rename our methods to be more semantically meaningful. 
@@ -282,6 +297,9 @@ end
 
 Now, there may be moments where we want to get or set data associated with all instances of a class. In this case, we need to explore class methods and class variables. 
 
+### Exercise 2
+
+Repeat exercise 1, but use attr_* for getters and setters, where appropriate. 
 
 ### Class Methods, Class Variables, and Self
 Class methods and class variables are used when data pertains to more than just an instance of a class. Let's imagine that we want to keep count of all minions that were instantiated. 
@@ -317,3 +335,6 @@ Minion.count
 ```
 
 Two things are happening at this moment. First, we are definining a class variable--which begins with a double `@` symbol. This variable will exist throughout all instances of a mininon. Next, we are defining a method on the class `Minion` using the keyword `self`. We will explore `self` more during the next several days. For now, know that if you place the word `self` next to a method name, it places the method not on instances of a class; rather, the method is on the class. 
+
+### Exercise 3
+Create a Minions class and include a method that can print the name of every minion that was created. To achieve this goal, you'll have to use a class method, class variable, `self` inside a method's body, and Ruby's each method. You haven't been taught everything to make this work, such as using `self` inside a method's body. Experiment with `self` and see what happens!
