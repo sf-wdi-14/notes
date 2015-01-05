@@ -3,7 +3,7 @@
 ## Objectives
 Students will be able to...
 
-- understand the difference between an object and a class
+- articulte the difference between an object and a class
 - define and instantiate a class 
 - use instance methods and instance variables
 - use the `initialize` method
@@ -11,7 +11,7 @@ Students will be able to...
 - define getters and setters 
 - use attr_* 
 - apply knowledge in exercise 2 
-- understand class methods, class variables, and self 
+- recognize & impliment class methods, class variables, and self 
 - apply knowledge in exercise 3 
 
 ### Object vs. Class
