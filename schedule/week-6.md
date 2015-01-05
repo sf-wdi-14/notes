@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/ruby-workout">Ruby Workout</a></td>
     <td></td>
     <td></td>
     <td></td>
