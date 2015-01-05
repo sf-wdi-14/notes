@@ -6,12 +6,15 @@ Students will be able to...
 - articulte the difference between an object and a class
 - define and instantiate a class 
 - use instance methods and instance variables
-- use the `initialize` method 
+- use the `initialize` method
+- apply knowledge in exercise 1 
 - define getters and setters 
 - use attr_* 
+- apply knowledge in exercise 2 
 - recognize & impliment class methods, class variables, and self 
+- apply knowledge in exercise 3 
 
-### Objective vs. Class
+### Object vs. Class
 
 An object represents an abstract thing, usually with some sort of behavior (methods). A class, in turn, can create many objects with the same behavior (methods). 
 
