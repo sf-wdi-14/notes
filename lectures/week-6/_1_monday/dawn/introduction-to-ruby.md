@@ -3,7 +3,7 @@
 ## Objectives
 Students will be able to...
 
-- Translate all key concepts they from JavaScript into Ruby
+- Translate all key concepts they know from JavaScript into Ruby
 
 # Link
 Ruby is designed for programmer happiness. Its intuitive syntax makes it very easy to use and faster to write understandable, beautiful code. It can be used for all kinds of software development, but is largely used for web development, particulary within the framework Ruby on Rails.
