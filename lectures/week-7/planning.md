@@ -4,4 +4,6 @@
 * Sessions
 * Testing
 * JQuery
+* Block, procs, & lambdas
+* Regex
 * 
