@@ -14,7 +14,7 @@
     <td>Intro to Ruby (Dennis)</td>
     <td>Intro to class inheritance and file separation (Cho)</td>
     <td>Intro to Rails (Ilias and Dennis)</td>
-    <td>Intro to Rails Views (Ilias)</td>
+    <td>Intro to Rails views (Ilias)</td>
     <td>Review (Cho)</td>
   </tr>
   <tr>
