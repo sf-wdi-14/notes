@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Intro to Ruby classes (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-6/_1_monday/dusk/introduction-to-classes.md">Intro to Ruby Classes</a> (Cho)</td>
     <td>Intro to RSpec (Dennis)</td>
     <td>Intro to Rails models (Ilias)</td>
     <td>Early review</td>
