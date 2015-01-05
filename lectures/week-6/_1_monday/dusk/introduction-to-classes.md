@@ -14,7 +14,7 @@ Students will be able to...
 - understand class methods, class variables, and self 
 - apply knowledge in exercise 3 
 
-### Objective vs. Class
+### Object vs. Class
 
 An object represents an abstract thing, usually with some sort of behavior (methods). A class, in turn, can create many objects with the same behavior (methods). 
 
