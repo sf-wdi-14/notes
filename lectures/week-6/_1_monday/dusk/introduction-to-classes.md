@@ -1,6 +1,7 @@
 # Introduction to Classes
 
 ## Objectives
+Students will be able to...
 
 - understand the difference between an object and a class
 - define and instantiate a class 
