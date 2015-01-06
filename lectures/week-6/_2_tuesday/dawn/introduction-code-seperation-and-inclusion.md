@@ -7,7 +7,7 @@ Students will be able to...
 - require code in another file 
 - describe and use inheritance
 - describe the inheritance chain
-- use modules with `include` and `prepend`
+- describe use modules with `include` and `prepend`
 - describe the method look-up chain
 
 ### Seperate Code into Files
