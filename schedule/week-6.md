@@ -20,7 +20,7 @@
   <tr>
     <td>Dusk</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-6/_1_monday/dusk/introduction-to-classes.md">Intro to Ruby Classes</a> (Cho)</td>
-    <td><a href="https://github.com/sf-wdi-14/notes/blob/ef67adf5b66d6d36f78856c9fc46ab4ebf837128/lectures/week-6/_2_tuesday/dusk/intro-to-rspec.md">Intro to </a>RSpec (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/ef67adf5b66d6d36f78856c9fc46ab4ebf837128/lectures/week-6/_2_tuesday/dusk/intro-to-rspec.md">Intro to RSpec</a> (Dennis)</td>
     <td>Intro to Rails models (Ilias)</td>
     <td>Early review</td>
     <td>Lab time</td>
