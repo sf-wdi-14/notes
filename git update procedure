@@ -1,5 +1,0 @@
-make your change
-save the file
-git add .
-git commit -m "message"
-git push origin master
