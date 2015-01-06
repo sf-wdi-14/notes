@@ -12,23 +12,42 @@ Students will be able to...
 
 ### Seperate Code into Files
 
-Using one file for all your code can become unwieldly. Instead, move related code into a different file. A good example is using a file for every class. 
+Using one file for all your code can become unwieldly. Instead, move related code into a seperate files. A good example is using a file for every class. 
 
 ```ruby
-# person.rb 
-class Person
+# one_file.rb 
+class Parent
+end
+
+class Child
 end
 ```
 
+Take the code above and place each class in a seperate file: 
+```ruby
+# parent.rb 
+class Parent
+end
+
+# child.rb
+class Child
+end
+```
+
+The name of a file containing a class is usual the class name in snake case: 
+
+- `Train` => train.rb
+- `Sky_Scraper` => sky_scraper.rb 
+
 ### Require Code from Other Files
 
-Code in different files can be loaded into a file with one of the following reserve words: 
+When code from a file needs to be accessed in a different file, we use one of the following three reserve words: 
 
 - `require`
 - `require_relative`
 - `load`
 
-There are important differences between these three keywords. Here are the most important differences
+There are important yet subtle differences between these three keywords. Here are the most important differences:
 
 ```ruby
 # needs the dot
@@ -41,13 +60,12 @@ require_relative("person.rb")
 load("./person.rb")
 ```
 
-`require` and `load` appear to be the same, but the are not. This difference becomes clearer when requiring and loading files in IRB. `require` will load a file once; even when a file is later changed and saved, the same IRB session will not load the updated version. `load`, however, will always reload a file. When experimenting with code and frequently changing a file, use `load`. 
+`require` and `load` appear to be the same, but the are not. This difference becomes clearer when requiring and loading files in IRB. `require` will load a file once; even when a file is later changed and saved, requiring the same file in the same IRB session will not load the updated version. `load`, however, will always reload a file. When experimenting with code and frequently changing a file, use `load`. 
 
 ### Inheritance
+In Ruby, inheritance describes another approach to seperating and including instance methods. At most, a class can directly inherit from one class.
 
-In Ruby, inheritance describes an approach to sharing instance methods between classes. At most, a class can directly inherit from one class.
-
-Here's the syntax: 
+Here's the syntax for inheritance: 
 
 ```ruby
 class Parent
@@ -74,11 +92,10 @@ class Child < Parent
 end
 ```
 
-If we invoke talk on an instance of `Child`, `Child`'s definition of `talk` is invoked. In other words, the method included in the immediate class is used first, then we climb the inheritance chain and search in the super-classes for any methods with a particular name. 
-
+If we invoke talk on an instance of `Child`, `Child`'s definition of `talk` is invoked. The method in the immediate class will be invoked first. If the method was not existing in the immediate class, then we would climb the inheritance chain--go to the super-class of the immediate class. In our example, the super-class is `Parent`.
 
 ### Modules
-Another way of including instance methods in a class involves modules. Modules have very similar syntax to classes; however, modules replace the reserve word `class` with `module`. 
+Another way of seperating and including code involves modules. Modules have very similar syntax to classes; the only difference is replacing the word `class` with `module`. 
 
 ```ruby
 module Jump
@@ -110,10 +127,73 @@ end
 
 Both `include` and `prepend` include a module's instance methods into a class. The difference between them can be found in the method look-up chain. 
 
-
 ### Method Look-up Chain
-When a module and a class have instance methods with the same name, the following heirarchy is considered when determining the method to invoke. 
+When a module and a class have instance methods with the same name, the following heirarchy is considered when determining which method to invoke:  
 
-- prepend
-- class
-- include
+1. prepend
+2. class
+3. include
+
+With `prepend`
+```ruby
+module Communicate_Prepend
+  def talk
+    puts "Communicate_Prepend's talk"
+  end
+end
+
+class Human
+  prepend Communicate_Prepend
+  def talk
+    puts "Human's talk"
+end
+
+human = Human.new
+# "Communicate_Prepend's talk"
+human.talk 
+```
+
+With `include`
+```ruby
+module Communicate_Include
+  def talk
+    puts "Communicate_Include's talk"
+  end
+end
+
+class Human
+  prepend Communicate_Include
+  def talk
+    puts "Human's talk"
+end
+
+human = Human.new
+# "Human's talk"
+human.talk 
+```
+
+With `prepend` and `include`
+```ruby
+module Communicate_Include
+  def talk
+    puts "Communicate_Include's talk"
+  end
+end
+
+module Communicate_Prepend
+  def talk
+    puts "Communicate_Prepend's talk"
+  end
+end
+
+class Human
+  prepend Communicate_Prepend
+  include Communicate_Include
+  def talk
+    puts "Human's talk"
+end
+
+human = Human.new
+# "Communicate_Prepend's talk"
+human.talk 
+```
