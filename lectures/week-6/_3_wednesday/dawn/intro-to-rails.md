@@ -1,9 +1,27 @@
 ## Intro to Rails
 
-Two principles of Rails
+###Learning Objetives
 
-1. DRY - keep your code DRY and use concice, conistent code.
-2. Convention over configuration - Rails is built using sensible defaults which speeds development and means that there is less code to maintain. All we have to do is specify unconventional aspects if we choose.
+**ADD HERE**
+
+##Philosophy
+
+Rails values...
+
+* DRYness
+* Separation of Concerns & Modularity
+* Abstraction & encapsulation
+* Convention over configuration
+
+### Separating Concerns
+
+In writing a large application it is important to establish something known as **Separation of Concerns**, *writing modular code that focuses on one aspect within the application.* The benefit of this is similar to idea of **compartementalization** with respect to a production line, which allows for *more rapid development* by being able to **divide and conquer** the construction of a product. Comparments can focus on one task and optmize functional concerns far outside the scope of other compartments, but still work together to acheive the same product.  Ultimately it reduces the headache of debugging and controlling a large application that can ultimately grow to a level of complexity that no one person could ever fully comprehend (nor want or need to). 
+
+### Organizational Principles
+
+In order to manage the development of emerging aspects within a project it is important to construct a guideline that will shape how things are separated, a **design pattern**, which everyone can use to maintain **consistent** organization of different aspects. This is a *conventional* choice that helps to understandably scale a project. Part of the role of a developer is to become familiar with using design patterns, but this takes time (and trust), as different patterns emphaize an array of qualities: scalability, modularity, security, performance, et cetera.
+
+##MVC
 
 Rails uses an __MVC__ architecture
 
@@ -14,6 +32,8 @@ Rails uses an __MVC__ architecture
 <b>C</b>ontroller - The controller will make decisions based on the request and then control what happens in response. It controls the interaction with our models and with our views. 
 
 ![MVC Diagram](http://elibildner.files.wordpress.com/2012/06/screen-shot-2012-06-05-at-2-12-18-am.png)
+
+##Settup
 
 ### How to create a rails project
 
