@@ -2,12 +2,9 @@
 
 ##Learning Objectives
 #####At the end of the lesson you should be able 
-* Build custom routes
-* Set up restful routes
-* Render a view using a controller
 * Recognize the purpose of the application.html layout
 * Pass data into a view
-* Setup and use a form_tag, button_to, and link_to in ERB
+* Setup and use a `form_tag`, `button_to`, `link_to`, `image_tag` in ERB
 * Create and reference a partial
 *	Bonus: Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
 
@@ -28,19 +25,14 @@ by default rails will try to render a view with the same name
 
 how you name and structure your views matters
 
-##Rendering a View
-render blah
-
 ##The Application.html Layout
 This is the layout that encapsulates all your pages.
 Things like a nav bar should be added here.
-
-##Passing Data into a View
-render :index(data_somewhere_here)
+Is by default the wrapper for all your pages.
 
 ##Action View
 Part of the `Action Pack`.
-Responcible for dynamically creating aka rendering the view.
+Responsible for dynamically creating aka rendering the view.
 *Why do we use ERB?*
 We create dynamic views by using ERB. Ruby that will evaluate to HTML.
 Note: the difference between <%= %> and <% %>
@@ -50,9 +42,11 @@ Note: the difference between <%= %> and <% %>
 * [form_tag](http://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms)
 * [link_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to)
 * [button_to](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-button_to)
+* [image_tag](http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html#method-i-image_tag)
 
 ##Partials
-<%= render 'menu' %>
+[Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials) are a tool for keeping your code DRY. They help seperate your HTML our into chunks that you can reuse across your app. 
+`<%= render 'menu' %>`
 
 ##Using Libraries in Rails
 Several methods to accomplish this
