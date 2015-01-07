@@ -1,9 +1,0 @@
-<h1>New Animal</h1>
-
-<%= form_tag("/animals", method: "post") do %>
-
-  <%= label_tag(:name, "New Favorite Animal") %>
-  <%= text_field_tag(:name) %>
-  <%= submit_tag("Submit") %>
-
-<% end %>
