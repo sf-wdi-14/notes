@@ -45,3 +45,10 @@ In the view
 ```
   <h1><%= @instance_variable %> World</h1>
 ```
+
+##Action View
+Part of the `Action Pack`.
+Responsible for dynamically creating aka rendering the view.
+*Why do we use ERB?*
+We create dynamic views by using ERB. Ruby that will evaluate to HTML.
+Note: the difference between `<%= %>` and `<% %>`. The first **prints** the expression, the latter simply **evaluates** it.
