@@ -3,7 +3,6 @@
 ##Learning Objectives
 #####At the end of the lesson you should be able 
 * Recognize the purpose of the application.html layout
-* Pass data into a view
 * Setup and use helper commands in ERB
 * Create and reference a partial
 * Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
