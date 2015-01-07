@@ -6,24 +6,7 @@
 * Pass data into a view
 * Setup and use a `form_tag`, `button_to`, `link_to`, `image_tag` in ERB
 * Create and reference a partial
-*	Bonus: Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
-
-##Routes
-The Rails router recognizes URLs and dispatches them to a controller's action.
-
-```
-get to blah
-```
-
-##Restful Routes
-Resources
-
-##Restful Controller
-Will correspond to your routes
-
-by default rails will try to render a view with the same name
-
-how you name and structure your views matters
+* Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
 
 ##The Application.html Layout
 This is the layout that encapsulates all your pages.
@@ -79,4 +62,7 @@ Using a gem
 Order does matter
 Note: Rails *is reading comments* of the .js & .css application files (spooky!!)
 
+##Vendor Assets
+
+The asset-pipline is now managed by the [sprocket-rails](https://github.com/rails/sprockets-rails) gem.
 
