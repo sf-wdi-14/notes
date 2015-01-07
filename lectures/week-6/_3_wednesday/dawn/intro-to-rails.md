@@ -1,8 +1,14 @@
 ## Intro to Rails
 
 ###Learning Objetives
+By the end of this lecture you should be able to...
 
-**ADD HERE**
+- Distinguish between Express, Sinatra and Rails
+- Articulate the Rails philosophy
+- Describe MVC
+- Start a new app
+- Navigate Rails directory structure
+- Link routes, controllers and views
 
 ##Philosophy
 
@@ -13,7 +19,7 @@ Rails values...
 * Abstraction & encapsulation
 * Convention over configuration
 
-### Separating Concerns
+### Separation of Concerns
 
 In writing a large application it is important to establish something known as **Separation of Concerns**, *writing modular code that focuses on one aspect within the application.* The benefit of this is similar to idea of **compartementalization** with respect to a production line, which allows for *more rapid development* by being able to **divide and conquer** the construction of a product. Comparments can focus on one task and optmize functional concerns far outside the scope of other compartments, but still work together to acheive the same product.  Ultimately it reduces the headache of debugging and controlling a large application that can ultimately grow to a level of complexity that no one person could ever fully comprehend (nor want or need to). 
 

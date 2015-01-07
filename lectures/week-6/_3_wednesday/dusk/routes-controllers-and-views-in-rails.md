@@ -11,7 +11,8 @@
 * Create and reference a partial
 *	Bonus: Use the Asset Pipline to add CSS & JS libraries, such as bootstap, to your Rails project
 
-##Custom Routes
+##Routes
+The Rails router recognizes URLs and dispatches them to a controller's action.
 
 ```
 get to blah
