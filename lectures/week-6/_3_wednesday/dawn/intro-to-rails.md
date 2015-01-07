@@ -42,9 +42,6 @@ The **client** is a customer eating in the restaurant, the **server** is the wai
 
 ``` rails new NAME_OF_APP```
 
-to create a new project without the Rails testing framework and with a database (rails defaults to sqlite)
-``` rails new NAME_OF_APP -T -d DB_TYPE```
-
 But then it says, bundle install at the end, so, it's created all the files, and now it's telling bundler to install all of the gems that might be missing. 
 
 ### Bundler
@@ -87,7 +84,7 @@ This will start a server on localhost:3000
 
 ## Experiment
 
-- create a new rails app using -d postgresql
+- create a new rails app using the flag `-d postgresql`
 - run `rails server` and see what happens
 
 - we need to edit something in our config file! Go to database.yml
