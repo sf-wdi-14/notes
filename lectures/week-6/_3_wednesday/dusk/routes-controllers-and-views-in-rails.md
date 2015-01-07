@@ -34,7 +34,7 @@ Note: the difference between <%= %> and <% %>
 ##Using Libraries in Rails
 Several methods to accomplish this
 
-Linking to the file in your head
+#####Linking to the file in your head
 
 |Pros|Cons|
 |:-:|---|
@@ -42,14 +42,14 @@ Linking to the file in your head
 |x|Cannot use offline|
 |x|Messy|
 
-Using a gem
+#####Using a gem
 
 |Pros|Cons|
 |:-:|---|
 |x|Obscured from you|
 |x|Usually unnessecary for JS & CSS Libraries|
 	
-**Use the Asset Pipline!**
+#####Using the asset pipeline (**best solution**)
 
 |Pros|Cons|
 |:-:|---|
