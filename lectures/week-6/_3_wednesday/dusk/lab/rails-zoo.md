@@ -1,6 +1,6 @@
 # Rails Zoo Lab
 
-You have been hired by the San Diego Zoo. They would like an app that catelogues their animals.
+You have been hired by the San Diego Zoo. They would like an app that catalogues their animals.
 
 
 **NB:** This app will not persist data nor have a login system, but we will get to both shortly!

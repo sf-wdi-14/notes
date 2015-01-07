@@ -33,6 +33,9 @@ Rails uses an __MVC__ architecture
 
 ![MVC Diagram](http://elibildner.files.wordpress.com/2012/06/screen-shot-2012-06-05-at-2-12-18-am.png)
 
+##Railstaurant Metaphore
+The **client** is a customer eating in the restaurant, the **server** is the waiter, the **router** is waiter who hands off orders, the **controller** is the kitchen, the **database** is the giant walk-in refrigerator with ingredients, the **model** is the person fetching ingredients from the refrigerator, the **view** is the chef who makes the meal look pretty and relays it back to the customer.
+
 ##Settup
 
 ### How to create a rails project
