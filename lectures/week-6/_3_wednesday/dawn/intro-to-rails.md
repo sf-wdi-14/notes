@@ -33,14 +33,14 @@ Rails uses an __MVC__ architecture
 
 ![MVC Diagram](http://elibildner.files.wordpress.com/2012/06/screen-shot-2012-06-05-at-2-12-18-am.png)
 
+##Railstaurant Metaphore
+The **client** is a customer eating in the restaurant, the **server** is the waiter, the **router** is waiter who hands off orders, the **controller** is the kitchen, the **database** is the giant walk-in refrigerator with ingredients, the **model** is the person fetching ingredients from the refrigerator, the **view** is the chef who makes the meal look pretty and relays it back to the customer.
+
 ##Settup
 
 ### How to create a rails project
 
 ``` rails new NAME_OF_APP```
-
-to create a new project without the Rails testing framework and with a database (rails defaults to sqlite)
-``` rails new NAME_OF_APP -T -d DB_TYPE```
 
 But then it says, bundle install at the end, so, it's created all the files, and now it's telling bundler to install all of the gems that might be missing. 
 
@@ -84,7 +84,7 @@ This will start a server on localhost:3000
 
 ## Experiment
 
-- create a new rails app using -d postgresql
+- create a new rails app using the flag `-d postgresql`
 - run `rails server` and see what happens
 
 - we need to edit something in our config file! Go to database.yml
@@ -93,9 +93,8 @@ This will start a server on localhost:3000
 
 - when this is done try rails server again and look at the app
 
-Let's add the better_errors gem
-
-You have to put any gem you want to use in your Gemfile. You have to run bundle anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
+##Gems
+Gems are like NPMs. You have to put any gem you want to use in your Gemfile. You have to run bundle anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
 
 ## Create a controller and view
 
@@ -153,7 +152,7 @@ root "demo#index"
 
 ```
 def hello
-render('hello')
+  render('hello')
 end
 ```
 Always check out the terminal for request/response!
@@ -162,7 +161,7 @@ Always check out the terminal for request/response!
 
 ```
 def other_hello
-redirect_to(:controller =>'demo', :action => 'index')
+  redirect_to(:controller =>'demo', :action => 'index')
 end
 ```
 
@@ -177,28 +176,12 @@ name.html.erb
 ## Instance varialbes for data into our views
 
 - inside a controller action include
+- `@` infront of a Ruby variable makes it an instance variable
+ 
 	```
 	@taco = "Hello instance taco!"
 	@array = [1,2,3]
 	```
-
-
-## Misc
-
-If you want to change the port number
-
-Quick solution:rails server -p 8080
-
-Longer solution: 
-
-Append to Rakefile
-
-task :server do
-  `bundle exec rails s -p 8080`
-end
-
-then run rake server
-  
 
 
 
