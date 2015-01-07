@@ -93,9 +93,8 @@ This will start a server on localhost:3000
 
 - when this is done try rails server again and look at the app
 
-Let's add the better_errors gem
-
-You have to put any gem you want to use in your Gemfile. You have to run bundle anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
+##Gems
+Gems are like NPMs. You have to put any gem you want to use in your Gemfile. You have to run bundle anytime you change your Gemfile. Your rails server needs to be restarted after any changes to your Gemfile.
 
 ## Create a controller and view
 
@@ -153,7 +152,7 @@ root "demo#index"
 
 ```
 def hello
-render('hello')
+  render('hello')
 end
 ```
 Always check out the terminal for request/response!
@@ -162,7 +161,7 @@ Always check out the terminal for request/response!
 
 ```
 def other_hello
-redirect_to(:controller =>'demo', :action => 'index')
+  redirect_to(:controller =>'demo', :action => 'index')
 end
 ```
 
@@ -177,28 +176,12 @@ name.html.erb
 ## Instance varialbes for data into our views
 
 - inside a controller action include
+- `@` infront of a Ruby variable makes it an instance variable
+ 
 	```
 	@taco = "Hello instance taco!"
 	@array = [1,2,3]
 	```
-
-
-## Misc
-
-If you want to change the port number
-
-Quick solution:rails server -p 8080
-
-Longer solution: 
-
-Append to Rakefile
-
-task :server do
-  `bundle exec rails s -p 8080`
-end
-
-then run rake server
-  
 
 
 
