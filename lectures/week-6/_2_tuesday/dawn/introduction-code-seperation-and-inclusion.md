@@ -37,7 +37,7 @@ end
 The name of a file containing a class is usual the class name in snake case: 
 
 - `Train` => train.rb
-- `Sky_Scraper` => sky_scraper.rb 
+- `SkyScraper` => sky_scraper.rb 
 
 ### Require Code from Other Files
 
@@ -136,33 +136,33 @@ When a module and a class have instance methods with the same name, the followin
 
 With `prepend`
 ```ruby
-module Communicate_Prepend
+module CommunicatePrepend
   def talk
-    puts "Communicate_Prepend's talk"
+    puts "CommunicatePrepend's talk"
   end
 end
 
 class Human
-  prepend Communicate_Prepend
+  prepend CommunicatePrepend
   def talk
     puts "Human's talk"
 end
 
 human = Human.new
-# "Communicate_Prepend's talk"
+# "CommunicatePrepend's talk"
 human.talk 
 ```
 
 With `include`
 ```ruby
-module Communicate_Include
+module CommunicatInclude
   def talk
-    puts "Communicate_Include's talk"
+    puts "CommunicatInclude's talk"
   end
 end
 
 class Human
-  prepend Communicate_Include
+  prepend CommunicatInclude
   def talk
     puts "Human's talk"
 end
@@ -174,26 +174,26 @@ human.talk
 
 With `prepend` and `include`
 ```ruby
-module Communicate_Include
+module CommunicateInclude
   def talk
-    puts "Communicate_Include's talk"
+    puts "CommunicateInclude's talk"
   end
 end
 
-module Communicate_Prepend
+module CommunicatePrepend
   def talk
-    puts "Communicate_Prepend's talk"
+    puts "CommunicatePrepend's talk"
   end
 end
 
 class Human
-  prepend Communicate_Prepend
-  include Communicate_Include
+  prepend CommunicatePrepend
+  include CommunicateInclude
   def talk
     puts "Human's talk"
 end
 
 human = Human.new
-# "Communicate_Prepend's talk"
+# "CommunicatePrepend's talk"
 human.talk 
 ```
