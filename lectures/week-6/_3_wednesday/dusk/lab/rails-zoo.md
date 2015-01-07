@@ -1,6 +1,6 @@
 # Rails Zoo Lab
 
-You have been hired by the San Diego Zoo. They would like an app that catalogues their animals.
+You have been hired by your local Zoo. They would like an app that catalogues their animals.
 
 
 **NB:** This app will not persist data nor have a login system, but we will get to both shortly!
@@ -28,14 +28,16 @@ The User should be able to...
 		* get '/animals/new', to: 'animals#new'
 		* post '/animals', to: 'animals#create'
 		* etc.
-4. 
+4. Create a contoller you'll need
+5. Create a view that your controller renders
+6. Create a model for you animals that will store the data and behavior for them. Note: you will create an Animal class with class methods. It is also recommended you seed your site with some initial animal data.
 
-Remeber, you can always look back at notes from this afternoon to help you with properly configuring your routing, controllers and views.
+And of course, you can always look back at notes from this afternoon to help you with properly configuring your routing, controllers and views.
 
 
 ## Bonus
 
-1. Add routes and methods to allows Zoos to update an existing animal
+1. Add routes and methods to allows the user to update an existing animal
 
 2. Include your own custom styling, bootstrap or another CSS framework in your application and style your blog.
 
