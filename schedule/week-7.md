@@ -22,7 +22,7 @@
     <td><a href="#">Devise</a></td>
     <td>Review</td>
     <td><a href="#">TDD App</a></td>
-    <td><a href="#">TDD App</a></td>
+    <td><a href="#">Active Job</a></td>
     <td>Lab time</td>
   </tr>
   <tr>
