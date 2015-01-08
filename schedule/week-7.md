@@ -11,18 +11,18 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td><a href="#">Auth in Rails</a></td>
-    <td><a href="#">Nested Resources & Multiple Associations</a></td>
-    <td><a href="#">TDD App</a></td>
-    <td><a href="#">Active Job</a></td>
-    <td>Review</td>
+    <td><a href="#">Auth in Rails (Ilias)</a></td>
+    <td><a href="#">Nested Resources & Multiple Associations (Ilias)</a></td>
+    <td><a href="#">TDD App (Dennis)</a></td>
+    <td><a href="#">Active Job (Brian)</a></td>
+    <td>Review (Brian)</td>
   </tr>
   <tr>
     <td>Dusk</td>
-    <td><a href="#">Devise</a></td>
-    <td>Review</td>
-    <td><a href="#">TDD App</a></td>
-    <td><a href="#">HTTParty & Action Mailer</a></td>
+    <td><a href="#">Devise (Dennis)</a></td>
+    <td>Review (Ilias)</td>
+    <td><a href="#">TDD App (Dennis)</a></td>
+    <td><a href="#">HTTParty & Action Mailer (Brian)</a></td>
     <td>Lab time</td>
   </tr>
   <tr>
