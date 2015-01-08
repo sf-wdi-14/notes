@@ -152,7 +152,7 @@ Let's make sure each user definitely has a first name and a last name before the
 
 ```
 class User < ActiveRecord::Base
-  validates :first_name, presence: true
+  validates :first_name, presence: true, uniqueness: true
   validates :last_name, presence: true
 end
 ```
