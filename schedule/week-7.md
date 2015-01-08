@@ -14,7 +14,7 @@
     <td><a href="#">Auth in Rails</a></td>
     <td><a href="#">Nested Resources & Multiple Associations</a></td>
     <td><a href="#">TDD App</a></td>
-    <td><a href="#">HTTParty & Action Mailer</a></td>
+    <td><a href="#">Active Job</a></td>
     <td>Review</td>
   </tr>
   <tr>
@@ -22,7 +22,7 @@
     <td><a href="#">Devise</a></td>
     <td>Review</td>
     <td><a href="#">TDD App</a></td>
-    <td><a href="#">Active Job</a></td>
+    <td><a href="#">HTTParty & Action Mailer</a></td>
     <td>Lab time</td>
   </tr>
   <tr>
