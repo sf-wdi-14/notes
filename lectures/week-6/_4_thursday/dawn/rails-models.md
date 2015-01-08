@@ -152,15 +152,6 @@ Let's make sure each user definitely has a first name and a last name before the
 
 ```
 class User < ActiveRecord::Base
-  validates_presence_of :first_name
-  validates_presence_of :last_name
-end
-```
-
-**or**
-
-```
-class User < ActiveRecord::Base
   validates :first_name, presence: true
   validates :last_name, presence: true
 end
