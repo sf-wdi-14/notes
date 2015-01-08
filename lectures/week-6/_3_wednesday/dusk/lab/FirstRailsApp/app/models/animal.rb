@@ -1,4 +1,4 @@
-class Animals
+class Animal
   #Starting animals
   @@animals = ["lions", "tigers", "bears", "elephants", "dolphins"]
   def self.all
