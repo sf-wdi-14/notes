@@ -25,9 +25,15 @@ to another. Essentially they describe database changes.
 
 ##Let's get started!
 
+Please type all this by hand so you're not blindly copying & pasting and you remember it better.
+
 Generate a new Rails project.
 
 `rails new models_example`
+
+Enter your app's direct.
+
+`cd models_example/`
 
 Create our database.
 
@@ -36,11 +42,11 @@ Create our database.
 ## Generate a Models & a Migrations
 
 Create a new model called User with first_name and last_name
-properties that are strings.
+properties that are strings. Look at the output and try to decifer what files it just made for you.
 
 `rails generate model User first_name:string last_name:string`
 
-Migrate our database to create the `users` table.
+Migrate our database to create the **users** table.
 
 `rake db:migrate`
 
@@ -54,22 +60,26 @@ To enter, go to terminal and in the root of your rails app type
 
 Inside of your Rails console, create a new User object.
 
-`irb(main):001:0> person = User.new`
+`irb(main):001:0> albert = User.new`
 
 Set the name of the user.
 
 ```
-irb(main):002:0> person.first_name = "Albert"
-irb(main):002:0> person.last_name = "Einstein"
+irb(main):002:0> albert.first_name = "Albert"
+irb(main):002:0> albert.last_name = "Einstein"
 ```
 
 Save your user to the database.
 
-`irb(main):003:0> me.save`
+`irb(main):003:0> albert.save`
 
-Retrieve all of the users in the database.
+Retrieve all of the users in the database and store then im a users variable.
 
-`irb(main):004:0> User.all`
+`irb(main):004:0> users = User.all`
+
+Exit the console.
+
+`exit`
 
 ##Modify the existing DB with another Migration
 
@@ -78,7 +88,7 @@ migration file named AddAgeToUsers.
 
 `rails generate migration AddAgeToUsers`
 
-Open newly created migration file and modify the `change` method.
+Open newly created migration file in db/migrate (the bottom one) and modify the `change` method.
 
 ```
   def change
@@ -102,8 +112,9 @@ migration again with `db:migrate`).
 
 #CRUD the users in the Console
 
-##### Create
+#### Create
 * `user = User.create(:first_name => "Abraham", :last_name => "Lincoln")`
+* `user = User.create(:first_name => "Abraham", :last_name => "Maslow")`
 
 NB: See all your users with `User.all`
 
@@ -127,8 +138,8 @@ NB: See all your users with `User.all`
 #### More Finding
 
 * `User.all` -> returns an array of allusers
-* `User.find_by_first_name('Taco')` -> returns the first user that meets the criteria
-* `User.where('first_name' => 'Taco')` -> returns an array of users that meet the criteria
+* `User.find_by_last_name('Lincoln')` -> returns the first user that meets the criteria
+* `User.where('first_name' => 'Abraham')` -> returns an array of users that meet the criteria
 * `User.first` -> finds first user
 * `User.last` -> finds last user
 
@@ -155,9 +166,10 @@ class User < ActiveRecord::Base
 end
 ```
 
-Try saving a user with no first or last name and see what error is thrown.
+* Type `reload!` into the console to update your model validations.
+* Try saving a user with no first or last name and see what error is thrown.
 
-###Further Reading
+##Further Reading
 
 * [Active Record Overview](http://guides.rubyonrails.org/active_record_basics.html)
 * [Migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
