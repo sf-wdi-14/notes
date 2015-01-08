@@ -1,3 +1,0 @@
-// write the function squeeze that will pass the tests...
-
-var squeeze = function() {};
