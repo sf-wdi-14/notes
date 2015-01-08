@@ -139,7 +139,7 @@ NB: See all your users with `User.all`
 
 * `User.all` -> returns an array of allusers
 * `User.find_by_last_name('Lincoln')` -> returns the first user that meets the criteria
-* `User.where('first_name' => 'Abraham')` -> returns an array of users that meet the criteria
+* `User.where(first_name: 'Abraham')` -> returns an array of users that meet the criteria
 * `User.first` -> finds first user
 * `User.last` -> finds last user
 
