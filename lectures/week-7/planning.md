@@ -42,5 +42,7 @@ Later
 
 Maybe
 
+* Reddis
+* Learn & Share day for JS libs
 * Sass, Coffee, Haml
 * Meteor 
