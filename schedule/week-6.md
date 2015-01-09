@@ -31,7 +31,7 @@
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/music-lab">Record Store Lab</td>
   </tr>
 </table>
 
