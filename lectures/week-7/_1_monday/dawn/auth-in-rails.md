@@ -37,11 +37,22 @@ class User < ActiveRecord::Base
     has_secure_password 
 end
 	```
-	
-* What does `has_secure_password` do?
-	* Creates virtual `password` & `password_confirmation` attributes on your model, which are not stored in the database (that would be a very insecure).
-	* Validates that password & password_confirmation attributes match.
-	* Uses bcrypt to hash the password and store it in the model's `password_digest` attribute
+	* What does `has_secure_password` do?
+		* Creates virtual `password` & `password_confirmation` attributes on your model, which are not stored in the database (that would be a very insecure).
+		* Validates that password & password_confirmation attributes match.
+		* Uses bcrypt to hash the password and store it in the model's `password_digest` attribute
+
+* Add a validation to the user model that ensures the password is between 6 and 40 characters. `validates :password, length: {within: 6..40}`
+
+##Step 3 — Test your validations
+
+* Enter the `rails console`
+* Make sure the validation are working correctly and the user is not saved to the database in these three conditions when the user:
+	* has no username
+	* has password & password_confirmation fields that do not match.
+	* has a password that is less than 6 characters
+
+##Step 4
 
 
 ##Ref
