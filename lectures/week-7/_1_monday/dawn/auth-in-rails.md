@@ -87,7 +87,7 @@ end
   		<%= f.label :password %><br>
   		<%= f.password_field :password %><br>
   		
-  		<%= f.label :password_confirmation %>
+  		<%= f.label :password_confirmation %><br>
   		<%= f.password_field :password_confirmation %><br>
   		
   		<%= f.submit "Signup" %>
@@ -148,12 +148,12 @@ get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
 	```
-* Get your `session#new` to display a `form_tag` allowing the user to login
+* Get your `session#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
 
 	```
 	<%= form_tag :action => :create do %>
 
-  		<%= label_tag :username, 'Username: ' %><br>
+  		<%= label_tag :username, 'Username: ', @user.username %><br>
   		<%= text_field_tag :username %><br>
 
   		<%= label_tag :password, 'Password: ' %><br>
@@ -169,15 +169,16 @@ get    'login'   => 'sessions#new'
 
 	```
 def create
-    user = User.find_by_username(params[:username])
-    if user.authenticate(params[:password])
-      session[:user_id] = user.id
+    @user = User.find_by_username(params[:username])
+    if @user.authenticate(params[:password])
+      session[:user_id] = @user.id
     else
       flash[:error] = "Invalid username & password combination"
       render :new
     end
   end
 	```
+
 
 ##Step 7 - Show content only to a logged in user
 
@@ -196,9 +197,9 @@ def create
 
 	```
 	<% if current_user %>
-
-	<h3>Congrats! You are successfully logged in!</h3>
-
+	<h3>Congrats! You are successfully logged in <%= current_user.username %>!</h3>
+	<% else %>
+	<%= link_to "Signup", new_user_path %>
 	<% end %>
 
 	```
@@ -216,17 +217,14 @@ def create
 	
 * **Challange**: Create a link/button that toggles state between `login` and `logout` depending on if there is a `current_user`. Make sure it is present on every page.
 
-
-##Lab
+<div id="lab"></div>
+##Tonight's Lab
 
 * Finish the in-class exercise if you didn't get a chance
 * Add a login system to one of your existing projects
 
 
+##Further Resources
 
-
-##Ref
-
-[Auth](https://github.com/wdi-sf-fall/notes/tree/master/week_07_rails_continued/day_02_associations_and_auth/dusk_auth)
-
-[BCrypt](https://gist.github.com/thebucknerlife/10090014)
+* [User Auth Rails Cast Video](https://www.youtube.com/watch?v=23JoO_R8SMs)
+* [User Authenication with Tests](http://www.emilyplatzer.io/2014/06/29/user-authentication.html)
