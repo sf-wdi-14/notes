@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td><a href="#">Devise</a> (Dennis)</td>
+    <td><a href="#">Devise</a> (Brian)</td>
     <td>Review (Ilias)</td>
     <td><a href="#">TDD App</a> (Dennis)</td>
     <td><a href="#">HTTParty & Action Mailer</a> (Brian)</td>
