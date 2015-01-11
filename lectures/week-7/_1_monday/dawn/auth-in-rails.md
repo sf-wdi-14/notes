@@ -80,13 +80,18 @@ end
 
 	```
 	<%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
-  		<%= f.label :username %>
+	
+  		<%= f.label :username %><br>
   		<%= f.text_field :username %><br>
-  		<%= f.label :password %>
+  		
+  		<%= f.label :password %><br>
   		<%= f.password_field :password %><br>
+  		
   		<%= f.label :password_confirmation %>
   		<%= f.password_field :password_confirmation %><br>
+  		
   		<%= f.submit "Signup" %>
+  		
 	<% end %>
 	```
 * Test everything is working properly by throwing `byebug` into your `user#create`, posting the form, and inspecting the params.
@@ -135,10 +140,50 @@ end
 
 ##Step 6 - Login as a user
 
+* Create an `sessions_controller.rb` with the actions `new`, `create`, and `destroy`
+* Link to these actions to specific routes.
+
+	```
+get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
+	```
+* Get your `session#new` to display a `form_tag` allowing the user to login
+
+	```
+	<%= form_tag :action => :create do %>
+
+  		<%= label_tag :username, 'Username: ' %><br>
+  		<%= text_field_tag :username %><br>
+
+  		<%= label_tag :password, 'Password: ' %><br>
+  		<%= password_field_tag :password %><br>
+
+  		<%= submit_tag 'Login' %>
+  	
+	<% end %>
+	
+	```
+	
+* Using the `params` object, our `sessions#create` should find the user that a new session is trying to be created for and then try to authenticate them based on the password that has provided. In the case that there is not match provide the user with a flash message.
+
+	```
+def create
+    user = User.find_by_username(params[:username])
+    if user.authenticate(params[:password])
+      session[:user_id] = user.id
+    else
+      flash[:error] = "Invalid username & password combination"
+      render :new
+    end
+  end
+	```
+
+
 
 ##Lab
 
-* Finish inclass excersises if you didn't get a chance
+* Finish the in-class exercise if you didn't get a chance
 * Add a login system to one of your existing projects
 
 

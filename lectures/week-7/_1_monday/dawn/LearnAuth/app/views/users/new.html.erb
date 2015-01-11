@@ -5,9 +5,9 @@
 <% end %>
 
 <%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
-  <%= f.label :username %>
+  <%= f.label :username %><br>
   <%= f.text_field :username %><br>
-  <%= f.label :password %>
+  <%= f.label :password %><br>
   <%= f.password_field :password %><br>
   <%= f.label :password_confirmation %>
   <%= f.password_field :password_confirmation %><br>
