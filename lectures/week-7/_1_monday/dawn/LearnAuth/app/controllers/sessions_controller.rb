@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by_username(params[:username])
     if user.authenticate(params[:password])
       session[:user_id] = user.id
+      redirect_to root_path
     else
       flash[:error] = "Invalid username & password combination"
       render :new
@@ -13,6 +14,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
+    #impliment logout
   end
 
 end

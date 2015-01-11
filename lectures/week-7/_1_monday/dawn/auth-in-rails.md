@@ -179,6 +179,20 @@ def create
   end
 	```
 
+##Step 7 - Show content only to a logged in user
+
+* It will be helpful to have a method usable across our entire application that gives us the current user given this is something we'll want access to frequently. In your application controller let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method.
+
+	```
+	private
+  	def current_user
+  		#if @current_user is not defined set it equal to the result using the session hash given that exists
+    	@current_user ||= User.find(session[:user_id]) if session[:user_id]
+  	end
+
+  	helper_method :current_user
+	```
+* In your `welcome/home.html.erb` show a specific message to logged in users.
 
 
 ##Lab
