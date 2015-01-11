@@ -20,7 +20,7 @@ By the end of today you should be able to...
 
 
 
-##Step 1 — Settup
+##Step 1 — App settup
 
 * Start a new rails app with `rails new LearnAuth`
 * Uncomment out the `bcrypt-ruby` gem in your `Gemfile` and run `bundle`
@@ -35,7 +35,7 @@ rails g model User username password_digest
 * Create a validation that ensures a username is present
 * Finally create a `welcome#home` controller action that displays a welcome message (note this requires a welcome controller and associated view folder)
 
-##Step 2 — Password Security
+##Step 2 — Securly store passwords
 
 * Add `has_secure_password` to your user model.
 
@@ -65,7 +65,7 @@ end
 	user = User.create(username: 'batman', password: 'nanana', password_confirmation: 'nanana')
 	```
 
-##Step 4 — User signup routes & controller
+##Step 4 — Signup a new user: controller & routes
 
 * Generate a users controller with the methods new & create. Run: `rails g controller users new create`
 * Modify your routes.rb file for a more restful settup. Replace the generated routes with:
@@ -74,7 +74,7 @@ end
 	```
 * Run `rake routes` to ensure your new routes are properly registered.
 
-##Step 5 - Signup a new user
+##Step 5 - Signup a new user: forms, login, and error msgs
 
 * Create a `form_for` a new user that sends a `post` request to your `user#create` action.
 
@@ -103,7 +103,9 @@ class UsersController < ApplicationController
    		@user = User.new(user_params)
     	if @user.save
       		redirect_to root_path
-	    else
+	    else #saving the user is unsuccessful
+	        #populate the flash hash with the errors present in active record
+	        flash[:error] = @user.errors.full_messages.to_sentence 
   	    	render :new
     	end
 	end
@@ -114,6 +116,25 @@ class UsersController < ApplicationController
   	end
 end
 	```
+* Display flash messages to your users by iterating through the flash hash in your view. Do this somewhere in your `users/new.html.erb`
+
+	```
+<% flash.each do |key, value| %>
+ 	 <%= content_tag :div, value, class: "flash #{key}" %>
+<% end %>
+	```
+	
+* Style the error messages in your `users.scss`
+
+	```
+	.flash.error {
+  		color: red;
+  		font-weight: 900;
+	}
+	``` 
+
+##Step 6 - Login as a user
+
 
 ##Lab
 

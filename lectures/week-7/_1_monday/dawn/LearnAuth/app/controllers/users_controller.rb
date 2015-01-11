@@ -7,7 +7,9 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       redirect_to root_path
-    else
+    else #saving the user is unsuccessful
+      #populate the flash hash with the errors present in active record
+      flash[:error] = @user.errors.full_messages.to_sentence
       render :new
     end
   end
