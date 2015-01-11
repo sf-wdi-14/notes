@@ -1,3 +1,7 @@
 <h1>Welcome Home!</h1>
 
-<!-- show specific content to a logged in user -->
+<% if current_user %>
+
+<h3>Congrats! You are successfully logged in!</h3>
+
+<% end %>

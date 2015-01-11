@@ -192,7 +192,29 @@ def create
 
   	helper_method :current_user
 	```
-* In your `welcome/home.html.erb` show a specific message to logged in users.
+* In your `welcome/home.html.erb` user this new helper method to show a specific message to logged in users.
+
+	```
+	<% if current_user %>
+
+	<h3>Congrats! You are successfully logged in!</h3>
+
+	<% end %>
+
+	```
+
+##Step 8 — Logout your user
+
+* In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
+
+	```
+	def destroy
+    	session[:user_id] = nil
+    	redirect_to root_path
+  	end
+	```
+	
+* **Challange**: Create a link/button that toggles state between `login` and `logout` depending on if there is a `current_user`. Make sure it is present on every page.
 
 
 ##Lab
