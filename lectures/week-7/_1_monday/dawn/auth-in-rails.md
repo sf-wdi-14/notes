@@ -16,7 +16,7 @@ Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
 ####Authorization
 [Authorization](http://en.wikipedia.org/wiki/Authorization_%28computer_access_control%29) is function of specifying access rights to resources. More formally, "to authorize" is to define an access policy.
 
-  "Having been elected the president, Kenedy was now authorized to read classified documents."
+  "Having been elected the president, Kenedy was now **authorized** to read classified documents."
 
 ####Authentication
 [Authentication](http://searchsecurity.techtarget.com/definition/authentication) is the process of determining whether someone or something is, in fact, who or what it is declared to be.
