@@ -3,9 +3,9 @@
 ##Learning Objectives
 
 * user has many articles [repo](https://github.com/sf-wdi-14/rails-review)
-* favoriting
+* favoriting [ref](https://github.com/OhligerJ/activity_app/blob/master/app/models/activity.rb)
 * dependent destroy
-* linke to [querying methods](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association#scopes-for-has-many)
+* link to [querying methods](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association#scopes-for-has-many)
 
 ##Ref
 
