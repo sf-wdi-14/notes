@@ -182,6 +182,7 @@ def create
   
   if @user.authenticate(params[:password])
     session[:user_id] = @user.id
+    redirect_to root_path
   else
     flash[:error] = "Invalid username & password combination"
     render :new
