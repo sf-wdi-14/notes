@@ -1,0 +1,20 @@
+<h1>New User Signup</h1>
+
+<% flash.each do |key, value| %>
+   <%= content_tag :div, value, class: "flash #{key}" %>
+<% end %>
+
+<%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+
+    <%= f.label :username %><br>
+    <%= f.text_field :username %><br>
+
+    <%= f.label :password %><br>
+    <%= f.password_field :password %><br>
+
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation %><br>
+
+    <%= f.submit "Signup" %>
+
+<% end %>
