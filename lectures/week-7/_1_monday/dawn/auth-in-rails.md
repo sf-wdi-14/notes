@@ -45,7 +45,7 @@ rails g model user username password_digest
 
 * Add `has_secure_password` to your user model.
 
-```
+```ruby
 class User < ActiveRecord::Base
     #very strong password encryption
     has_secure_password 
@@ -85,7 +85,7 @@ user = User.create(username: 'batman', password: 'nanana', password_confirmation
 
 * Create a `form_for` a new user that sends a `post` request to your `user#create` action.
 
-```
+```erb
 <%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
 
     <%= f.label :username %><br>
@@ -105,33 +105,34 @@ user = User.create(username: 'batman', password: 'nanana', password_confirmation
 * Test that everything is working properly by throwing `byebug` into your `users#create`, posting the form, and inspecting the params
 * Modify your create action so that if the user can be saved, it redirects home, otherwise it will render the :new page again. Your controller will look like:
 
-```
+```ruby
 class UsersController < ApplicationController
-    def new
-      @user = User.new
-    end
-
-    def create
-      @user = User.new(user_params)
-      if @user.save
-          redirect_to root_path
-      else #saving the user is unsuccessful
-          #populate the flash hash with the errors present in active record
-          flash[:error] = @user.errors.full_messages.to_sentence 
-          render :new
-      end
+  def new
+    @user = User.new
   end
 
-    private
-    def user_params
-      params.require(:user).permit(:username, :password, :password_confirmation)
+  def create
+    @user = User.new(user_params)
+    
+    if @user.save
+        redirect_to root_path
+    else #saving the user is unsuccessful
+        #populate the flash hash with the errors present in active record
+        flash[:error] = @user.errors.full_messages.to_sentence 
+        render :new
     end
+  end
+
+private
+  def user_params
+    params.require(:user).permit(:username, :password, :password_confirmation)
+  end
 end
 ```
 
 * Display flash messages to your users by iterating through the flash hash in your view. Do this somewhere in your `users/new.html.erb`
 
-```
+```erb
 <% flash.each do |key, value| %>
    <%= content_tag :div, value, class: "flash #{key}" %>
 <% end %>
@@ -139,7 +140,7 @@ end
   
 * Style the error messages in your `users.scss`
 
-```
+```css
 .flash.error {
     color: red;
     font-weight: 900;
@@ -151,7 +152,7 @@ end
 * Create an `sessions_controller.rb` with the actions `new`, `create`, and `destroy`
 * Link to these actions to specific routes.
 
-```
+```ruby
   get    'sessions/new' => 'sessions#new'
   post   'sessions'     => 'sessions#create'
   delete 'sessions'     => 'sessions#destroy'
@@ -159,7 +160,7 @@ end
 
 * Get your `sessions#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
 
-```
+```erb
 <%= form_tag action: :create do %>
 
     <%= label_tag :username, 'Username: ', @user.username %><br>
@@ -175,7 +176,7 @@ end
   
 * Using the `params` object, our `sessions#create` should find the user that a new session is trying to be created for and then try to authenticate them based on the password that has provided. In case there is no match, provide the user with a flash message.
 
-```
+```ruby
 def create
   @user = User.find_by_username(params[:username])
   
@@ -192,7 +193,7 @@ end
 
 * It will be helpful to have a method usable across our entire application that gives us the current user, given this is something we'll want access to frequently. In your application controller, let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method. Let's also add a method that checks if a user is logged in or not.
 
-```
+```ruby
 private
   def current_user
     #if @current_user is not defined set it equal to the result using the session hash given that exists
@@ -210,7 +211,7 @@ private
 
 * In your `welcome/index.html.erb` user this new helper method to show a specific message to logged in users.
 
-```
+```erb
 <% if user_signed_in? %>
   <h3>Congrats! You are successfully logged in <%= current_user.username %>!</h3>
 <% else %>
@@ -222,7 +223,7 @@ private
 
 * In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
 
-```
+```ruby
 def destroy
   session[:user_id] = nil
   redirect_to root_path
