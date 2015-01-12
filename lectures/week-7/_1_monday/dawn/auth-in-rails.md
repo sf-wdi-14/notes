@@ -11,10 +11,10 @@ By the end of today you should be able to...
 ##Terminology
 
 ####Password Hashing & Digest
-Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function) so that we can avoid storing plain-text passwords in our database. Digesting a password runs the password through a one-way hash. This means anyone with database access cannot produce the password from the hash. However someone with the password can produce the hash. One way! This is very similar to how [RSA](http://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) encryption work, which was the world's first one-way cyptosystem.
+Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function) so that we can avoid storing plain-text passwords in our database. Digesting a password runs the password through a one-way hash. This means anyone with database access cannot produce the password from the hash. However someone with the password can produce the hash. One way! This is very similar to how [RSA](http://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) encryption works, which was the world's first one-way crypto-system.
 
 ####Authorization
-[Authorization](http://en.wikipedia.org/wiki/Authorization_%28computer_access_control%29) is function of specifying access rights to resources. More formally, "to authorize" is to define an access policy.
+[Authorization](http://en.wikipedia.org/wiki/Authorization_%28computer_access_control%29) is the function of specifying access rights to resources. More formally, "to authorize" is to define an access policy.
 
   "Having been elected the president, Kenedy was now **authorized** to read classified documents."
 
@@ -24,41 +24,40 @@ Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
   "Whenever I board a flight, the security officer checks my passport photo against my face to ensure that I am **authenticated** as the person who paid for the ticket."
 
 ####Sesssions
-[Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark) make HTTP stateful and help us avoid us having to reauthenticate the user for every request made. Sessions are preserved on the server side. A session cookie is used to pass data back and forth between the client and server about the session. Typical data stored in the session cookie always includes the session id and the user id if the user is logged in.
+[Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark) make HTTP stateful and help us avoid having to reauthenticate the user for every request made. Sessions are preserved on the server side. A session cookie is used to pass data back and forth between the client and server about the session. Typical data stored in the session cookie always includes the session id and the user id if the user is logged in.
 
-
-
-##Step 1 — App settup
+##Step 1 — App settup
 
 * Start a new rails app with `rails new LearnAuth`
-* Uncomment out the `bcrypt-ruby` gem in your `Gemfile` and run `bundle`
+* Uncomment the `bcrypt-ruby` gem in your `Gemfile` and run `bundle`
 * Generate a user model with three attributes (username, password, password_digest)
   * Note, if we don't specify a datatype it defaults to a string
 
-  ```
-rails g model User username password_digest
-  ```
+```
+rails g model user username password_digest
+```
   
-* Create your database and migrate with `rake db:create db:migrate`
+* Migrate with `rake db:migrate` (since we are using Sqlite, the db will automatically be created the first time we run a migration)
 * Create a validation that ensures a username is present
-* Finally create a `welcome#home` controller action that displays a welcome message (note this requires a welcome controller and associated view folder)
+* Finally create a `welcome#index` controller action that displays a welcome message (note this requires a welcome controller and associated view folder)
 
-##Step 2 — Securly storing passwords
+##Step 2 — Securly storing passwords
 
 * Add `has_secure_password` to your user model.
 
-  ```
+```
 class User < ActiveRecord::Base
     #very strong password encryption
     has_secure_password 
 end
-  ```
-  * What does `has_secure_password` do?
-    * Creates virtual `password` & `password_confirmation` attributes on your model, which are not stored in the database (that would be a very insecure).
-    * Validates that password & password_confirmation attributes match.
-    * Uses bcrypt to hash the password and store it in the model's `password_digest` attribute
+```
 
-* Add a validation to the user model that ensures the password is between 6 and 40 characters. `validates :password, length: {within: 6..40}`
+* What does `has_secure_password` do?
+  * Creates virtual `password` & `password_confirmation` attributes on your model, which are not stored in the database (that would be very insecure)
+  * Validates that password & password_confirmation attributes match
+  * Uses bcrypt to hash the password and store it in the model's `password_digest` attribute
+
+* Add a validation to the user model that ensures the password is between 6 and 40 characters. `validates :password, length: { within: 6..40 }`
 
 ##Step 3 — Testing your validations
 
@@ -69,14 +68,14 @@ end
   * has a password that is less than 6 characters
 * Once you've ensured your validations are working properly, save a valid user to the database.
 
-  ```
-  user = User.create(username: 'batman', password: 'nanana', password_confirmation: 'nanana')
-  ```
+```
+user = User.create(username: 'batman', password: 'nanana', password_confirmation: 'nanana')
+```
 
 ##Step 4 — Signing up a new user: controller & routes
 
-* Generate a users controller with the methods new & create. Run: `rails g controller users new create`
-* Modify your routes.rb file for a more restful settup. Replace the generated routes with:
+* Generate a users controller with the methods new & create. Run: `rails g controller users`
+* Modify your routes.rb file for a restful setup. Add the following routes:
   ```
     resources :users, only: [:new, :create] 
   ```
@@ -86,27 +85,27 @@ end
 
 * Create a `form_for` a new user that sends a `post` request to your `user#create` action.
 
-  ```
-  <%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
-  
-      <%= f.label :username %><br>
-      <%= f.text_field :username %><br>
-      
-      <%= f.label :password %><br>
-      <%= f.password_field :password %><br>
-      
-      <%= f.label :password_confirmation %><br>
-      <%= f.password_field :password_confirmation %><br>
-      
-      <%= f.submit "Signup" %>
-      
-  <% end %>
-  ```
-* Test everything is working properly by throwing `byebug` into your `user#create`, posting the form, and inspecting the params.
-* Delete your generated view: `users/create.html.erb` as it is unnecessary.
-* Modify your create action so that if the user can be saved it redirects home, otherwise it will render the :new page again. Your controller will look like:
+```
+<%= form_for @user, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
 
-  ```
+    <%= f.label :username %><br>
+    <%= f.text_field :username %><br>
+    
+    <%= f.label :password %><br>
+    <%= f.password_field :password %><br>
+    
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation %><br>
+    
+    <%= f.submit "Signup" %>
+    
+<% end %>
+```
+
+* Test that everything is working properly by throwing `byebug` into your `users#create`, posting the form, and inspecting the params
+* Modify your create action so that if the user can be saved, it redirects home, otherwise it will render the :new page again. Your controller will look like:
+
+```
 class UsersController < ApplicationController
     def new
       @user = User.new
@@ -128,109 +127,114 @@ class UsersController < ApplicationController
       params.require(:user).permit(:username, :password, :password_confirmation)
     end
 end
-  ```
+```
+
 * Display flash messages to your users by iterating through the flash hash in your view. Do this somewhere in your `users/new.html.erb`
 
-  ```
+```
 <% flash.each do |key, value| %>
    <%= content_tag :div, value, class: "flash #{key}" %>
 <% end %>
-  ```
+```
   
 * Style the error messages in your `users.scss`
 
-  ```
-  .flash.error {
-      color: red;
-      font-weight: 900;
-  }
-  ``` 
+```
+.flash.error {
+    color: red;
+    font-weight: 900;
+}
+```
 
 ##Step 6 — Logging in a user
 
 * Create an `sessions_controller.rb` with the actions `new`, `create`, and `destroy`
 * Link to these actions to specific routes.
 
-  ```
-get    'login'   => 'sessions#new'
-  post   'login'   => 'sessions#create'
-  delete 'logout'  => 'sessions#destroy'
-  ```
-* Get your `session#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
+```
+  get    'sessions/new' => 'sessions#new'
+  post   'sessions'     => 'sessions#create'
+  delete 'sessions'     => 'sessions#destroy'
+```
 
-  ```
-  <%= form_tag :action => :create do %>
+* Get your `sessions#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
 
-      <%= label_tag :username, 'Username: ', @user.username %><br>
-      <%= text_field_tag :username %><br>
+```
+<%= form_tag action: :create do %>
 
-      <%= label_tag :password, 'Password: ' %><br>
-      <%= password_field_tag :password %><br>
+    <%= label_tag :username, 'Username: ', @user.username %><br>
+    <%= text_field_tag :username %><br>
 
-      <%= submit_tag 'Login' %>
-    
-  <% end %>
+    <%= label_tag :password, 'Password: ' %><br>
+    <%= password_field_tag :password %><br>
+
+    <%= submit_tag 'Login' %>
   
-  ```
+<% end %>
+```
   
-* Using the `params` object, our `sessions#create` should find the user that a new session is trying to be created for and then try to authenticate them based on the password that has provided. In the case that there is not match provide the user with a flash message.
+* Using the `params` object, our `sessions#create` should find the user that a new session is trying to be created for and then try to authenticate them based on the password that has provided. In case there is no match, provide the user with a flash message.
 
-  ```
+```
 def create
-    @user = User.find_by_username(params[:username])
-    if @user.authenticate(params[:password])
-      session[:user_id] = @user.id
-    else
-      flash[:error] = "Invalid username & password combination"
-      render :new
-    end
+  @user = User.find_by_username(params[:username])
+  
+  if @user.authenticate(params[:password])
+    session[:user_id] = @user.id
+  else
+    flash[:error] = "Invalid username & password combination"
+    render :new
   end
-  ```
+end
+```
 
+##Step 7 — Showing content only to an authenticated user
 
-##Step 7 — Showing content only to a logged in user
+* It will be helpful to have a method usable across our entire application that gives us the current user, given this is something we'll want access to frequently. In your application controller, let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method. Let's also add a method that checks if a user is logged in or not.
 
-* It will be helpful to have a method usable across our entire application that gives us the current user given this is something we'll want access to frequently. In your application controller let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method.
+```
+private
+  def current_user
+    #if @current_user is not defined set it equal to the result using the session hash given that exists
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+  
+  def user_signed_in?
+    current_user.present?
+  end
 
-  ```
-  private
-    def current_user
-      #if @current_user is not defined set it equal to the result using the session hash given that exists
-      @current_user ||= User.find(session[:user_id]) if session[:user_id]
-    end
+  helper_method :current_user, :user_signed_in?
+```
 
-    helper_method :current_user
-  ```
-* In your `welcome/home.html.erb` user this new helper method to show a specific message to logged in users.
+`helper_method` makes given controller methods available in your views.
 
-  ```
-  <% if current_user %>
+* In your `welcome/index.html.erb` user this new helper method to show a specific message to logged in users.
+
+```
+<% if user_signed_in? %>
   <h3>Congrats! You are successfully logged in <%= current_user.username %>!</h3>
-  <% else %>
+<% else %>
   <%= link_to "Signup", new_user_path %>
-  <% end %>
-
-  ```
+<% end %>
+```
 
 ##Step 8 — Loging out your user
 
 * In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
 
-  ```
-  def destroy
-      session[:user_id] = nil
-      redirect_to root_path
-    end
-  ```
+```
+def destroy
+  session[:user_id] = nil
+  redirect_to root_path
+end
+```
   
 * **Challenge**: Create a link/button that toggles state between `login` and `logout` depending on if there is a `current_user`. Make sure it is present on every page.
 
-<div id="lab"></div>
 ##Tonight's Lab
 
 * Finish the in-class exercise if you didn't get a chance
 * **Add a login system to one of your existing projects manually or using [devise](https://github.com/plataformatec/devise)**
-
 
 ##Some Further Resources
 
