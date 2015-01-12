@@ -10,13 +10,21 @@ By the end of today you should be able to...
 
 ##Terminology
 
-####Sesssion
-
 ####Password Hashing & Digest
+Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function) so that we can avoid storing plain-text passwords in our database. Digesting a password runs the password through a one-way hash. This means anyone with database access cannot produce the password from the hash. However someone with the password can produce the hash. One way! This is very similar to how [RSA](http://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) encryption work, which was the world's first one-way cyptosystem.
 
 ####Authorization
+[Authorization](http://en.wikipedia.org/wiki/Authorization_%28computer_access_control%29) is function of specifying access rights to resources. More formally, "to authorize" is to define an access policy.
+
+	"Having been elected the president, Kenedy was now authorized to read classified documents."
 
 ####Authentication
+[Authentication](http://searchsecurity.techtarget.com/definition/authentication) is the process of determining whether someone or something is, in fact, who or what it is declared to be.
+
+	"Whenever I board a flight, the security officer checks my passport photo against my face to ensure that I am **authenticated** as the person who paid for the ticket."
+
+####Sesssions
+[Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark) make HTTP stateful and help us avoid us having to reauthenticate the user for every request made. Sessions are preserved on the server side. A session cookie is used to pass data back and forth between the client and server about the session. Typical data stored in the session cookie always includes the session id and the user id if the user is logged in.
 
 
 
@@ -215,7 +223,7 @@ def create
   	end
 	```
 	
-* **Challange**: Create a link/button that toggles state between `login` and `logout` depending on if there is a `current_user`. Make sure it is present on every page.
+* **Challenge**: Create a link/button that toggles state between `login` and `logout` depending on if there is a `current_user`. Make sure it is present on every page.
 
 <div id="lab"></div>
 ##Tonight's Lab
