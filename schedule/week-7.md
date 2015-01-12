@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td><a href="#">Auth in Rails</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md#user-content-lab">Auth in Rails</a> (Ilias)</td>
     <td><a href="#">Nested Resources & Multiple Associations</a> (Ilias)</td>
     <td><a href="#">TDD App</a> (Dennis)</td>
     <td><a href="#">Active Job</a> (Brian)</td>
