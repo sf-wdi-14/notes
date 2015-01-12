@@ -60,7 +60,7 @@ end
 
 * Add a validation to the user model that ensures the password is between 6 and 40 characters. `validates :password, length: {within: 6..40}`
 
-##Step 3 — Test your validations
+##Step 3 — Testing your validations
 
 * Enter the `rails console`
 * Make sure the validation are working correctly and the user is not saved to the database in these three conditions when the user:
@@ -73,7 +73,7 @@ end
   user = User.create(username: 'batman', password: 'nanana', password_confirmation: 'nanana')
   ```
 
-##Step 4 — Signup a new user: controller & routes
+##Step 4 — Signing up a new user: controller & routes
 
 * Generate a users controller with the methods new & create. Run: `rails g controller users new create`
 * Modify your routes.rb file for a more restful settup. Replace the generated routes with:
@@ -82,7 +82,7 @@ end
   ```
 * Run `rake routes` to ensure your new routes are properly registered.
 
-##Step 5 — Signup a new user: forms, login, and error msgs
+##Step 5 — Signing up a new user: forms, login, and error msgs
 
 * Create a `form_for` a new user that sends a `post` request to your `user#create` action.
 
@@ -146,7 +146,7 @@ end
   }
   ``` 
 
-##Step 6 — Login as a user
+##Step 6 — Logging in a user
 
 * Create an `sessions_controller.rb` with the actions `new`, `create`, and `destroy`
 * Link to these actions to specific routes.
@@ -188,7 +188,7 @@ def create
   ```
 
 
-##Step 7 — Show content only to a logged in user
+##Step 7 — Showing content only to a logged in user
 
 * It will be helpful to have a method usable across our entire application that gives us the current user given this is something we'll want access to frequently. In your application controller let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method.
 
@@ -212,7 +212,7 @@ def create
 
   ```
 
-##Step 8 — Logout your user
+##Step 8 — Loging out your user
 
 * In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
 
@@ -229,10 +229,10 @@ def create
 ##Tonight's Lab
 
 * Finish the in-class exercise if you didn't get a chance
-* Add a login system to one of your existing projects
+* **Add a login system to one of your existing projects manually or using devise**
 
 
-##Further Resources
+##Some Further Resources
 
 * [User Auth Rails Cast Video](https://www.youtube.com/watch?v=23JoO_R8SMs)
 * [User Authenication with Tests](http://www.emilyplatzer.io/2014/06/29/user-authentication.html)
