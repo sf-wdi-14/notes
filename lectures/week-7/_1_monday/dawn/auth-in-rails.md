@@ -220,7 +220,7 @@ private
 <% end %>
 ```
 
-##Step 8 — Loging out your user
+##Step 8 — Logging out your user
 
 * In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
 
