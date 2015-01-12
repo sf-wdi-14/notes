@@ -1,0 +1,7 @@
+<h1>Rails Auth!</h1>
+
+<% if user_signed_in? %>
+  <h3>Congrats! You are successfully logged in <%= current_user.username %>!</h3>
+<% else %>
+  <%= link_to "Signup", new_user_path %>
+<% end %>
