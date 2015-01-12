@@ -23,10 +23,10 @@ Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
 
   "Whenever I board a flight, the security officer checks my passport photo against my face to ensure that I am **authenticated** as the person who paid for the ticket."
 
-####Sesssions
+####Sessions
 [Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark) make HTTP stateful and help us avoid having to reauthenticate the user for every request made. Sessions are preserved on the server side. A session cookie is used to pass data back and forth between the client and server about the session. Typical data stored in the session cookie always includes the session id and the user id if the user is logged in.
 
-##Step 1 — App settup
+##Step 1 — App setup
 
 * Start a new rails app with `rails new LearnAuth`
 * Uncomment the `bcrypt-ruby` gem in your `Gemfile` and run `bundle`
@@ -41,7 +41,7 @@ rails g model user username password_digest
 * Create a validation that ensures a username is present
 * Finally create a `welcome#index` controller action that displays a welcome message (note this requires a welcome controller and associated view folder)
 
-##Step 2 — Securly storing passwords
+##Step 2 — Securely storing passwords
 
 * Add `has_secure_password` to your user model.
 
