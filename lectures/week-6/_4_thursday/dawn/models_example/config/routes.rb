@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD:lectures/week-6/_4_thursday/dawn/models_example/config/routes.rb
+=======
+  
+
+  root 'animals#index'
+
+  get '/animals' => 'animals#index'
+  get '/animals/new' => 'animals#new'
+  post '/animals' => 'animals#create'
+
+  resources :cats
+
+  get '/puffins' => 'puffins#index'
+
+>>>>>>> development:lectures/week-6/_3_wednesday/dusk/lab/FirstRailsApp/config/routes.rb
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
