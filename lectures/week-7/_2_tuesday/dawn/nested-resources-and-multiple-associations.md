@@ -2,6 +2,9 @@
 
 ##Learning Objectives
 
+* user has many articles [repo](https://github.com/sf-wdi-14/rails-review)
+* favoriting
+* dependent destroy
 
 ##Ref
 
