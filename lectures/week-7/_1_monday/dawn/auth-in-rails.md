@@ -82,7 +82,7 @@ end
   ```
 * Run `rake routes` to ensure your new routes are properly registered.
 
-##Step 5 - Signup a new user: forms, login, and error msgs
+##Step 5 — Signup a new user: forms, login, and error msgs
 
 * Create a `form_for` a new user that sends a `post` request to your `user#create` action.
 
@@ -146,7 +146,7 @@ end
   }
   ``` 
 
-##Step 6 - Login as a user
+##Step 6 — Login as a user
 
 * Create an `sessions_controller.rb` with the actions `new`, `create`, and `destroy`
 * Link to these actions to specific routes.
@@ -188,7 +188,7 @@ def create
   ```
 
 
-##Step 7 - Show content only to a logged in user
+##Step 7 — Show content only to a logged in user
 
 * It will be helpful to have a method usable across our entire application that gives us the current user given this is something we'll want access to frequently. In your application controller let's create a private method that does this. Make sure to share it with the rest of the application by using a helper method.
 
