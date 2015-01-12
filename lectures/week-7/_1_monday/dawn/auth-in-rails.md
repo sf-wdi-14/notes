@@ -163,8 +163,8 @@ end
 ```erb
 <%= form_tag action: :create do %>
 
-    <%= label_tag :username, 'Username: ', @user.username %><br>
-    <%= text_field_tag :username %><br>
+    <%= label_tag :username, 'Username: ' %><br>
+    <%= text_field_tag :username, @user.username %><br>
 
     <%= label_tag :password, 'Password: ' %><br>
     <%= password_field_tag :password %><br>
