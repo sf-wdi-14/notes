@@ -1,4 +1,4 @@
-#Auth in Rails
+#Auth in Rails from scratch
 
 ##Learning Objectives
 By the end of today you should be able to...
