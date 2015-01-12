@@ -153,9 +153,7 @@ end
 * Link to these actions to specific routes.
 
 ```ruby
-  get    'sessions/new' => 'sessions#new'
-  post   'sessions'     => 'sessions#create'
-  delete 'sessions'     => 'sessions#destroy'
+  resources :sessions, only: [:new, :create, :destroy]
 ```
 
 * Get your `sessions#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
