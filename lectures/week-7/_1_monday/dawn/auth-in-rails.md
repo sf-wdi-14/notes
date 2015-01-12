@@ -115,11 +115,11 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     
     if @user.save
-        redirect_to root_path
+      redirect_to root_path
     else #saving the user is unsuccessful
-        #populate the flash hash with the errors present in active record
-        flash[:error] = @user.errors.full_messages.to_sentence 
-        render :new
+      #populate the flash hash with the errors present in active record
+      flash[:error] = @user.errors.full_messages.to_sentence 
+      render :new
     end
   end
 
@@ -153,7 +153,8 @@ end
 * Link to these actions to specific routes.
 
 ```ruby
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions, only: [:new, :create]
+  delete sessions: 'sessions#destroy' # this cannot be defined as part of the resources call, because the route would then expect an id
 ```
 
 * Get your `sessions#new` to display a `form_tag` allowing the user to login. Also pass in a blank user that we can use later by declaring `@user = User.new` in the controller.
