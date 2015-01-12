@@ -43,7 +43,7 @@ rails g model User username password_digest
 * Create a validation that ensures a username is present
 * Finally create a `welcome#home` controller action that displays a welcome message (note this requires a welcome controller and associated view folder)
 
-##Step 2 — Securly store passwords
+##Step 2 — Securly storing passwords
 
 * Add `has_secure_password` to your user model.
 
