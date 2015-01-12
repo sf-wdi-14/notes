@@ -219,7 +219,7 @@ private
 
 ##Step 8 — Loging out your user
 
-* In your `sessions#destroy` you must clear out part of your session hash, as that are what we are using to determine logged in state.
+* In your `sessions#destroy` you must clear out part of your session hash, as that is what we are using to determine the logged in state.
 
 ```ruby
 def destroy
