@@ -5,6 +5,7 @@
 * user has many articles [repo](https://github.com/sf-wdi-14/rails-review)
 * favoriting
 * dependent destroy
+* linke to [querying methods](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association#scopes-for-has-many)
 
 ##Ref
 
