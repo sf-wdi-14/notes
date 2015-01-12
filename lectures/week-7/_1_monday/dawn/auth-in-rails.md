@@ -229,7 +229,7 @@ def create
 ##Tonight's Lab
 
 * Finish the in-class exercise if you didn't get a chance
-* **Add a login system to one of your existing projects manually or using devise**
+* **Add a login system to one of your existing projects manually or using [devise](https://github.com/plataformatec/devise)**
 
 
 ##Some Further Resources
