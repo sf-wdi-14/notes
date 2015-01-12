@@ -3,7 +3,7 @@
 ##Learning Objectives
 By the end of today you should be able to...
 
-* Signup a user
+* Sign up a user
 * Securely store their password
 * Login a user
 * Logout a user
