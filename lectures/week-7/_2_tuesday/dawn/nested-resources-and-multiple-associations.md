@@ -95,7 +95,7 @@ Articles should reference the Users table with a foreign key.
 
 *Create a new migration to work with*
 ```bash
-rails g migration addUserIdToArticles
+rails g migration add_user_id_to_articles
 ```
 *The migration should add a `user_id` column to our articles table*
 ```ruby
