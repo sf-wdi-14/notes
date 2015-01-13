@@ -4,6 +4,7 @@
 2. Create three models: `User`, `Magazine`, and `Subscription`
 3. The user and magazine models do not need any additional attributes; the subscription model should have a magazine_id and a user_id; don't forget to run your migrations!
 4. Set up the following associations:
+
 	4.1. User has many subscriptions
 	4.2. Magazine has many subscriptions
 	4.3. Subscription belongs to user
