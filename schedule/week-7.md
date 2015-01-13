@@ -12,7 +12,7 @@
   <tr>
     <td>Dawn</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md">Auth in Rails</a> (Ilias)</td>
-    <td><a href="#">Nested Resources & Multiple Associations</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_2_tuesday/dawn/nested-resources-and-multiple-associations.md">Nested Resources & Multiple Associations</a> (Ilias)</td>
     <td><a href="#">TDD App</a> (Dennis)</td>
     <td><a href="#">Active Job</a> (Brian)</td>
     <td>Review (Brian)</td>
