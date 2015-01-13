@@ -190,33 +190,86 @@ Accessing the params to pull out the user's id will determine which articles we 
 ```
 ---
 
-##Favorite Articles
+##Favoriting — Models
 
 Users can favorite Articles
 
+*Create a new Favorites model that will create a many to many associated between Users & Articles*
+```bash
+rails g model favorite
+```
+*In the favorite model declare that it belongs to Users & Articles*
+```ruby
+belongs_to :user
+belongs_to :article
+```
 
 ---
 
-##To Cover
+##Favoriting — Models pt 2
 
-- User index page
-- Nest articles under users
-- User has many articles to create
-- User can favorite an article
+*Declare that each Article has many favorites*
+```ruby
+  has_many :favorites
+```
 
-
-* user has many articles [repo](https://github.com/sf-wdi-14/rails-review)
-* favoriting [ref](https://github.com/OhligerJ/activity_app/blob/master/app/models/activity.rb)
-* dependent destroy
-* link to [querying methods](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association#scopes-for-has-many)
+*Do the same as above in the User model. Then declare that we can access these articles through a method called `faves` that returns favorited articles*
+```ruby
+  has_many :favorites
+  has_many :faves, through: :favorites, source: :article
+```
+This is a complex relationship, don't worry if it overwhelming at first.
 
 ---
 
-##Ref
+##Favoriting — Migrations
 
-* [Nested resources](https://github.com/wdi-sf-fall/notes/tree/master/week_07_rails_continued/day_03_nested_resources/dawn_nested_resources)
-* [Nested resources 2](https://github.com/Curriculum-Resources/SF-14-Class-6-7-Notes/blob/master/nested_resources/fields_for_and_nested_resources.md)
-* [Associations](https://github.com/wdi-sf-fall/notes/tree/master/week_07_rails_continued/day_02_associations_and_auth/dawn_associations)
-* [Favorites]()
+Database should have a favorites join table that represents the M2M relationship of users that have favorited articles.
 
+*In the migration generated with the Favorite model add references to both the users & articles tables*
+```ruby
+t.references :user
+t.references :article
+``` 
+*Migrate your database*
+```bash
+rake db:migrate
+```
+---
+
+##Favoriting an Article
+
+A User model should be able to favorite articles
+
+*In the Rails console, test the favorites relationship is working. This should not throw an error.*
+```bash
+user = User.first
+user.faves
+```
+*Have a user favorite an article. Let's have the first user favorite the first article.*
+
+```ruby
+user = User.first
+article = Article.first
+user.faves << article
+```
+
+---
+
+##To Recap
+We learned how to...
+
+- Nest resources RESTfully
+- Create relationships between tables in our database that Active Record can leverage
+- Use join tables to represent more complex relationships, such as favorites
+
+---
+
+##Further Reading
+
+- Rails Guide: [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
+- Stack Overflow: [Post](http://stackoverflow.com/questions/7021026/ruby-on-rails-how-to-model-a-user-favorite-model#answers) on Favoriting
+- Tealeaf: [Polymorphic Associations](http://www.gotealeaf.com/blog/understanding-polymorphic-associations-in-rails), ie comments on comments.
+
+---
 
