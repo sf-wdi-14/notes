@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md#user-content-lab">Login System in your own app</a></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md#tonights-lab">Login System in your own app</a></td>
     <td></td>
     <td></td>
     <td></td>
