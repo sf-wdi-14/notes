@@ -54,7 +54,7 @@ rails g controller users index
 
 Database should have seed data.
 
-*In your seed.rb write the code that will delete all your users and then create 10 fake ones*
+*In your seeds.rb write the code that will delete all your users and then create 10 fake ones*
 
 ```ruby
 User.destroy_all
