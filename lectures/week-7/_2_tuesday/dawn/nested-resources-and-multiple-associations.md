@@ -269,6 +269,7 @@ Today we learned how to...
 
 ##Further Reading
 
+- [Entity Relationship Diagram](http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
 - Rails Guide: [Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
 - Stack Overflow: [Post](http://stackoverflow.com/questions/7021026/ruby-on-rails-how-to-model-a-user-favorite-model#answers) on Favoriting
 - Tealeaf: [Polymorphic Associations](http://www.gotealeaf.com/blog/understanding-polymorphic-associations-in-rails), ie comments on comments.
