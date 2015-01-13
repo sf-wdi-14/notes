@@ -215,10 +215,10 @@ belongs_to :article
   has_many :favorites
 ```
 
-*Do the same as above in the User model. Then declare that we can access these articles through a method called `faves` that returns favorited articles*
+*Do the same as above in the User model. Then declare that we can access these articles through a method called `favorite_articles` that returns favorited articles*
 ```ruby
   has_many :favorites
-  has_many :faves, through: :favorites, source: :article
+  has_many :favorite_articles, through: :favorites, source: :article
 ```
 This is a complex relationship, don't worry if it overwhelming at first.
 
@@ -246,14 +246,14 @@ A User model should be able to favorite articles
 *In the Rails console, test the favorites relationship is working. This should not throw an error.*
 ```bash
 user = User.first
-user.faves
+user.favorite_articles
 ```
 *Have a user favorite an article. Let's have the first user favorite the first article.*
 
 ```ruby
 user = User.first
 article = Article.first
-user.faves << article
+user.favorite_articles << article
 ```
 
 ---
