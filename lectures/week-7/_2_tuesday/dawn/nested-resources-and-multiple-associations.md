@@ -136,7 +136,7 @@ Check `user.articles` again to make sure the article was associated with user co
 
 Articles should be nested under Users RESTfully.
 
-(Note: you should never have nesting more than two levels deep)
+(Note: you should never have nesting more than one levels deep)
 
 *Nest your articles routes inside your users routes*
 ```ruby
