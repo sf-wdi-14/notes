@@ -49,14 +49,12 @@ rails g controller users index
   <% end %>
 </ul>
 ```
-**Next:** No users in your database is no fun. Let's make some!
 ---
 ##Seeding the Database
 
 Database should have seed data.
 
-*Locate you seeds.rb file*
-  - We want to first clean out all the data & then create a number of fake users, in this case 10.
+*In your seed.rb write the code that will delete all your users and then create 10 fake ones*
 
 ```ruby
 User.destroy_all
@@ -69,6 +67,12 @@ User.destroy_all
   )
 end
 ```
+
+*Run the seed file*
+```bash
+rake db:seed
+```
+
 ---
 ##User has many Articles
 
@@ -89,15 +93,15 @@ belongs_to :user
 
 Articles should reference the Users table with a foreign key. 
 
-*In order for this relationship to create a new migration*
+*Create a new migration to work with*
 ```bash
 rails g migration addUserIdToArticles
 ```
-*then add a `user_id` column to our articles table*
+*The migration should add a `user_id` column to our articles table*
 ```ruby
 add_column :articles, :user_id, :integer
 ```
-*& finally migrate the changes*
+*Migrate the changes*
 ```bash
 rake db:migrate
 ```
@@ -116,7 +120,7 @@ user.articles
 ```
 If the last line does not throw an error, but rather returns an empty array then it is working properly.
 
-*Add an article to this user instance*
+*Add an article to this user's instance*
 
 ```bash
 user.articles << Article.create(
@@ -130,7 +134,7 @@ Check `user.articles` again to make sure the article was associated with user co
 
 ##Nesting the routes
 
-Articles should be nested under users RESTfully.
+Articles should be nested under Users RESTfully.
 
 (Note: you should never have nesting more than two levels deep)
 
@@ -140,7 +144,7 @@ resources :users, only: :index do
   resources :articles
 end
 ```
-*Check how your routes have been modified*
+*Check to see how your routes have been modified*
 ```bash
 rake routes
 ```
@@ -149,9 +153,9 @@ rake routes
 
 ##Link to Each Article Index
 
-Users' emails should each link to a respective `article#index` page.
+A User's emails should link to their respective `article#index` page.
 
-*On your `user#index` make the users' names link to their repective `article#index`*
+*On your `user#index` make the users' emails link out to their personalized `article#index` page*
 
 ```html
 <ul>
@@ -164,13 +168,11 @@ Users' emails should each link to a respective `article#index` page.
 
 For the moment you shouldn't see any articles displayed on the page.
 
-**Next:** Pass the user's corresponding articles to each `articles#index` page
-
 ---
 
-##New Article Index Page
+##Modify Article Index Page
 
-Article Index page displays only those associated with a specific user
+Article Index page displays only the articles associated with a specific user
 
 *Modify your `article#index` to pass the view not all the articles, but only those of the user we're nested under*
 ```ruby
@@ -257,7 +259,7 @@ user.faves << article
 ---
 
 ##To Recap
-We learned how to...
+Today we learned how to...
 
 - Nest resources RESTfully
 - Create relationships between tables in our database that Active Record can leverage
