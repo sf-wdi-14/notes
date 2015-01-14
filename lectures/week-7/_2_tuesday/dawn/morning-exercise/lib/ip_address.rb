@@ -1,12 +1,13 @@
 # ip address validator
 def valid_ip?(address)
-  address.is_a?(String)? validate_number_count(address) : false
+  #ternary that validates number count if string or returns false
+  address.is_a?(String) ? validate_number_count(address) : false
 end
 
 # validates that there are exactly 4 numbers in the address
 def validate_number_count(address)
   address_arr = address.split(".")
-  address_arr.count == 4? validate_range(address_arr) : false
+  address_arr.count == 4 ? validate_range(address_arr) : false
 end
 
 # validates that the number's value lies within a range
