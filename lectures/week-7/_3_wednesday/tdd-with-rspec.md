@@ -1,4 +1,4 @@
-# TDD with RSpec
+# TDD with RSpec for Rails
 Lecture on test driven development in Rails using RSpec.
 
 # Objective
