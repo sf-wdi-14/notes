@@ -7,6 +7,8 @@ Students will be able to...
 - write model specs
 - write routing specs
 - write controller specs
+- emphasize the importance of test driving a Rails app
+- decide if they want to include TDD in their job search as a requirement for companies
 
 # Link
 We have already covered TDD for a plain Ruby project, but need to explore the possibilities of TDD with Rails specifically. RSpec comes with a lot more methods we can use to test Rails than any other Ruby project.
