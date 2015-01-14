@@ -29,7 +29,7 @@
     <td>Lab</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md#tonights-lab">Login System in your own app</a></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/assignments/week-7/associations.md">Associations lab</a></td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-7%2F_3_wednesday%2Flab%2Ftdd-lab.md">TDD Lab</a></td>
     <td></td>
     <td></td>
   </tr>
