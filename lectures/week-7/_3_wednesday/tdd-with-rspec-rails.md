@@ -28,3 +28,5 @@ Most important takeaways:
 
 # Now and Then
 TDD will be a requirement for project 2. TDD FTW!
+
+[This is the app we built in the lecture](https://github.com/sf-wdi-14/tdd-rails).
