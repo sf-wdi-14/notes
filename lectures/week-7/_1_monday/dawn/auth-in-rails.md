@@ -26,11 +26,11 @@ Passwords are [hashed](http://en.wikipedia.org/wiki/Cryptographic_hash_function)
 ####Sesssions
 [Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark) make HTTP stateful and help us avoid having to reauthenticate the user for every request made. Sessions are preserved on the server side. A session cookie is used to pass data back and forth between the client and server about the session. Typical data stored in the session cookie always includes the session id and the user id if the user is logged in.
 
-##Step 1 — App settup
+##Step 1 — App setup
 
 * Start a new rails app with `rails new LearnAuth`
 * Uncomment the `bcrypt-ruby` gem in your `Gemfile` and run `bundle`
-* Generate a user model with three attributes (username, password, password_digest)
+* Generate a user model with three attributes (username, password_digest)
   * Note, if we don't specify a datatype it defaults to a string
 
 ```
@@ -163,8 +163,8 @@ end
 ```erb
 <%= form_tag action: :create do %>
 
-    <%= label_tag :username, 'Username: ', @user.username %><br>
-    <%= text_field_tag :username %><br>
+    <%= label_tag :username, 'Username: ' %><br>
+    <%= text_field_tag :username, @user.username %><br>
 
     <%= label_tag :password, 'Password: ' %><br>
     <%= password_field_tag :password %><br>
@@ -182,6 +182,7 @@ def create
   
   if @user.authenticate(params[:password])
     session[:user_id] = @user.id
+    redirect_to root_path
   else
     flash[:error] = "Invalid username & password combination"
     render :new
@@ -219,7 +220,7 @@ private
 <% end %>
 ```
 
-##Step 8 — Loging out your user
+##Step 8 — Logging out your user
 
 * In your `sessions#destroy` you must clear out clear out part of your session hash, as that are what we are using to determine logged in state.
 
@@ -238,6 +239,6 @@ end
 * **Add a login system to one of your existing projects manually or using [devise](https://github.com/plataformatec/devise)**
 
 ##Some Further Resources
-
+* *NB: these may be slightly older ways of doing things*
 * [User Auth Rails Cast Video](https://www.youtube.com/watch?v=23JoO_R8SMs)
 * [User Authenication with Tests](http://www.emilyplatzer.io/2014/06/29/user-authentication.html)
