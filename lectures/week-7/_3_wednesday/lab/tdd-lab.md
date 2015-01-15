@@ -41,6 +41,9 @@ Find a parter to pair with. Otherwise you can play both roles. **Person1** shoul
 - The `authors#show` should
 	- Show a list of the books that they've written
 
+##Hint
+
+- If you want to test associations, which we didn't explicitely cover today, refer to these [shoulda matchers](https://github.com/thoughtbot/shoulda-matchers#activerecord-matchers)
 	
 ##For Fun
 
