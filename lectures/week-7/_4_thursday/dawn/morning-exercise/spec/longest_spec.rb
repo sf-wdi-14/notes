@@ -8,6 +8,10 @@ describe "#longest_word" do
       expect(longest_word("Beware the Jubjub bird, and shun the frumious Bandersnatch")).to eq("Bandersnatch")
   end
 
+  # it "finds the longest word" do
+  #     expect(longest_word("Beware the Jubjubbb bird")).to eq("Jubjubbb")
+  # end
+
   # it "ignores punctuation" do
   #     expect(longest_word("Beware the Jabberwock, my son!
   #     The jaws that bite, the claws that catch!!!!!!!!!")).to eq("Jabberwock")
