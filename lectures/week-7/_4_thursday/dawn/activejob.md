@@ -89,6 +89,8 @@ module SidekiqApp
 end
 ```
 
+---
+
 # Using ActiveJob
 
 ---
@@ -204,7 +206,9 @@ What could we put here?
 
 ---
 
-## Creating an archive
+## Creating an archivable article
+
+Articles need a column to say if they've been archived.
 
 ```
 rails generate migration AddArchivedToArticle archived:boolean
@@ -268,3 +272,5 @@ if @article.save
   redirect_to @article
 else
 ...
+
+```
