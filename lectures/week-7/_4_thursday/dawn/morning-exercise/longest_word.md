@@ -1,3 +1,3 @@
 # Longest Word
 
-Run `rspec` & write to the code to pass the test!
+Run `rspec` in this directory & write to the code to pass the test!
