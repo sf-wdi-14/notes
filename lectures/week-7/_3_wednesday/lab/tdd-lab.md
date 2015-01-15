@@ -43,7 +43,7 @@ Find a parter to pair with. Otherwise you can play both roles. **Person1** shoul
 
 ##Hint
 
-- If you want to test associations, which we didn't explicitely cover today, refer to these [shoulda matchers](https://github.com/thoughtbot/shoulda-matchers#activerecord-matchers)
+- If you want to test associations, which we didn't explicitely cover today, refer to these [active record matchers](https://github.com/thoughtbot/shoulda-matchers#activerecord-matchers)
 	
 ##For Fun
 
