@@ -85,7 +85,7 @@ We can add the article title to the email body.
 # app/controllers/articles_controller.rb
 
     if @article.save
-      ArticleMailer.new_posting(@article).deliver_later
+      ArticleMailer.new_posting(@article).deliver_now
       redirect_to @article
     else
 ```
@@ -135,6 +135,18 @@ However, when using links in email, you must use \*\_url instead of \*\_path for
   You can view it by
   <%= link_to "clicking here", article_url(@article) %>
 </p>
+```
+
+---
+
+## Using ActionMailer with ActiveJob
+
+If ActiveJob is configured, using it to send email is very simple!
+
+We change `deliver_now` to `deliver_later`, like so.
+
+```ruby
+ArticleMailer.new_posting(@article).deliver_later
 ```
 
 ---
