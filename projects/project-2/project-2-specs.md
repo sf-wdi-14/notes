@@ -1,6 +1,36 @@
-
-## WDI SECOND PROJECT DESCRIPTION
+## WDI 14 PROJECT 2 SPECS
 For the second project you will use your knowledge of front and back-end web development to produce an awesome web application that can be used by friends, family or others online. The type of web application you create is your choice: utilities, social networks, games, mashups, etc. Ensure however that the scope of your project is not too large so that you can reasonably complete a [MVP](http://en.wikipedia.org/wiki/Minimum_viable_product) in this time. 
+
+## TEAMS 
+
+###Wookies
+* Pardo
+* Ben M
+* Abhishek
+* Carlos
+
+### Ewalks
+* Joe
+* Paul
+* Art
+* Nic
+
+###Tauntauns
+* Camila
+* Ben C
+* Albert
+* Jonathan
+
+###Wampas
+* Kay
+* Vikash
+* Margaret
+* Tani
+
+###Jawas
+* Ian
+* Nicole
+* Amanda
 
 The objective of this project is to:
 
@@ -8,7 +38,7 @@ The objective of this project is to:
 * Gain experience integrating topics covered during this course thus far.
 * Showcase your abilities to potential employers, friends, family, and community members.
 
-## CORE REQUIREMENTS
+## REQUIREMENTS
 * **Models.** Your app should have at least 3 models with appropriate associations and validations.
 * **Views.** Use **partials** heavily to DRY (Don’t Repeat Yourself) up your views, and loading data via Ajax when appropriate.
 * **RSPEC** Write routing, controller, and model specs. Use [simplecov](https://github.com/colszowka/simplecov) to ensure your test coverage is greater than 75%. TDD implies you write the tests first! Otherwise it is a huge struggle to get them done. Be sure to impliment shoulda_matchers & FactoryGirl in your testing.
@@ -67,38 +97,3 @@ If you want to push yourself further, consider adding some of the following to y
 * January 16, Friday - Spec & teams assigned
 * January 23, Friday —  Project work begins
 * January 30, Friday - Completed project deliverables due at 10am & presentations
-
-## Teams 
-
-###Wookies
-* Pardo
-* Ben M
-* Abhishek
-* Carlos
-
-### Ewalks
-* Joe
-* Paul
-* Art
-* Nic
-
-###Tauntauns
-* Camila
-* Ben C
-* Albert
-* Jonathan
-
-###Wampas
-* Kay
-* Vikash
-* Margaret
-* Tani
-
-###Jawas
-* Ian
-* Nicole
-* Amanda
-
-
-
-
