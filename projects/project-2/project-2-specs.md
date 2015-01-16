@@ -75,7 +75,7 @@ If you want to push yourself further, consider adding some of the following to y
 * Abhishek
 * Carlos
 
-### Ewalks
+### Ewoks
 * Joe
 * Paul
 * Art
