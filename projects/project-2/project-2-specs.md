@@ -1,37 +1,6 @@
 ## WDI 14 PROJECT 2 SPECS
 For the second project you will use your knowledge of front and back-end web development to produce an awesome web application that can be used by friends, family or others online. The type of web application you create is your choice: utilities, social networks, games, mashups, etc. Ensure however that the scope of your project is not too large so that you can reasonably complete a [MVP](http://en.wikipedia.org/wiki/Minimum_viable_product) in this time. 
 
-## TEAMS 
-
-###Wookies
-* Pardo
-* Ben M
-* Abhishek
-* Carlos
-
-### Ewalks
-* Joe
-* Paul
-* Art
-* Nic
-
-###Tauntauns
-* Camila
-* Ben C
-* Albert
-* Jonathan
-
-###Wampas
-* Kay
-* Vikash
-* Margaret
-* Tani
-
-###Jawas
-* Ian
-* Nicole
-* Amanda
-
 The objective of this project is to:
 
 * Get experience collaborating and working in a development team.
@@ -97,3 +66,34 @@ If you want to push yourself further, consider adding some of the following to y
 * January 16, Friday - Spec & teams assigned
 * January 23, Friday —  Project work begins
 * January 30, Friday - Completed project deliverables due at 10am & presentations
+
+## TEAMS 
+
+###Wookies
+* Pardo
+* Ben M
+* Abhishek
+* Carlos
+
+### Ewalks
+* Joe
+* Paul
+* Art
+* Nic
+
+###Tauntauns
+* Camila
+* Ben C
+* Albert
+* Jonathan
+
+###Wampas
+* Kay
+* Vikash
+* Margaret
+* Tani
+
+###Jawas
+* Ian
+* Nicole
+* Amanda
