@@ -67,3 +67,38 @@ If you want to push yourself further, consider adding some of the following to y
 * January 16, Friday - Spec & teams assigned
 * January 23, Friday —  Project work begins
 * January 30, Friday - Completed project deliverables due at 10am & presentations
+
+## Teams 
+
+###Wookies
+* Pardo
+* Ben M
+* Abhishek
+* Carlos
+
+### Ewalks
+* Joe
+* Paul
+* Art
+* Nic
+
+###Tauntauns
+* Camila
+* Ben C
+* Albert
+* Jonathan
+
+###Wampas
+* Kay
+* Vikash
+* Margaret
+* Tani
+
+###Jawas
+* Ian
+* Nicole
+* Amanda
+
+
+
+
