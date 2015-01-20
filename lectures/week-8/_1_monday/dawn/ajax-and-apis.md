@@ -98,9 +98,7 @@ Aim to have this function execute once the document is ready.
 
 * Use the gem `rails-api` if you're ever looking to simply impliment a barebones rails API
 
-##Lab
+##Toights Lab
 
-* Finish this exercise.
-* Familiarize yourself with the AJAX functionality of JQuery.
-* Add an AJAX request to our rails-review [app](https://github.com/sf-wdi-14/rails-review)
+* [Here](https://github.com/sf-wdi-14/notes/blob/master/assignments/week-8/ajax-hw.md)
 
