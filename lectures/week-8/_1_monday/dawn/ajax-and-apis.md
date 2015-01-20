@@ -104,4 +104,3 @@ Aim to have this function execute once the document is ready.
 * Familiarize yourself with the AJAX functionality of JQuery.
 * Add an AJAX request to our rails-review [app](https://github.com/sf-wdi-14/rails-review)
 
-
