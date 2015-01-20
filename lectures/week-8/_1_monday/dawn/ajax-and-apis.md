@@ -22,14 +22,17 @@ AJAX is similar but instead of us asking for a picture we are asking for data—
 ---
 
 ###Considering a Backend vs a Frontend API request
-1) Ping the 3rd party API from the frontend
-2) Ping the app's controller from the frontend, which in turn pings the 3rd party API
+* Ping the 3rd party API from the frontend
 
-Differences:
+or
 
-* Obfuscation of API keys 
-* CSRF issues
-* Preference of 3rd party
+* Ping the app's controller from the frontend, which in turn pings the 3rd party API
+
+What are the differences to consider?
+
+* Obfuscation of API keys is more difficult from the front end
+* Issues regarding cross domain requests which may be [CSRF](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf).
+* Does your 3rd party API have a helpful libary for either the front-end, back-end, or both?
 
 ---
 
