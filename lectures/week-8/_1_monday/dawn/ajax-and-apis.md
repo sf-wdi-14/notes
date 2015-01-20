@@ -5,14 +5,12 @@ By the end of the lesson, you should be able to...
 
 * Design a RESTful JSON API
 * Retrieve Data from the API
-* Use JQuery to append data to HTML elements
-* Contrast how Handlebars can refactor your code
-* Send data to the API and, on success, maintain state between the DB and the DOM
+* Understand how a library like Angular works under the hood by manipulating the DOM with jQuery by hand
 
 ---
 
 ###AJAX
-What is AJAX, how does it work? Think about using a `src` tag in an image. The image makes a request to another URL for a file.
+What is [AJAX](http://api.jquery.com/jquery.ajax/), how does it work? Think about using a `src` tag in an image. The image makes a request to another URL for a file.
 
 AJAX is similar but instead of us asking for a picture we are asking for data—aka a .json file. In short, AJAX allows us to easily send and recieve json data to and from a server without reloading the page. Let's try it out using jQuery's native AJAX object!
  
