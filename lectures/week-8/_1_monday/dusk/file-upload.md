@@ -19,7 +19,7 @@ Do the following:
 - Clone [this app](https://github.com/sf-wdi-14/paperclip) and cd into it
 - Load the schema and start the server
 - Navigate to /recipes and try crudding some recipes
-- Install ImageMagick using `$ brew install imagemagick`
+- Install ImageMagick using `$ brew install imagemagick` (this is needed only the first time you use Paperclip)
 - Follow the [paperclip README](https://github.com/thoughtbot/paperclip) to install Paperclip
 - After reading the README, add an image attachment called `preview` to your recipes
 - Add a file input to the recipe form and show the preview image on the show page
