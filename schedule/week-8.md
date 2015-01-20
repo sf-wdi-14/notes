@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>File Upload w/ Paperclip (Dennis)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_1_monday/dusk/file-upload.md">File Upload w/ Paperclip (Dennis)</a></td>
     <td>BDD (Brian)</td>
     <td>Git Collaboration (Brian & Ilias)</td>
     <td>Project Kickoff</td>
