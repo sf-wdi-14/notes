@@ -47,7 +47,7 @@ Discussion Questions
 ##Exercise
 Use AJAX to create single-page behavior in a Rails app.
 
-* Navigate into the app with a relative path `/library-spa`.
+* Clone the library app [here](git@github.com:sf-wdi-14/library_spa.git).
 * **GOAL:** Setup the app and compare/contrast the books controller others you've built in the past.
 
 ###Setup
