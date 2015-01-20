@@ -10,7 +10,7 @@
 * Nest everything behind the `Library` variable. (Aka `Library.yourFunctName` is better than just having `yourFunctName` in the global namespace)
 * On page load execute a function that retrives all the books and renders them onto a page.
 * Add a delete button next to each book that deletes the associated book in the database and removes it from the list.
-* BONUS: Add two inputs (for title & author) and an associated button that when clicked will create a new book with the user-filled title and author. Ensure the new book appears in your list of books without having to reload the page. 
+* BONUS: Add an input for a title and for an author and a submit button. Setup the button so that it will create a new book with the information in the input fields. Ensure the new book appears in your list of books without having to reload the page. 
 
 
 ##More
