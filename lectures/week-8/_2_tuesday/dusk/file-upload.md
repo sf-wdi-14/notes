@@ -28,5 +28,7 @@ Do the following:
 # Reflect
 Have the driver reiterate the steps needed to install paperclip. Ask each other questions if anything is unclear. Challenge each other and test each other's knowledge!
 
+We will also go over it together and implement it jointly.
+
 # Now and Then
 Paperclip is a great tool that you will probably use repeatedly throughout your career as Rails developer. As a good alternative, you can also check out [Carrierwave](https://github.com/carrierwaveuploader/carrierwave).
