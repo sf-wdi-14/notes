@@ -241,3 +241,16 @@ Pair up with a partner. Using the links below, and the user stories that you cre
 [List of Capybara methods](https://github.com/jnicklas/capybara#the-dsl)
 
 [Thoughtbot's Capybara Cheatsheet](https://learn.thoughtbot.com/test-driven-rails-resources/capybara.pdf)
+
+---
+
+## Viewing what Capybara sees
+
+Since Capybara does everything behind the scenes (aka "headless") it can be challenging sometimes to know what is wrong. A useful tool is `save_and_open_page` which opens a browser to the current context of Capybara. (Remember to have the `launchy` gem installed.)
+
+```ruby
+scenario 'doing something' do
+  visit '/recipes/new'
+  save_and_open_page
+end
+```
