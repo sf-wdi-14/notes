@@ -24,8 +24,8 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td><a href='https://github.com/sf-wdi-14/notes/blob/master/assignments/week-8/ajax-hw.md'>AJAX Lab</a></td>
-    <td>TBD</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/assignments/week-8/ajax-hw.md">AJAX Lab</a></td>
+    <td><a href="https://github.com/sf-wdi-14/bdd-lab">BDD Lab</a></td>
     <td>TBD</td>
     <td>TBD</td>
   </tr>
