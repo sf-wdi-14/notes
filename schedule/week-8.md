@@ -12,7 +12,7 @@
     <td>Dawn</td>
     <td>Rails API & AJAX (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_3_wednesday/dawn/bdd-capybara.md">BDD (Brian)</a></td>
-    <td>Authorization in Rails (Dennis)</td>
+    <td><a href ="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_4_thursday/authorization.md">Authorization in Rails (Dennis)</a></td>
     <td>Review</td>
   </tr>
   <tr>
