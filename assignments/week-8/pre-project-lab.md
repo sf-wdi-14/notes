@@ -6,7 +6,7 @@
 
 ####2) Design your schema for your project (instructor approval pending)
 
-##House Cleaning
+##House Keeping
 
 ####1) Update your Github with a profile picture
 
