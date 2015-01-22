@@ -16,13 +16,13 @@ By the end of the lesson you should be able to...
 * A history of all the past commits
 * Useful for view old code changes and your teammate's contributions
 
-![git-log](http://lostechies.com/jasonmeridth/files/2011/03/image_thumb_1F916AD1.png)
+![git-log](imgs/git-log.png)
 
 
 ####git diff
 
 * Illustrates the changed lines of code between the current state and the last commit
-![git-diff](git-diff-ex.png)
+![git-diff](imgs/git-diff-ex.png)
 
 
 ##Feature Branching
@@ -66,7 +66,7 @@ eight
 
 * Points out who change which lines in a file and why
 [Example](https://github.com/sf-wdi-14/rails-review/blame/master/app/controllers/articles_controller.rb)
-![blaming](blaming.png)
+![blaming](imgs/blaming.png)
 
 
 ####Diffing (again)
@@ -74,13 +74,13 @@ eight
 * Displays the changed lines of code
 [Example](https://github.com/sf-wdi-14/rails-review/commit/06f2e972016d421f4aff9c170cbf335a4bcde552)
 
-![diffing](diffing.png)
+![diffing](imgs/diffing.png)
 
 ####History
 
 * Shows a history of the git commits
 [Example](https://github.com/sf-wdi-14/rails-review/commits/master)
-![history](history.png)
+![history](imgs/history.png)
 
 
 ####Branches
@@ -88,7 +88,7 @@ eight
 * Enables one to view all the branches in a repository
 * Ideal for collaborating between individuals in a single team
 [Example](https://github.com/sf-wdi-14/rails-review/branches)
-![branches](branches.png)
+![branches](imgs/branches.png)
 
 
 ####Forking
@@ -103,7 +103,7 @@ eight
 * This allows the upstream repository owner the discretion of which forks can be merged
 * Enables one to submit code to any public repository
 [Example](https://github.com/sf-wdi-14/notes/pulls)
-![pull-requests](pull-requests.png)
+![pull-requests](imgs/pull-requests.png)
 
 ####Issues
 
@@ -111,7 +111,7 @@ eight
 * Issues are open by anyone if they have identified a problem in the code
 * Issues are closed once the problem is solved
 [Example](https://github.com/sf-wdi-14/rails-review/issues)
-![issues](issues.png)
+![issues](imgs/issues.png)
 
 ####Comments
 
@@ -122,7 +122,7 @@ eight
 * Typically used for more advanced documentation for your library; aka an expanded readme
 * Also keep in mind, you can use it for whatever suits your needs best
 [Divise's Wiki](https://github.com/plataformatec/devise/wiki)
-![devise-wiki](devise-wiki.png)
+![devise-wiki](imgs/devise-wiki.png)
 
 
 ##Additional Resources
