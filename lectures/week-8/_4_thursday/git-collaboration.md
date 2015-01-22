@@ -22,6 +22,7 @@ By the end of the lesson you should be able to...
 ####git diff
 
 * Illustrates the changed lines of code between the current state and the last commit
+
 ![git-diff](imgs/git-diff-ex.png)
 
 
@@ -65,13 +66,16 @@ eight
 ####Blaming
 
 * Points out who change which lines in a file and why
+
 [Example](https://github.com/sf-wdi-14/rails-review/blame/master/app/controllers/articles_controller.rb)
+
 ![blaming](imgs/blaming.png)
 
 
 ####Diffing (again)
 
 * Displays the changed lines of code
+
 [Example](https://github.com/sf-wdi-14/rails-review/commit/06f2e972016d421f4aff9c170cbf335a4bcde552)
 
 ![diffing](imgs/diffing.png)
@@ -79,7 +83,9 @@ eight
 ####History
 
 * Shows a history of the git commits
+
 [Example](https://github.com/sf-wdi-14/rails-review/commits/master)
+
 ![history](imgs/history.png)
 
 
@@ -87,7 +93,9 @@ eight
 
 * Enables one to view all the branches in a repository
 * Ideal for collaborating between individuals in a single team
+
 [Example](https://github.com/sf-wdi-14/rails-review/branches)
+
 ![branches](imgs/branches.png)
 
 
@@ -102,7 +110,9 @@ eight
 * Used to request that a fork is merged or "pulled" into an upstream repository
 * This allows the upstream repository owner the discretion of which forks can be merged
 * Enables one to submit code to any public repository
+
 [Example](https://github.com/sf-wdi-14/notes/pulls)
+
 ![pull-requests](imgs/pull-requests.png)
 
 ####Issues
@@ -110,7 +120,9 @@ eight
 * Anyone can submit an issue for a public repo that the owner will be made aware of
 * Issues are open by anyone if they have identified a problem in the code
 * Issues are closed once the problem is solved
+
 [Example](https://github.com/sf-wdi-14/rails-review/issues)
+
 ![issues](imgs/issues.png)
 
 ####Comments
@@ -121,11 +133,14 @@ eight
 
 * Typically used for more advanced documentation for your library; aka an expanded readme
 * Also keep in mind, you can use it for whatever suits your needs best
+
 [Divise's Wiki](https://github.com/plataformatec/devise/wiki)
+
 ![devise-wiki](imgs/devise-wiki.png)
 
 
 ##Additional Resources
+
 * [Become a git guru](https://www.atlassian.com/git/tutorials/)
 * [How Git Works Video Overview](https://www.youtube.com/watch?v=1ffBJ4sVUb4)
 * [Git deep-dive](http://think-like-a-git.net/)
