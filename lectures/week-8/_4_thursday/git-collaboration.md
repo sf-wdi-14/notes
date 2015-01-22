@@ -13,8 +13,8 @@ By the end of the lesson you should be able to...
 
 ####git log
 
-* A history of all the past commits
-* Useful for view old code changes and your teammate's contributions
+* Displays all the past commits
+* Useful for viewing previous code changes and a list of individual contributions
 
 ![git-log](imgs/git-log.png)
 
@@ -28,13 +28,13 @@ By the end of the lesson you should be able to...
 
 ##Feature Branching
 
-Think about a designer at Tesla
+Think about Elon Musk designing a car at Tesla
 
 * There exists a 2014 master Tesla
-* We want to build a 2015 concept Tesla
-* In order to preserve the master, the designer decides that it's better to copy the master than directly modify it
-* Once copied we can feel free to iterate without any destructive consequences as we will now always be able to revert back to the existing 2014 master
-* Once Elon is satisfied we can merge the concept features into a new 2015 master Tesla
+* Elon wants to build a 2015 concept Tesla
+* In order to preserve the master, he decides that it's better to copy the master than directly modify it
+* Once copied Elon can feel free to iterate without any destructive consequences as he will now always be able to revert back to the existing 2014 master
+* Once Elon is satisfied he can merge the concept features into a new 2015 master Tesla
 
 in other words...
 
@@ -42,13 +42,14 @@ in other words...
 * New features should be developed in a branch of the repository
 * Once the feature is complete & working it can be merged into the main repository
 * Commands
-	* `git branch` — creates a new branch
-	* `git checkout` — jumps into a specific branch
-	* `git merge` — combines two branches
+	* `git branch <branch_name>` — creates a new branch
+	* `git checkout <branch_name>` — jumps into a specified branch
+	* `git merge <branch_name> master` — merges a branch into master
 
 ##Merge Conflicts
 
-* Occurs when there are disagreeing changes between two commits
+* Occurs when there are disagreeing changes between your code and a previous commit
+* This needs to be resolved before you can commit your code
 
 Example conflict:
 
@@ -65,7 +66,7 @@ eight
 
 ####Blaming
 
-* Points out who change which lines in a file and why
+* Points out who change which lines in a file, showing the commit message
 
 [Example](https://github.com/sf-wdi-14/rails-review/blame/master/app/controllers/articles_controller.rb)
 
@@ -74,7 +75,7 @@ eight
 
 ####Diffing (again)
 
-* Displays the changed lines of code
+* Displays the changed lines of code in a set of files or file
 
 [Example](https://github.com/sf-wdi-14/rails-review/commit/06f2e972016d421f4aff9c170cbf335a4bcde552)
 
@@ -82,7 +83,7 @@ eight
 
 ####History
 
-* Shows a history of the git commits
+* Shows readable history of all git commits and merges
 
 [Example](https://github.com/sf-wdi-14/rails-review/commits/master)
 
@@ -92,7 +93,7 @@ eight
 ####Branches
 
 * Enables one to view all the branches in a repository
-* Ideal for collaborating between individuals in a single team
+* Again, branching is ideal for collaborating between individuals on team
 
 [Example](https://github.com/sf-wdi-14/rails-review/branches)
 
@@ -107,9 +108,9 @@ eight
 
 ####Pull Requests
 
-* Used to request that a fork is merged or "pulled" into an upstream repository
+* Used to request that a forked repository is merged or "pulled" into its associated upstream repository
 * This allows the upstream repository owner the discretion of which forks can be merged
-* Enables one to submit code to any public repository
+* Enables one to safely and freely submit code to any public repository
 
 [Example](https://github.com/sf-wdi-14/notes/pulls)
 
@@ -119,7 +120,7 @@ eight
 
 * Anyone can submit an issue for a public repo that the owner will be made aware of
 * Issues are open by anyone if they have identified a problem in the code
-* Issues are closed once the problem is solved
+* Issues are closed by the project owner once the problem is solved
 
 [Example](https://github.com/sf-wdi-14/rails-review/issues)
 
