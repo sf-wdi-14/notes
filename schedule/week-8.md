@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Rails API & AJAX (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-8%2F_2_tuesday%2Fdawn%2Fajax-and-apis.md">Rails API & AJAX (Ilias)</a></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_3_wednesday/dawn/bdd-capybara.md">BDD (Brian)</a></td>
     <td><a href ="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_4_thursday/authorization.md">Authorization in Rails (Dennis)</a></td>
     <td>Review</td>
@@ -19,7 +19,7 @@
     <td>Dusk</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_1_monday/dusk/file-upload.md">File Upload w/ Paperclip (Dennis)</a></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_3_wednesday/dawn/bdd-capybara.md">BDD (Brian)</a></td>
-    <td>Git Collaboration (Brian & Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-8%2F_4_thursday%2Fgit-collaboration.md">Git Collaboration (Brian & Ilias)</a></td>
     <td>Project Kickoff</td>
   </tr>
   <tr>
