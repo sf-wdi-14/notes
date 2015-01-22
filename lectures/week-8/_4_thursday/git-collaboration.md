@@ -47,6 +47,8 @@ in other words...
 
 ##Merge Conflicts
 
+* Occurs when there are disagreeing changes between two commits
+
 Example conflict:
 
 ```
@@ -62,51 +64,66 @@ eight
 
 ####Blaming
 
-* Points out who change which lines in a file and why [example](https://github.com/sf-wdi-14/rails-review/blame/master/app/controllers/articles_controller.rb)
+* Points out who change which lines in a file and why
+[Example](https://github.com/sf-wdi-14/rails-review/blame/master/app/controllers/articles_controller.rb)
+![blaming](blaming.png)
+
 
 ####Diffing (again)
 
-* Displays the changed lines of code [example](https://github.com/sf-wdi-14/rails-review/commit/06f2e972016d421f4aff9c170cbf335a4bcde552)
+* Displays the changed lines of code
+[Example](https://github.com/sf-wdi-14/rails-review/commit/06f2e972016d421f4aff9c170cbf335a4bcde552)
+
+![diffing](diffing.png)
 
 ####History
 
-* Shows a history of the git commits [example](https://github.com/sf-wdi-14/rails-review/commits/master)
-
-####Comments
-
-* At the bottom of a specific commit you may leave a comment and @mention a user
-
-
-####Pull Requests
-
-* Enables one to submit code to any public repository that the owner can choose to merge in
+* Shows a history of the git commits
+[Example](https://github.com/sf-wdi-14/rails-review/commits/master)
+![history](history.png)
 
 
 ####Branches
 
 * Enables one to view all the branches in a repository
 * Ideal for collaborating between individuals in a single team
-* [example](https://github.com/sf-wdi-14/rails-review/branches)
+[Example](https://github.com/sf-wdi-14/rails-review/branches)
+![branches](branches.png)
 
-####Issues
-
-* Anyone can submit an issue for a public repo that the owner will be made aware of
-* Issues are open by anyone if they have identified a problem in the code
-* Issues are closed once the problem is solved
-* [Example](https://github.com/sf-wdi-14/rails-review/issues)
-
-####Wiki
-
-* Typically used for more advanced documentation for your library; aka an expanded readme
-* Also keep in mind, you can use it for whatever suits your needs best
-* [Example](https://github.com/sf-wdi-14/rails-review/wiki)
-* Also [Divise's Wiki](https://github.com/plataformatec/devise/wiki)
 
 ####Forking
 
 * Creates a remote clone that you now own which you can make changes to
 * This is particularly useful for open source projects
 * Forking is great for collaborating between separate teams 
+
+####Pull Requests
+
+* Used to request that a fork is merged or "pulled" into an upstream repository
+* This allows the upstream repository owner the discretion of which forks can be merged
+* Enables one to submit code to any public repository
+[Example](https://github.com/sf-wdi-14/notes/pulls)
+![pull-requests](pull-requests.png)
+
+####Issues
+
+* Anyone can submit an issue for a public repo that the owner will be made aware of
+* Issues are open by anyone if they have identified a problem in the code
+* Issues are closed once the problem is solved
+[Example](https://github.com/sf-wdi-14/rails-review/issues)
+![issues](issues.png)
+
+####Comments
+
+* At the bottom of a specific commit, issue, or pull request you may leave a comment and @mention a user
+
+####Wiki
+
+* Typically used for more advanced documentation for your library; aka an expanded readme
+* Also keep in mind, you can use it for whatever suits your needs best
+[Divise's Wiki](https://github.com/plataformatec/devise/wiki)
+![devise-wiki](devise-wiki.png)
+
 
 ##Additional Resources
 * [Become a git guru](https://www.atlassian.com/git/tutorials/)
