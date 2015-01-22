@@ -137,8 +137,9 @@ eight
 
 ####Wiki
 
-* Typically used for more advanced documentation for your library; aka an expanded readme
-* Also keep in mind, you can use it for whatever suits your needs best
+* Typically used for more advanced documentation for your library
+* Many projects use this features as an expanded readme
+* However, you can use this space for whatever suits your project's needs best
 
 [Divise's Wiki](https://github.com/plataformatec/devise/wiki)
 
