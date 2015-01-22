@@ -130,6 +130,11 @@ eight
 
 * At the bottom of a specific commit, issue, or pull request you may leave a comment and @mention a user
 
+[Example](https://github.com/sf-wdi-14/notes/pull/82)
+
+![comment](imgs/comment.png)
+
+
 ####Wiki
 
 * Typically used for more advanced documentation for your library; aka an expanded readme
