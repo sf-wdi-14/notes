@@ -9,16 +9,33 @@ By the end of the lesson you should be able to...
 * Fix merge conflicts
 * Use Github's features effectively
 
-##Collaborating on git
+##Git tools for Collaboration
 
-* Setting up a project
-* Commit history
-* Git Log
-	* a history of all the past commits
-* Diffing
-	* illustrates the changed lines of code between the current state and the last commit
+####git log
+
+* A history of all the past commits
+* Useful for view old code changes and your teammate's contributions
+
+![git-log](http://lostechies.com/jasonmeridth/files/2011/03/image_thumb_1F916AD1.png)
+
+
+####git diff
+
+* Illustrates the changed lines of code between the current state and the last commit
+![git-diff](git-diff-ex.png)
+
 
 ##Feature Branching
+
+Think about a designer at Tesla
+
+* There exists a 2014 master Tesla
+* We want to build a 2015 concept Tesla
+* In order to preserve the master, the designer decides that it's better to copy the master than directly modify it
+* Once copied we can feel free to iterate without any destructive consequences as we will now always be able to revert back to the existing 2014 master
+* Once Elon is satisfied we can merge the concept features into a new 2015 master Tesla
+
+in other words...
 
 * A branch represents an independent line of development
 * New features should be developed in a branch of the repository
