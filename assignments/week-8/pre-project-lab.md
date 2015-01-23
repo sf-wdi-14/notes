@@ -2,7 +2,7 @@
 
 ##Group Projects
 
-####Submit your team's idea to this Trello [board](https://trello.com/b/84evOb3s/project-2). Please, link to your Trello board that will include your main user-stories and an image of your schema, both pending instructor approval.
+####Submit your team's idea to the instructors. Please, link to your Trello board that will include your main user-stories and an image of your schema, both pending instructor approval.
 
 ##Housekeeping
 
