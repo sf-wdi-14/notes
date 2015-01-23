@@ -2,9 +2,7 @@
 
 ##Group Projects
 
-####1) Write out your team's user-stories on Trello
-
-####2) Design your schema for your project (instructor approval pending)
+####Submit your team's idea to this Trello [board](https://trello.com/b/84evOb3s/project-2). Please, link to your Trello board that will include your main user-stories and an image of your schema, both pending instructor approval.
 
 ##Housekeeping
 
