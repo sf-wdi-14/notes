@@ -17,8 +17,9 @@ The objective of this project is to:
 * **External APIs.** Use an external API to add functionality to your app.
 * **User Login.** Make sure you have authentication and authorization set up.
 * **Home page** - Don't forget to work on a proper homepage, clearly explaining what your app is and will do.
-* **Heroku.** Deploy your code to Heroku.
-* **User Experience** Ensure a pleasing and logical user experience. It is suggested to use a front-end CSS framework like Bootstrap to enhance and ease your CSS styling. 
+* **Heroku.** Deploy your code to Heroku. Use [Figaro](https://github.com/laserlemon/figaro) to protect your secret variables, such as API keys. We will give a mini lecture on both of these during the week.
+* **User Experience** Ensure a pleasing and logical user experience. It is suggested to use a front-end CSS framework like Bootstrap to enhance and ease your CSS styling.
+* **Protect your secret variables** Put your secret variables (such as API keys) into config/application.yml and ignore that file in git. You can then access them as environment variables in your app. Here's a [quick guide](https://quickleft.com/blog/simple-rails-app-configuration-settings/).
 
 
 ## OTHER IDEAS
