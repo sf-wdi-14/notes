@@ -15,7 +15,7 @@
     <td>Data Structures: Singly-Linked List and Doubly-Linked List (Cho)</td>
     <td>Data Structures: Tree (Depth-First Search) and Tree (Breadth-First Search) (Cho)</td>
     <td>Data Structures: Trie (Cho)</td>
-    <td>Data Structures: Trie (Cho)</td>
+    <td>Data Structures: Trie, again (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
