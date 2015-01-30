@@ -11,11 +11,11 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Data science (Cho)</td>
-    <td>Data science (Cho)</td>
-    <td>Data science (Cho)</td>
-    <td>Data science (Cho)</td>
-    <td>Data science (Cho)</td>
+    <td>Data Structures: Stacks and Queues (Cho)</td>
+    <td>Data Structures: Singly-Linked List and Doubly-Linked List (Cho)</td>
+    <td>Data Structures: Tree (Depth-First Search) and Tree (Breadth-First Search) (Cho)</td>
+    <td>Data Structures: Trie (Cho)</td>
+    <td>Data Structures: Trie (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
