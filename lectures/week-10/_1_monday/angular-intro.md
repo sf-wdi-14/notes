@@ -11,19 +11,19 @@ By the end of this lesson you should be able to...
 
 ___
 
-##Please Know...
+##When learning something new...
 
-1) Your perceptions are probably wrong, so don't psych yourselves out
+1) Your perceptions often mislead you, so **clear your mind**
 
-2) The learning never, ever stops
+2) The learning never stops, so always **ask questions**
 
-3) Slow and Steady wins the race
+3) Slow and steady wins the race, so **don't stress**
 
-4) The reward is proportional to the effort
+4) The reward is proportional to the effort, so **keep trying**
 
-5) Most do not make it this far
+5) Most do not make it this far, so **congratulate yourselves**
 
-6) A new technology opens doors
+6) A new technology opens doors, so **know your worth**
 
 ---
 ```
