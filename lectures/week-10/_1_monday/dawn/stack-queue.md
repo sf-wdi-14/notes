@@ -235,6 +235,7 @@ Queue.prototype.enqueue = function(data) {
 
 Our code starts with the declaration of a variable named `newestTicketNumber` and its initialization to `this.newestTicketNumber`. If we created a new instance of a `Queue` and invoked `enqueue` for the first time, the value of `this.newestTicketNumber` is one. We then use `newestTicketNumber` as a key of `storage` and assign to this key `data`. Finally, we increment the value of `newestTicketNumber` by one. 
 
+###### `dequeue` (3 of 3)
 Next, lets define the objectives of `dequeue`:
 
 1. remove the oldest data 
