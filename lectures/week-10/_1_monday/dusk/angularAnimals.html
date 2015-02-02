@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Animals</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js" type="text/javascript"></script>
+</head>
+<body ng-app="animalsApp">
+	<div ng-controller="AnimalsCtrl">
+		<ul ng-repeat="animal in animals | orderBy: 'name'">
+			<li>{{animal.name}}</li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript">
+	var app = angular.module("animalsApp", []);
+
+	app.controller("AnimalsCtrl", ["$scope" ,function(scope){
+		scope.animals = [
+			{name: 'Nugget the Chicken'},
+			{name: 'Bell the Cow'},
+			{name: 'Latin the Pig'}
+		];
+	}]);
+</script>
+</html>

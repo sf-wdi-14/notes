@@ -159,14 +159,14 @@ angular.module("myApp", [])
 Here is an example of a very commonly used directive, `ng-repeat`
 
 ```
-.controller('HomeCtrl', function($scope){
-	$scope.users = [
+.controller('PresidentsCtrl', function($scope){
+	$scope.presidents = [
 		{
 			name: 'Theodore Roosevelt',
 			activity: 'hunting'
 		},				
 		{
-			name: 'John Fitzgerald Kennedy'
+			name: 'John Fitzgerald Kennedy',
 			activity: 'sailing'
 		},
 		{
@@ -179,7 +179,7 @@ Here is an example of a very commonly used directive, `ng-repeat`
 
 ```
 <body>
-  <div ng-controller="HomeCtrl">
+  <div ng-controller="PresidentsCtrl">
     <ul ng-repeat="president in presidents">
       <li>Vote for: {{president.name}}</li>
     </ul>
@@ -237,11 +237,6 @@ Here is an example of a very commonly used directive, `ng-repeat`
 ##For Tomorrow
 
 * Watch Code School's online [Angular course](https://www.codeschool.com/courses/shaping-up-with-angular-js) through level 3
-
-___
-
-
-	
 	
 	
 	
