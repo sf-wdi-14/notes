@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Angular: Intro, two way data binding, $scope, controllers, filters (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_1_monday/dusk/angular-intro.md">Angular: Intro, two way data binding, $scope, controllers, filters</a> (Ilias)</td>
     <td>Angular: Routing, services (Dennis)</td>
     <td>Angular: Directives (Dennis)</td>
     <td>Angular: Review (Ilias)</td>
@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/data_structures_lab">Data Structures</a></td>
     <td></td>
     <td></td>
     <td></td>
