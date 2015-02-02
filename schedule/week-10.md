@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>Dawn</td>
-    <td>Data Structures: Stacks and Queues (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_1_monday/dawn/stack-queue.md">Data Structures: Stacks and Queues</a> (Cho)</td>
     <td>Data Structures: Singly-Linked List and Doubly-Linked List (Cho)</td>
     <td>Data Structures: Tree (Depth-First Search) and Tree (Breadth-First Search) (Cho)</td>
     <td>Data Structures: Trie (Cho)</td>
