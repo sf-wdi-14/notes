@@ -9,27 +9,26 @@ By the end of this lesson you should be able to...
 * Setup a controller and use $scope to share data with your view
 * Display all your data and add a filter
 
-___
-
+---
 ##When learning something new...
 
-1) Your perceptions often mislead you, so **clear your mind**
+1) Your perceptions often mislead you: **clear your mind**
 
-2) The learning never stops, so always **ask questions**
+2) The learning never stops: **ask questions**
 
-3) Slow and steady wins the race, so **don't stress**
+3) Slow and steady wins the race: **don't stress**
 
-4) The reward is proportional to the effort, so **keep trying**
+4) The reward is proportional to the effort: **keep trying**
 
-5) Most do not make it this far, so **congratulate yourselves**
+5) Most do not make it this far: **congratulate yourselves**
 
-6) A new technology opens doors, so **know your worth**
+6) A new technology opens doors:  **know your worth**
 
 ---
-```
-You don't learn to walk by following rules. You learn by doing, and by falling over.
--Richard Branson
-```
+
+#You don't learn to walk by following rules. You learn by doing, and by falling over.
+##-Richard Branson
+
 ---
 
 ##Angular vs jQuery
@@ -51,32 +50,34 @@ You don't learn to walk by following rules. You learn by doing, and by falling o
 	* Just like Rails
 
 ---
-```
-I am always doing that which I cannot do, in order that I may learn how to do it.
--Pablo Picasso"
-```
+
+
+#I am always doing that which I cannot do, in order that I may learn how to do it.
+##-Pablo Picasso"
+
+
 ---
 
 ##How Angular Fits into What We Know
 
 
 * Angular is for building **front-end** applications
-* It is a framework
-* It allows us to dictate both the data's behavior and its presentation together
-* Optionally, if you want to persist & share data, Angular must communicate with an API hooked into a database (Rails works well for this)
+* It is a **framework**
+* It allows us to dictate both the data's **behavior** and its **presentation** together
+* To persist & share data, Angular must communicate a database's API
 
-####Basic Angular Components
+####Angular Components We'll Discuss
 * Directives
-* Controllers
-* Scopes
+* Controllers & Scope
 * Dependency Injection
-* Services (we will discuss this in next lesson)
 
-___
-```
-Live as if you were to die tomorrow. Learn as if you were to live forever.
--Mahatma Gandhi
-```
+---
+
+#Live as if you were to die tomorrow. Learn as if you were to live forever.
+
+##-Mahatma Gandhi
+
+
 ---
 
 ##Simple App
@@ -110,11 +111,8 @@ Head to [JSbin](http://jsbin.com/) and replicate this app using:
 Definitely refer to the [Angular docs](https://docs.angularjs.org/guide) as much as possible.
 
 ---
-
-```
-I'm hungry for knowledge. The whole thing is to learn every day, to get brighter and brighter. That's what this world is about.
--Jay Z
-```
+#I'm hungry for knowledge. The whole thing is to learn every day, to get brighter and brighter. That's what this world is about.
+##-Jay Z
 ---
 
 ##Controllers & Scope
@@ -126,7 +124,7 @@ I'm hungry for knowledge. The whole thing is to learn every day, to get brighter
 * `$rootScope` is Angular's global scope outside of a controller
 * You can think using `$scope` in Angular controllers like you think about `@` in Rails controllers
 
-___
+---
 ##Controllers & Scope Visual
 
 
@@ -154,7 +152,7 @@ angular.module("myApp", [])
 	};
 });
 ``` 
-___
+---
 
 ##ng-repeat
 
@@ -165,15 +163,15 @@ Here is an example of a very commonly used directive, `ng-repeat`
 	$scope.users = [
 		{
 			name: 'Theodore Roosevelt',
-			activity: 'hiking'
+			activity: 'hunting'
 		},				
 		{
 			name: 'John Fitzgerald Kennedy'
-			activity: 'reading'
+			activity: 'sailing'
 		},
 		{
 			name: 'Thomas Jefferson',
-			activity: 'teaching'
+			activity: 'fishing'
 		}
 	];
 });
@@ -193,18 +191,52 @@ Here is an example of a very commonly used directive, `ng-repeat`
 
 ##Dependency Injection
 
-[Dependency Injection](https://docs.angularjs.org/guide/di) is one of the strangest sides of Angular... Hopefully if you understand why we do this, it will make more sense.
 
-* At it's essence all it is, is passing a function arguments
-* 
+* Essentially [Dependency Injection](https://docs.angularjs.org/guide/di) is just passing in arguments to a function, nothing new!
+* In this example we are injecting `$scope` into `HomeCtrl`
 
+```
+.controller('HomeCtrl', function($scope){
+	...
+});
+```
+* This works until the code is minified
+* [Minification](https://developers.google.com/speed/docs/insights/MinifyResources) renames JavaScript variables which creates issues for modules trying to reference dependancies
+* When writing Angular code that will be minified, we annotate the function with its dependancies, declared as strings
 
+```
+.controller('HomeCtrl', ['$scope', function($scope){
+	...
+}]);
+```
+* Now, even if the minifier converts `$scope` to variable `a` its **identity is still preserved** in the string 
 
 ---
+##Filters
 
-##Homework
+* A [filter](https://docs.angularjs.org/guide/filter) formats your data before being displayed to the user
+* `{{ 100 | currency }}` formats the number 100 to represent $100.00
+* Common filters include:
+	* [number](https://docs.angularjs.org/api/ng/filter/number)
+	* [date](https://docs.angularjs.org/api/ng/filter/date)
+	* [json](https://docs.angularjs.org/api/ng/filter/json)
+	* [lowercase](https://docs.angularjs.org/api/ng/filter/lowercase)
+	* [uppercase](https://docs.angularjs.org/api/ng/filter/uppercase)
+	* [limitTo](https://docs.angularjs.org/api/ng/filter/limitTo)
+	* [orderBy](https://docs.angularjs.org/api/ng/filter/orderBy)
+	
+---
+##Now You Try
+* Alphabetize McDonald's farm animals using the filter `orderBy`
+	* Nugget the Chicken
+	* Bell the Cow
+	* Latin the Pig
+	
+---
 
-* Complete code school Angular course until level 3
+##For Tomorrow
+
+* Watch Code School's online [Angular course](https://www.codeschool.com/courses/shaping-up-with-angular-js) through level 3
 
 ___
 
