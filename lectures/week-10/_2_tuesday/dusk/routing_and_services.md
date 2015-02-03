@@ -31,6 +31,7 @@ Run the following to get started:
 
 ```shell
 mkdir library
+cd library
 yo angular library
 ```
 
