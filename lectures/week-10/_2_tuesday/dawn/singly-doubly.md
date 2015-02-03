@@ -349,7 +349,7 @@ List.prototype.remove = function(index) {
       count              = 0,
       message            = {failure: "Failure: non-existent node in this list.", 
                             success: "Success: removed node from list."},
-      beforeNodeToDelete = null.
+      beforeNodeToDelete = null,
       nodeToDelete       = null;
 
   if (this._length === 0 || index < 0 || index >= this._length) {
