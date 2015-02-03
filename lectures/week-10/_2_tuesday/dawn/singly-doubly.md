@@ -171,8 +171,8 @@ var Node = function(value) {
 };
 
 var List = function() {
-  this.head = null;     
-  this.tail = null;
+  this._length = 0;     
+  this._head = null;
 };
 
 List.prototype.add = function(value) {
