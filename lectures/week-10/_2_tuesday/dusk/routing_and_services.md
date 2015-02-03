@@ -50,7 +50,7 @@ Let's replace the existing pages and build:
 
 - a WelcomeCtrl at `/`
 - a BooksCtrl at `/books`
-- a Book service (we will see below what that means)
+- a Book service that contains books the controller can fetch
 
 # Reflect
 Pair up and explain to each other the purpose of
