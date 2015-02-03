@@ -1,20 +1,19 @@
 # Singly-Linked List and Doubly-Linked List
 
-In computer science, a link-list is a data structure with a sequence of linked nodes. Each of these nodes, which can contain its own value with one or two pointers, occupy non-contiguous space in memory. Depending on the number of pointers, a link-list is considered a singly-linked list (one pointer) or a doubly-linked list (two pointers). In this article, we will implement both variants. 
+In computer science, a link-list is a data structure with a sequence of linked nodes. Each of these nodes, which can contain its own value with one or two pointers, occupy non-contiguous space in memory. Depending on the number of pointers, a link-list is considered a singly-linked list (one pointer) or a doubly-linked list (two pointers). In this lecture, we will implement both variants. 
 
 
 #### Operations of a Singly-Linked List 
 Our list will include two constructor: `Node` and `List`. Let us outline their operations. 
 
-  ##### Node 
+##### Node
   - `data`
   Stores a value
 
   - `next`
   Points to another node
 
-
-  ##### List
+##### List
   - `_length`
   Retrieves number of nodes in a list
 
@@ -246,11 +245,6 @@ List.prototype.indexAt = function(index) {
 };
 ```
 
-=======================================
-=======================================
-=======================================
-
-
 ## From Singly to Doubly
 Awesome, our implementation of a singly-linked list is complete. We can now use a data structure that adds, removes, and searches nodes in a list that occupy non-contigous space in memory. At this moment, all of our operations begin from the beginning of a list to the end of a list. In other words, it is uni-directional. There may be instances where we want our operations to be bi-directional. If you considered this use case, then you have just described a doubly-linked list.
 
@@ -263,7 +257,7 @@ A doubly-linked list takes all the functionality of a singly-linked list and ext
 #### Operations of a Doubly-Linked List 
 Our list will include two constructor: `Node` and `List`. Let us outline their operations. 
 
-  ##### Node 
+##### Node 
   - `data`
   Stores a value
 
@@ -273,8 +267,7 @@ Our list will include two constructor: `Node` and `List`. Let us outline their o
   - `previous`
   Points to another node
 
-
-  ##### List
+##### List
   - `_length`
   Retrieves number of nodes in a list
 
@@ -322,6 +315,7 @@ Now it is time to explore the methods: `add`, `remove`, and `indexAt`. All of th
 Let us start with `add`: 
 
 #### `add`
+```javascript
 List.prototype.add = function(value) {
   var node = new Node(value), 
       head = this._head,
@@ -339,12 +333,15 @@ List.prototype.add = function(value) {
   this._length++;
   return node;
 };
+```
 
 In this method, we have two scenarios. First, if a list is empty, then assign to its `head` and `tail` the node being added. Second, if the lis contains nodes, then find the tail of the list and assign to `tail.next` the node being added; likewise, we need to configure the new tail for bi-directional movement. In other words, we need to set `tail.previous` to the original tail. 
 
 If `add` seems confusing, then prepare to be lost with `remove`! 
 
 #### `remove`
+
+```javascript
 List.prototype.remove = function(index) {
   var currentNode        = this._head, 
       count              = 0,
@@ -385,6 +382,7 @@ List.prototype.remove = function(index) {
 
   return message.success;
 };
+```
 
 `remove` handles four conditions: 
 
@@ -418,4 +416,4 @@ List.prototype.indexAt = function(index) {
 ```
 
 ### Conclusion
-We have covered a lot of information in this article. If any of it appears confusing, read it again and experiment with the code. When it eventually makes sense to you, feel proud. You have just covered the mysteries of both a singly-linked list and a doubly-linked list. You can addd these data structures to your coding toolbelt! 
+We have covered a lot of information in this lecture. If any of it appears confusing, read it again and experiment with the code. When it eventually makes sense to you, feel proud. You have just covered the mysteries of both a singly-linked list and a doubly-linked list. You can addd these data structures to your coding toolbelt! 
