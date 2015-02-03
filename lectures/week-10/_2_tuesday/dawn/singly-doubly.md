@@ -63,8 +63,9 @@ List.prototype.add = function(value) {
   // empty list 
   if (!currentNode) {
     currentNode = node;
-    this.length++;
-    return node;    
+    this._length++;
+    this._head = currentNode;
+    return this._head;    
   }
 
   while (currentNode.next) {
@@ -181,8 +182,9 @@ List.prototype.add = function(value) {
 
   if (!currentNode) {
     currentNode = node;
-    this.length++;
-    return node;    
+    this._length++;
+    this._head = currentNode;
+    return this._head;    
   }
 
   while (currentNode.next) {
