@@ -40,7 +40,7 @@ We now have a conceptual model of a singly-linked list. For our implementation, 
 var Node = function(value) {
   this.value = value; 
   this.next = null; 
-} ;
+};
 ``` 
 
 Next, we need to implement a `List` and add two properties: `length` and `head`. The former is assigned the number of nodes in a list; the latter points to the `head` of the list--the node at the front of the list. Every instance of a `List` will be instantiated without any nodes in the list. For this reason, the initial value of `head` is `null`.  
@@ -99,7 +99,7 @@ List.prototype.remove = function(index) {
       count              = 0,
       message            = {failure: "Failure: non-existent node in this list.", 
                             success: "Success: removed node from list."},
-      beforeNodeToDelete = null.
+      beforeNodeToDelete = null,
       nodeToDelete       = null;
 
   if (index === this._length || index < 0 || index >= this._length) {
@@ -112,15 +112,15 @@ List.prototype.remove = function(index) {
   }
 
   while (count < index) {
-    beforeNodeToDelete      = currentNode; 
-    nodeToDelete            = currentNode.next;  
+    beforeNodeToDelete = currentNode; 
+    nodeToDelete       = currentNode.next;  
     
     currentNode = currentNode.next;
     count++;
   }
 
   beforeNodeToDelete.next = nodeToDelete.next; 
-  nodeToDelete = null;
+  nodeToDelete            = null;
 
   return message.success;
 };
@@ -202,7 +202,7 @@ List.prototype.remove = function(index) {
       count              = 0,
       message            = {failure: "Failure: non-existent node in this list.", 
                             success: "Success: removed node from list."},
-      beforeNodeToDelete = null.
+      beforeNodeToDelete = null,
       nodeToDelete       = null;
 
   if (this._length === 0 || index < 0 || index >= this._length) {
@@ -215,8 +215,8 @@ List.prototype.remove = function(index) {
   }
 
   while (count < index) {
-    beforeNodeToDelete      = currentNode; 
-    nodeToDelete            = currentNode.next;  
+    beforeNodeToDelete = currentNode; 
+    nodeToDelete      = currentNode.next;  
     
     currentNode = currentNode.next;
     count++;
