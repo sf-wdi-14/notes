@@ -8,7 +8,7 @@
 
 4) Give an example of two directives.
 
-5) Using angular what would be the simplest way to convert 100 into $100.00?
+5) Using Angular what would be the simplest way to convert 100 into $100.00?
 
 6) Articulate the benefits of describing time complexity in Big O notation.
 
@@ -44,8 +44,10 @@
 
 22) What data structure does a recursive function leverage in order to remember the order of the function calls?
 
-23) 
+23) Describe the criteria of project that would be ideally suited for the implimention of Angular as a front-end library.
 
-24)
+24) What are promises useful for in Javascript? Give an example of when you would use one.
 
-25)
+25) Why are sorting algrithms so important; what does sorting help us later accomplish?
+
+26) Create an AVL (aka balanced) tree using the numbers: 5, 4, 10, 9, 8, 2 in order.
