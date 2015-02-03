@@ -23,6 +23,7 @@ Installing it should be as easy as
 ```shell
 npm install -g yo
 npm install -g generator-angular
+npm install -g grunt-cli
 ```
 
 After that, let's create an app to list books. It's going to have a home page with a welcome message, and a second page that displays a collection of books. Very simple, nothing fancy. Let's call our app 'library'.
