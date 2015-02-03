@@ -61,3 +61,6 @@ Pair up and explain to each other the purpose of
 
 # Now and Then
 Angular is one of the preferred front end frameworks to build SPAs. Having a frontend separate from the backend is likely the way the internet will develop, for several reasons: it provides clear separation of concerns, makes your app faster, and development cleaner. It is, however, not the established way of building websites at the time of writing.
+
+
+This is the app we built: https://github.com/sf-wdi-14/library
