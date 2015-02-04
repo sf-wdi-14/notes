@@ -29,7 +29,7 @@
     <td>Lab</td>
     <td><a href="https://github.com/sf-wdi-14/data_structures_lab">Data Structures</a></td>
     <td><a href="https://github.com/sf-wdi-14/data_structures_lab">Data Structures</a></td>
-    <td></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/assignments/week-10/directives.md">Directives Lab</a></td>
     <td></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/assignments/week-10/taqueria.md">Weekend lab</a></td>
   </tr>
