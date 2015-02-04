@@ -21,3 +21,5 @@ produce the following output:
 using an Angular directive.
 
 2. Also, whenever you hover over the directive with your mouse, it should alert a greeting. Do not use jQuery or selectors for this.
+
+Solution can be found in the solution branch :)
