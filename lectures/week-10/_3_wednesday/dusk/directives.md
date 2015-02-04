@@ -272,3 +272,12 @@ Explain to your partner the following concepts:
 
 # Now and Then
 Directives are on of the most powerful and core features of Angular. They make writing markup more fun and meaningful. You will work a lot with them on Angular projects!
+
+More resources on directives in particular:
+
+- https://docs.angularjs.org/guide/directive
+
+...and Angular in general:
+
+- https://thinkster.io/egghead/
+- https://thinkster.io/a-better-way-to-learn-angularjs/ (great intensive course!)
