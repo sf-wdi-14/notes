@@ -1,5 +1,5 @@
 # Directives Lab
-1. Make the following code:
+1: Make the following code:
 
 ```html
 <person age="50" name="John Doe">
@@ -20,4 +20,4 @@ produce the following output:
 
 using an Angular directive.
 
-2. Also, whenever you hover over the directive with your mouse, it should alert a greeting. Do not use jQuery or selectors for this.
+2: Also, whenever you hover over the directive with your mouse, it should alert a greeting. Do not use jQuery or selectors for this.
