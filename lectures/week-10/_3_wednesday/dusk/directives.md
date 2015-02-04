@@ -15,7 +15,7 @@ Students will be able to...
 # Link
 Directives usually serve three main purposes:
 
-1. DRY up your Angular code and make it re-usable
+1. DRY up your Angular code and make it reusable
 2. Make your HTML more semantic and meaningful
 3. DOM-manipulation (hard without directives)
 
@@ -252,7 +252,7 @@ Using the above, improve the [library app](https://github.com/sf-wdi-14/library)
 </books>
 ```
 
-The presentation should stay the same. The user should still see an unordered list. We're only making our HTML more meaningful and re-usable.
+The presentation should stay the same. The user should still see an unordered list. We're only making our HTML more meaningful and reusable.
 
 Hints to get you started:
 
