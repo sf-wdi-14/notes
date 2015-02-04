@@ -1,5 +1,5 @@
 # Directives
-Lecture on directive in Angular.
+Lecture on directives in Angular.
 
 # Objective
 Students will be able to...
