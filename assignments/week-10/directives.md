@@ -20,4 +20,4 @@ produce the following output:
 
 using an Angular directive.
 
-2: Also, whenever you hover over the directive with your mouse, it should alert a greeting. Do not use jQuery or selectors for this.
+2: Whenever you hover over the directive with your mouse, it should alert a greeting. Do not use jQuery or selectors for this.
