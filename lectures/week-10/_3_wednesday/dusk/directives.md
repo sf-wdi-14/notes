@@ -91,7 +91,7 @@ What if we wanted to pass in superman's strength as an additional attribute? For
 
 ```html
 <superman strength="1000"></superman>
-```html
+```
 
 should display
 
