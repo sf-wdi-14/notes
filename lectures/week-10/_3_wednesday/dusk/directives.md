@@ -121,7 +121,7 @@ In your template, you can now say this:
 
 Note that the html attribute `strength`, the scope's attribute `strength`, and the expression `{{ strength }}` in the template all have to be called the same (in this case, 'strength').
 
-The `@`-sign in our directive's scope signifies that whatever is passed into our html `strength` attributes is a string. To specify an object, use `=`, to specify a function, use `&`.
+The `@`-sign in our directive's scope signifies that whatever is passed into our html `strength` attribute is a string. To specify an object, use `=`, to specify a function, use `&`.
 
 ## Transclusion
 Transclusion is a fancy term for wrapping html inside a directive.
@@ -152,13 +152,15 @@ These are the avengers:
 
 The answer: transclusion. Our wrapping directive has to have a `transclude` property set to `true`:
 
+```javascript
 app.directive('avengers', function() {
 	return {
 		restrict: 'E',
 		templateUrl: "path/to/template.html",
-		transcluse: true
+		transclude: true
 	};
 });
+```
 
 And our avengers view would look like this:
 
@@ -221,9 +223,12 @@ which will result in:
 ## Linking
 Linking happens when the directive is loaded. It can come in handy if you need to run something once the directive has loaded:
 
+```javascript
 app.directive('superman', function() {
 	restrict: 'E',
-	// more specifications as needed
+
+	// ...more specifications as needed
+
 	link: function(scope, element, attrs) {
 		console.log('superman is ready!');
 
@@ -232,6 +237,7 @@ app.directive('superman', function() {
 		console.log(scope, element, attrs);
 	}
 });
+```
 
 Note that the directive's `scope`, `element`, and `attributes` are available inside link function if you pass them. You could use the `element` object to manipulate the DOM.
 
@@ -246,14 +252,14 @@ Using the above, improve the [library app](https://github.com/sf-wdi-14/library)
 </books>
 ```
 
-The presentation should stay the same. The user should still see an unordered list.
+The presentation should stay the same. The user should still see an unordered list. We're only making our HTML more meaningful and re-usable.
 
 Hints to get you started:
 
 - You will need two directives
 - You will need to make use of transclusion
 - The attributes passed into the `book` tag are objects, not strings, and should be interpreted as such by the directive
-- You should create a file for each directive in app/scripts/directives and include them in app/index.html at the bottom along with all other included js files
+- You will need to create a file for each directive in app/scripts/directives and include them in app/index.html at the bottom along with all other included js files
 
 # Reflect
 Explain to your partner the following concepts:
@@ -263,3 +269,6 @@ Explain to your partner the following concepts:
 - Directive scope
 - Linking
 - `=`, `@`, and `&` for scope values
+
+# Now and Then
+Directives are on of the most powerful and core features of Angular. They make writing markup more fun and meaningful. You will work a lot with them on Angular projects!
