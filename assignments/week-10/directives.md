@@ -11,10 +11,11 @@ produce the following output:
 
 ```html
 <person age="50" name="John Doe">
-	<p>Let me introduce to you:</p>
 	<div ng-transclude>
-		John Doe, 50 years old!
+		<p>Let me introduce to you:</p>
 	</div>
+	
+	John Doe, 50 years old!
 </person>
 ```
 
