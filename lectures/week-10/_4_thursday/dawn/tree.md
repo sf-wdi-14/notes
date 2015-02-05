@@ -152,7 +152,7 @@ tree.add("two");
 tree.add("three");
 tree.add("four");
 tree.children[0].add("five");
-tree.children[0].add("five");
+tree.children[0].add("six");
 
 // creates the following tree
                  "one"
