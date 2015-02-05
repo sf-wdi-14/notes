@@ -151,8 +151,8 @@ var tree = new Tree("one");
 tree.add("two");
 tree.add("three");
 tree.add("four");
-tree.add("five");
-tree.add("six");
+tree.children[0].add("five");
+tree.children[0].add("five");
 
 // creates the following tree
                  "one"
@@ -165,7 +165,7 @@ tree.traverseDF();
 // "five"
 // "six"
 // "two"
-// "one"
 // "three"
 // "four"
+// "one"
 ```
