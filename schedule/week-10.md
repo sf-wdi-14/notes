@@ -13,8 +13,8 @@
     <td>Dawn</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_1_monday/dawn/stack-queue.md">Data Structures: Stacks and Queues</a> (Cho)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_2_tuesday/dawn/singly-doubly.md">Data Structures: Singly-Linked List</a> (Cho)</td>
-    <td>Data Structures: Doubly-Linked List (Cho)</td>
-    <td>Data Structures: Tree (Depth-First Search) (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_2_tuesday/dawn/singly-doubly.md">Data Structures: Doubly-Linked List</a> (Cho)</td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_4_thursday/dawn/tree.md">Data Structures: Tree (Depth-First Search)</a> (Cho)</td>
     <td>Data Structures: Tree (Breadth-First Search) (Cho)</td>
   </tr>
   <tr>
