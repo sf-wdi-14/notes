@@ -138,7 +138,9 @@ tree.traverseDF();
 // "one"
 // "three"
 // "four"
+```
 
+```javascript
 var Tree = function(position) {
   this.data     = position;
   this.children = []; 
