@@ -136,7 +136,7 @@ Tree.prototype.traverseDF = function() {
     this.children[i].traverseDF();
   }
 
-  console.log(this.value);
+  console.log(this.data);
 };
 ```
 
