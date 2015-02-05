@@ -138,4 +138,32 @@ tree.traverseDF();
 // "one"
 // "three"
 // "four"
+
+var Tree = function(position) {
+  this.data     = position;
+  this.children = []; 
+};
+
+Tree.prototype.add = function(position) {
+  var child = new Tree(position);
+  this.children.push(child);
+};
+
+
+var tree = new Tree("CEO");
+tree.add("VP of Happiness");
+tree.add("VP of Finance");
+tree.add("VP of Sadness");
+
+var finance = tree.children[1];
+finance.add("Director of Kittens");
+tree.children[1].children[0].add("Manager of Kittens")
+
+                      "CEO"
+                     /  |   \
+              "VPH"   "VPF"  "VPS"
+                        |   
+               "Director of Kittens" 
+                        |   
+               "Manager of Kittens"  
 ```
