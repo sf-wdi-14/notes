@@ -97,6 +97,36 @@ var tree = new Tree("CEO");
 tree.children.add("VP");
 ```
 
+```javascript
+var Tree = function(position) {
+  this.data     = position;
+  this.children = []; 
+};
+
+Tree.prototype.add = function(position) {
+  var child = new Tree(position);
+  this.children.push(child);
+};
+
+
+var tree = new Tree("CEO");
+tree.add("VP of Happiness");
+tree.add("VP of Finance");
+tree.add("VP of Sadness");
+
+var finance = tree.children[1];
+finance.add("Director of Kittens");
+tree.children[1].children[0].add("Manager of Kittens")
+
+                      "CEO"
+                     /  |   \
+              "VPH"   "VPF"  "VPS"
+                        |   
+               "Director of Kittens" 
+                        |   
+               "Manager of Kittens"  
+```
+
 ###### 2 of 5: `traverseDF()`
 We can add nodes to our tree, but we are unable to search for the existence of a specific node. Let's now implement one of two search patterns (tree traversals) known as DFS. 
 
@@ -138,34 +168,4 @@ tree.traverseDF();
 // "one"
 // "three"
 // "four"
-```
-
-```javascript
-var Tree = function(position) {
-  this.data     = position;
-  this.children = []; 
-};
-
-Tree.prototype.add = function(position) {
-  var child = new Tree(position);
-  this.children.push(child);
-};
-
-
-var tree = new Tree("CEO");
-tree.add("VP of Happiness");
-tree.add("VP of Finance");
-tree.add("VP of Sadness");
-
-var finance = tree.children[1];
-finance.add("Director of Kittens");
-tree.children[1].children[0].add("Manager of Kittens")
-
-                      "CEO"
-                     /  |   \
-              "VPH"   "VPF"  "VPS"
-                        |   
-               "Director of Kittens" 
-                        |   
-               "Manager of Kittens"  
 ```
