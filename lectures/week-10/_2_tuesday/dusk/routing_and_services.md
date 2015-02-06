@@ -38,7 +38,9 @@ yo angular library
 
 This will generate a barebone front end app for you. When prompted, say no to Sass and press enter for the Angular modules it should include (the default selection is fine).
 
-Running `grunt serve` should open up the generated website for us. For now, let's have a look at the auto-generated views and controllers.
+Running `grunt serve` should open up the generated website for us. If `grunt serve` doesn't work, you might need to run `bower install` and/or `npm install` after.
+
+For now, let's have a look at the auto-generated views and controllers.
 
 It basically created the following:
 
