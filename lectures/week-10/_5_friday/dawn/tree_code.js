@@ -69,6 +69,8 @@ tree.add(2);
 tree.add(3);
 tree.add(4);
 
+
+//////////////// Code for Remove ///////////////////////
 // tree.traverseBF(function(node) {
 //   console.log(node);
 // });
