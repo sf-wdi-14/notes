@@ -9,7 +9,7 @@ Look at the tree below to see how it would be traversed:
           /   \          /  \
       "five" "six"  "seven" "eight"  depth: 2
 
-Here is the code to traverse a tree with BFS: 
+The code to traverse a tree with BFS is below. (If you want to implement a tree and test it with code, you can find the code [here](https://github.com/sf-wdi-14/notes/blob/master/lectures/week-10/_5_friday/dawn/tree_code.js)). 
 
 ```javascript
 Tree.prototype.traverseBF = function(callback) {
