@@ -13,9 +13,9 @@ In computer science, a tree is a data structure with hierarchical data. Each uni
 
 The terminology of nodes and pointers may be new to some readers, so let's describe them further with an analogy. Let's compare a tree to an organizational chart. The chart has a top-level position, such as CEO. Directly underneath this position are other positions, such as vice president (VP). To represent this relationship, we use arrows that point from the CEO to a VP. A person, such as the CEO, is a node; the relationship we create from a CEO to a VP is a pointer. To create more relationships in our organizational chart, we just repeat this process: We have a node point to another node. 
 
-On a conceptual level, I hope that nodes and pointers make sense. On a practical level, we can benefit from using a more technical example. Let's consider the DOM. A DOM has an <html> element as its top-level position (root node). This node points to a <head> element and a <body> element. This process is repeated for all noodes in the DOM. 
+On a conceptual level, I hope that nodes and pointers make sense. On a practical level, we can benefit from using a more technical example. Let's consider the DOM. A DOM has an `<html>` element as its top-level position (root node). This node points to a `<head>` element and a `<body>` element. This process is repeated for all noodes in the DOM. 
 
-One of the beauties of this design is the ability to nest nodes: a <ul> element, for instance, can have many <li> elements nested inside of it; moreover, each <li> element can have sibling <li> nodes. That's weird, yet funny and true!
+One of the beauties of this design is the ability to nest nodes: a `<ul>` element, for instance, can have many `<li>` elements nested inside of it; moreover, each `<li>` element can have sibling `<li>` nodes. That's weird, yet funny and true!
 
 #### Operations of a Tree
 Since we now have a conceptual model of a tree, let us define the six operations of our tree:
