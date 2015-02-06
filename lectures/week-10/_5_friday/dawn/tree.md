@@ -1,5 +1,5 @@
 ###### 3 of 5: `traverseBF()`
-We've learned that DFS is a branch-depth approach to tree traversal. We'll now explore a depth-branch approach known as BDF. 
+We've learned that DFS is a branch-depth approach to tree traversal. We'll now explore a depth-branch approach known as BFS. 
 
 Look at the tree below to see how it would be traversed:
 
