@@ -3,11 +3,11 @@ We've learned that DFS is a branch-depth approach to tree traversal. We'll now e
 
 Look at the tree below to see how it would be traversed:
 
-                 "one"               depth: 1
+                 "one"               depth: 0
                /   |   \
-          "two" "three" "four"       depth: 2
+          "two" "three" "four"       depth: 1
           /   \          /  \
-      "five" "six"  "seven" "eight"  depth: 3
+      "five" "six"  "seven" "eight"  depth: 2
 
 Here is the code to traverse a tree with BFS: 
 
