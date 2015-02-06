@@ -22,6 +22,7 @@ For the final project of the cohort you will combine your knowledge of front and
 Your project should incorporate...
 
 * **Good planning** Outline an MVP, write user stories, create wireframes, and define your schema. Be able to articulate and defend the choice of technologies that makes up your application.
+* **Self Learning** We encourage you to work on this project individually, if you want to work in a group you must first request approval from an instructor.
 * **Something new** Learn and implement something (library, technology, API, etc) that you've never used before.
 * **UX Consideration** Think about the entire experience of your application before you start coding. Try to schedule time with a UXDI student who can help in planning the execution of your concept.
 * **Models** Your app should have three models that are associated in some way.
