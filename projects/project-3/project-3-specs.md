@@ -10,6 +10,7 @@ For the final project of the cohort you will combine your knowledge of front and
 
 ## Timeline
 
+* **Project Kickoff** starts on Wednesday, February 11th, at 4:00pm
 * **Final Deliverables** due on Thursday, February 19th at 10:00am
 
 ## Final Deliverables
