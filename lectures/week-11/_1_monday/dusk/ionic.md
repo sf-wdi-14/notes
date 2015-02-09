@@ -197,7 +197,7 @@ Next let's use a `ng-repeat` to render each post as a card in our `feed.html`.
 
 ##Lab
 
-Expand on this Ionic App, more details [here](#).
+Expand on this Ionic App, more details [here](https://github.com/sf-wdi-14/notes/blob/master/assignments%2Fweek-11%2Fionic-lab.md).
 
 ---
 
