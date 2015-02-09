@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td>Lab</td>
-    <td></td>
+    <td><a href='https://github.com/sf-wdi-14/notes/blob/master/assignments%2Fweek-11%2Fionic-lab.md'>Ionic Lab</a></td>
     <td></td>
     <td>Project 3 start</td>
   </tr>
