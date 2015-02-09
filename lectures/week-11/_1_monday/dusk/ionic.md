@@ -35,7 +35,7 @@ sudo npm install -g cordova ionic
 * An HTML5 native app development framework that helps you build native-feeling mobile apps all with web technologies like HTML, CSS, and Javascript
 * Built on top of [Cordova](http://cordova.apache.org/).
 * Dependent on Angular as an MVC
-* Back-end agnostic (we will use firebase for this demonstration)
+* Back-end agnostic
 
 ---
 
@@ -227,6 +227,8 @@ ionic emulate ios 			#runs your app in an emulator
 
 *Note: if you get an error when emulating...*
 Try resetting the contents and settings in the Simulator: `iOS Simulator -> Reset Contents and Settings`
+
+---
 
 ##Further Reading
 * [Where does the Ionic framework fit in?](http://ionicframework.com/blog/where-does-the-ionic-framework-fit-in/)
