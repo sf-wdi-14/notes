@@ -11,13 +11,13 @@
     <td>Dawn</td>
     <td>Angular Testing (Dennis)</td>
     <td>Show and tell prep</td>
-    <td>TBD (Cho?)</td>
+    <td>TBD (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td>Ionic (Ilias)</td>
     <td>Show and tell</td>
-    <td>TBD (Cho?)</td>
+    <td>General Review</td>
   </tr>
   <tr>
     <td>Lab</td>
