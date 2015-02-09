@@ -8,7 +8,7 @@ Students will be able to...
 - Test drive their Angular app
 
 # Link
-Knowing how important test driven development is, how do we apply it to an Angular app?
+Knowing how important test driven development is, and knowing how to build an Angular app, how would we actually test drive it?
 
 # Educate and Engage
 When creating your app with Yeoman, it comes with a `test` app by default. You can run the tests by running `$ grunt test`. This command will run all your files in `test/spec` using the testing framework [Jasmine](https://github.com/jasmine/jasmine).
