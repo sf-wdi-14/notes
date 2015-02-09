@@ -5,7 +5,6 @@ Lecture on testing an Angular app.
 Students will be able to...
 
 - Implement service, controller, filter, and directive tests using grunt
-- Implement e2e (acceptance) tests
 - Test drive their Angular app
 
 # Link
