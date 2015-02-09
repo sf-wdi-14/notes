@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td>Ionic (Ilias)</td>
+    <td><a href='https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-11%2F_1_monday%2Fdusk%2Fionic.md'>Ionic (Ilias)</a></td>
     <td>Show and tell</td>
     <td>General Review</td>
   </tr>
