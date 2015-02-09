@@ -11,7 +11,7 @@ Students will be able to...
 Knowing how important test driven development is, and knowing how to build an Angular app, how would we actually test drive it?
 
 # Educate and Engage
-When creating your app with Yeoman, it comes with a `test` app by default. You can run the tests by running `$ grunt test`. This command will run all your files in `test/spec` using the testing framework [Jasmine](https://github.com/jasmine/jasmine).
+When creating your app with Yeoman, it comes with a `test` directory by default. You can run the tests by running `$ grunt test`. This command will run all your files in `test/spec` using the testing framework [Jasmine](https://github.com/jasmine/jasmine).
 
 Testing an Angular app is *very* simple. The syntax is very similar to Mocha and RSpec (which we both already know), and always follows the same pattern:
 
@@ -34,7 +34,7 @@ The only two things that are new in here are:
 
 You will always need to include the app module in your tests. Once you have injected what you want to test (e.g., a filter), you have everything you need to write powerful tests.
 
-Good to know: Files you add to `app/scripts` will automatically be loaded for your tests, even if they're in subdirectories.
+Good to know: Files you add to `app/scripts` will automatically be loaded for your tests, even if they're in subdirectories. But don't forget to add them to `app/index.html` to make them available to your layout!
 
 ## Example Tests
 ### Example filter test
@@ -72,7 +72,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
+  it('attaches a list of awesomeThings to the scope', function () {
     expect(scope.awesomeThings.length).toBe(3);
   });
 });
@@ -143,6 +143,6 @@ Let's build a TODO list together! We will test drive it.
 - [e2e testing](https://code.angularjs.org/1.2.26/docs/guide/e2e-testing)
 
 # Now and Then
-You will want to test drive every Angular app you build. It will make your app more solid and robust, and you really know for sure that everything is working as intended, simply by typing `$ grunt test`.
+You will want to test drive every Angular app you build. It will make your app more solid and robust, and you really know for sure that everything is working as intended, simply by running `$ grunt test`.
 
-Combined with a test driven Rails backend that your app can communicate with, we can add another point to the list of advantages of separating your front end app from an API-only backend: **running tests concurrently**. Acceptance tests tend to be rather slow in Rails, so letting your front end handle them instead can make them faster. At the very least, you will be able to test your backend and your front end concurrently - simply by having two terminal windows open and running `$ rspec` in your Rails project, and `$ grunt test` in your Angular app.
+Combined with a test driven Rails backend that your app can communicate with, we can add another point to the list of advantages of separating your front end app from an API-only backend: **running tests concurrently**. Acceptance tests tend to be rather slow in Rails, so letting your front end handle them instead can make them faster. At the very least, you will be able to test your backend and your front end concurrently - simply by having two terminal windows open and running `$ rspec` in your Rails project, and `$ grunt test` in your Angular app. This adds to the separation of concerns (if you build your front end separately from your backend, you should also test it separately), and saves a lot of time running both test suites once your project grows considerably.
