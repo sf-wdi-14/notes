@@ -2,15 +2,15 @@
 
 ##Concept
 
-You can do this solo or organize yourselves into pairs.
+You will learn a new topic on your own and have a chance to show & tell your findings to the class.
 
 1) Pick at least one of the below topics to learn more about.
 
 2) Build whatever you can using this new technology and document it in a Readme.
 
-3) Present your findings & quick hack to the class for roughly 10 minutes per topic.
+3) Present your findings and whatever you had a change to build for roughly 10 minutes.
 
-##Topics
+##Available Topics
 
 * Python
 * Building a Ruby Gem from scratch
@@ -27,4 +27,4 @@ You can do this solo or organize yourselves into pairs.
 * Ember
 * Meteor
 * Firebase
-* Sails
+* Feel free to suggest something else!
