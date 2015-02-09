@@ -11,7 +11,7 @@
     <td>Dawn</td>
     <td>Angular Testing (Dennis)</td>
     <td>Show and tell prep</td>
-    <td>TBD (Cho)</td>
+    <td>Git It, continued (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
