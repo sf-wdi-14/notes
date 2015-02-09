@@ -10,13 +10,13 @@
   <tr>
     <td>Dawn</td>
     <td>Angular Testing (Dennis)</td>
-    <td>Show and tell prep</td>
+    <td>Show and tell (learn)</td>
     <td>Git It, continued (Cho)</td>
   </tr>
   <tr>
     <td>Dusk</td>
     <td><a href='https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-11%2F_1_monday%2Fdusk%2Fionic.md'>Ionic (Ilias)</a></td>
-    <td>Show and tell</td>
+    <td>Show and tell (present)</td>
     <td>General Review</td>
   </tr>
   <tr>
