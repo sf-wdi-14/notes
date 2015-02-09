@@ -11,3 +11,5 @@ Create a route to a new `post.html` template, which allows the user to create a 
 ##Bonus
 
 Add the attribute `time` to each post and have it store the time it was created and displayed on the `feed.html`.
+
+Use [Firebase](https://www.firebase.com/docs/web/libraries/angular/quickstart.html) to make your data persistent & real-time!
