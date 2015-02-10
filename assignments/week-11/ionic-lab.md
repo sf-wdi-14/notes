@@ -14,4 +14,6 @@ Add the attribute `time` to each post and have it store the time it was created 
 
 Use [Firebase](https://www.firebase.com/docs/web/libraries/angular/quickstart.html) to make your data persistent & real-time!
 
-(example [solution](https://github.com/sf-wdi-14/ionic-angular-firebase) using Firebase)
+---
+
+...Once you struggle enough, here's an example [solution](https://github.com/sf-wdi-14/ionic-angular-firebase) using Firebase.
