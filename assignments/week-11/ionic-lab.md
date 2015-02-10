@@ -13,3 +13,5 @@ Create a route to a new `post.html` template, which allows the user to create a 
 Add the attribute `time` to each post and have it store the time it was created and displayed on the `feed.html`.
 
 Use [Firebase](https://www.firebase.com/docs/web/libraries/angular/quickstart.html) to make your data persistent & real-time!
+
+(example [solution](https://github.com/sf-wdi-14/ionic-angular-firebase) using Firebase)
