@@ -13,10 +13,12 @@ You will learn a new topic on your own and have a chance to show & tell your fin
 ##Available Topics
 
 * Python
+* Clojure
 * Building a Ruby Gem from scratch
 * HTML APIs (Audio, Video, Location, Fullscreen, etc)
 * D3
 * Three.js
+* Phaser
 * WebGL
 * Sass
 * CSS Animations
