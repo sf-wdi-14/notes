@@ -13,6 +13,7 @@ You will learn a new topic on your own and have a chance to show & tell your fin
 ##Available Topics
 
 * Python
+* ES6
 * Clojure
 * Building a Ruby Gem from scratch
 * HTML APIs (Audio, Video, Location, Fullscreen, etc)
