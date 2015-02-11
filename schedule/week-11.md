@@ -17,7 +17,7 @@
     <td>Dusk</td>
     <td><a href='https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-11%2F_1_monday%2Fdusk%2Fionic.md'>Ionic</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-11/_2_tuesday/dusk/show-and-tell-presentation.md">Show and tell (present)</a> (Ilias & Dennis)</td>
-    <td>General Review</td>
+    <td>General Review (all)</td>
   </tr>
   <tr>
     <td>Lab</td>
