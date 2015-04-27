@@ -241,4 +241,4 @@ end
 ##Some Further Resources
 * *NB: these may be slightly older ways of doing things*
 * [User Auth Rails Cast Video](https://www.youtube.com/watch?v=23JoO_R8SMs)
-* [User Authenication with Tests](http://www.emilyplatzer.io/2014/06/29/user-authentication.html)
+* [User Authentication with Tests](http://www.emilyplatzer.io/2014/06/29/user-authentication.html)
