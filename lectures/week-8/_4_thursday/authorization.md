@@ -29,4 +29,4 @@ Have the driver reiterate the steps needed to install Pundit. Ask each other que
 We will also go over it together and implement it jointly.
 
 # Now and Then
-Pundit is a great tool you will likely use in your career as web developer. A good but outdated alternative you are likely to come across in existing projects is [CanCan](https://github.com/ryanb/cancan); or, a later, more maintained version of it, [CanCanCan](https://github.com/CanCanCommunity/cancancan.
+Pundit is a great tool you will likely use in your career as web developer. A good but outdated alternative you are likely to come across in existing projects is [CanCan](https://github.com/ryanb/cancan); or, a later, more maintained version of it, [CanCanCan](https://github.com/CanCanCommunity/cancancan).
