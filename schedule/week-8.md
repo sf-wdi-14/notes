@@ -6,7 +6,7 @@
     <th>Tuesday</th>
     <th>Wednesday</th>
     <th>Thursday</th>
-    <th>Friday!</th>
+    <th>Friday</th>
   </tr>
   <tr>
     <td>Dawn</td>
