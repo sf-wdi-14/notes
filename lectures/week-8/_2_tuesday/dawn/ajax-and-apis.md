@@ -98,7 +98,7 @@ Aim to have this function execute once the document is ready.
 
 * Use the gem `rails-api` if you're ever looking to simply impliment a barebones rails API
 
-##Toights Lab
+##Tonight's Lab
 
 * [Here](https://github.com/sf-wdi-14/notes/blob/master/assignments/week-8/ajax-hw.md)
 
