@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td>Dusk</td>
-    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_1_monday/dusk/file-upload.md">File Upload w/ Paperclip (Dennis)</a></td>
+    <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_2_tuesday/dusk/file-upload.md">File Upload w/ Paperclip (Dennis)</a></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures/week-8/_3_wednesday/dawn/bdd-capybara.md">BDD (Brian)</a></td>
     <td><a href="https://github.com/sf-wdi-14/notes/blob/master/lectures%2Fweek-8%2F_4_thursday%2Fgit-collaboration.md">Git Collaboration (Brian & Ilias)</a></td>
     <td>Project Kickoff</td>
